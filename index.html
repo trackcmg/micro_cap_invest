@@ -1,0 +1,64 @@
+---
+layout: default
+title: Home
+permalink: /
+page_js: /assets/js/home.js
+---
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow" data-i18n="home.eyebrow">Independent value investor</p>
+    <h1>
+      <span class="lang-en">Value investing in overlooked micro &amp; nano caps.</span>
+      <span class="lang-es">Inversión value en micro y nano caps que el mercado ignora.</span>
+    </h1>
+    <p class="lead">
+      <span class="lang-en">I run a concentrated portfolio of deeply researched positions across AIM,
+      TSXV and continental Europe — businesses priced for oblivion whose owner earnings say otherwise.
+      I buy with a margin of safety, hold with patience, and publish every thesis in the open.</span>
+      <span class="lang-es">Gestiono una cartera concentrada de posiciones investigadas a fondo en AIM,
+      TSXV y Europa continental: negocios valorados como si no tuvieran futuro cuyos owner earnings
+      dicen lo contrario. Compro con margen de seguridad, mantengo con paciencia y publico cada tesis
+      abiertamente.</span>
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ '/theses/' | relative_url }}" data-i18n="home.cta">Read the theses</a>
+      {% if site.substack_url and site.substack_url != "" %}<a class="btn btn-ghost" href="{{ site.substack_url }}" target="_blank" rel="noopener">Substack</a>{% endif %}
+      {% if site.twitter_url and site.twitter_url != "" %}<a class="btn btn-ghost" href="{{ site.twitter_url }}" target="_blank" rel="noopener">X / Twitter</a>{% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="stats-strip" id="home-stats" hidden>
+  <div class="container">
+    <div class="stat">
+      <span class="stat-value tnum" data-stat="open">—</span>
+      <span class="stat-label" data-i18n="home.stat_open">Open positions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value tnum" data-stat="closed">—</span>
+      <span class="stat-label" data-i18n="home.stat_closed">Closed positions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value tnum" data-stat="growth">—</span>
+      <span class="stat-label" data-i18n="home.stat_growth">On deployed capital</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="latest-theses">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="home.latest">Latest theses</h2>
+      <a class="section-link" href="{{ '/theses/' | relative_url }}" data-i18n="home.viewall">All theses →</a>
+    </div>
+    {% assign all = site.theses_en | concat: site.theses_es %}
+    {% if all.size > 0 %}
+    {% assign latest = all | sort: "date" | reverse %}
+    <div class="card-grid" data-thesis-list>
+      {% for t in latest limit: 6 %}{% include thesis-card.html thesis=t %}{% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state" data-i18n="arch.none">No theses published yet. The first write-ups are on their way.</div>
+    {% endif %}
+  </div>
+</section>

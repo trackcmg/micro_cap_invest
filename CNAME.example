@@ -1,0 +1,24 @@
+# ════════════════════════════════════════════════════════════
+#  CNAME.example — dominio propio en GitHub Pages
+#
+#  GitHub Pages exige que el fichero CNAME contenga SOLO el
+#  dominio, sin comentarios. Por eso este fichero se llama
+#  CNAME.example y está excluido del build.
+#
+#  Para activar tu dominio:
+#   1. Renombra este fichero a CNAME (sin extensión).
+#   2. Borra TODAS las líneas y deja únicamente tu dominio:
+#
+#        www.tudominio.com
+#
+#   3. En tu proveedor DNS:
+#        - CNAME  www  →  tuusuario.github.io
+#        - (apex opcional) A @ → 185.199.108.153 / .109 / .110 / .111
+#   4. En GitHub: Settings → Pages → Custom domain → escribe el
+#      dominio y marca "Enforce HTTPS" cuando esté disponible.
+#   5. Actualiza `url:` en _config.yml con el dominio nuevo.
+#
+#  Nota: si configuras el dominio desde la UI de GitHub (paso 4),
+#  GitHub crea/actualiza el CNAME por ti — el paso 1-2 es la vía
+#  manual equivalente.
+# ════════════════════════════════════════════════════════════

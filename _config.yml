@@ -1,0 +1,77 @@
+# ============================================================
+#  _config.yml — Configuración del sitio
+#  Los campos marcados con [EDITAR] son los que debes rellenar.
+# ============================================================
+
+# ── Identidad ────────────────────────────────────────────────
+title: "CMG Investing"                    # [EDITAR] Nombre público del sitio / tu marca
+tagline: "Value investing in micro & nano caps"   # [EDITAR] Subtítulo corto (inglés)
+description: "Independent value investor focused on overlooked micro and nano caps across AIM, TSXV and continental Europe. Investment theses, live portfolio and audited-by-the-market track record."  # [EDITAR] Meta description por defecto
+author_name: "CMG"                        # [EDITAR] Tu nombre o pseudónimo
+
+# ── URL del sitio ────────────────────────────────────────────
+# [EDITAR — IMPORTANTE] Sin barra final. Ejemplos:
+#   https://tuusuario.github.io        (GitHub Pages de usuario)
+#   https://www.tudominio.com          (dominio propio)
+# Con url vacía el sitio funciona, pero las etiquetas Open Graph
+# y el sitemap no llevarán URLs absolutas (peor para SEO/Twitter).
+url: ""
+# Solo si publicas en un repo de proyecto (https://usuario.github.io/repo):
+# baseurl: "/repo"   — en caso contrario déjalo vacío.
+baseurl: ""
+
+# ── Redes y contacto ─────────────────────────────────────────
+substack_url: "https://YOURNAME.substack.com"   # [EDITAR]
+twitter_url: "https://x.com/YOURHANDLE"         # [EDITAR]
+twitter:
+  username: YOURHANDLE                          # [EDITAR] sin @ (para Twitter cards)
+  card: summary_large_image
+email: ""                                       # [EDITAR] opcional; vacío = no se muestra
+
+# ── Datos de cartera (dashboard) ─────────────────────────────
+# JSON con el esquema de trackcmg (holdings / closedTrades / history).
+# Por defecto apunta al data.json público de tu dashboard actual.
+# Ver README → "Conectar los datos de la cartera" para alternativas
+# (endpoint público de Apps Script o fichero local en este repo).
+portfolio_data_url: "https://trackcmg.github.io/data.json"
+
+# Privacidad de la vista pública:
+show_entry_prices: false    # true → muestra precio medio de entrada en Cartera
+show_eur_amounts: false     # true → muestra P&L realizado en EUR en Track record
+
+# ── Build (no suele hacer falta tocar nada de aquí abajo) ────
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  theses_en:
+    output: true
+    permalink: /thesis/:name/
+  theses_es:
+    output: true
+    permalink: /tesis/:name/
+
+defaults:
+  - scope: { path: "" }
+    values:
+      image: /assets/img/og-default.png
+  - scope: { path: "", type: theses_en }
+    values:
+      layout: thesis
+      lang: en
+  - scope: { path: "", type: theses_es }
+    values:
+      layout: thesis
+      lang: es
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME.example
+  - vendor
+  - .claude
