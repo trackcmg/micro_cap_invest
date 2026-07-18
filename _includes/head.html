@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      try {
+        var q = new URLSearchParams(location.search).get('lang');
+        var l = (q === 'es' || q === 'en') ? q : (localStorage.getItem('cmg-lang') || 'en');
+        if (q === 'es' || q === 'en') { localStorage.setItem('cmg-lang', q); }
+        d.setAttribute('data-lang', l);
+        if (!d.hasAttribute('data-fixed-lang')) { d.setAttribute('lang', l); }
+        if (localStorage.getItem('cmg-theme') === 'dark') { d.setAttribute('data-theme', 'dark'); }
+      } catch (e) { d.setAttribute('data-lang', 'en'); }
+    })();
+  </script>
+  {% seo %}
+  <meta name="theme-color" content="#f6f4ef">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.charts %}<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>{% endif %}
+  <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/data.js' | relative_url }}"></script>
+  {% if page.page_js %}<script defer src="{{ page.page_js | relative_url }}"></script>{% endif %}
+</head>

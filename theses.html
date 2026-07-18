@@ -1,0 +1,53 @@
+---
+layout: page
+title: Investment Theses
+description: "Archive of investment theses on micro and nano caps — filter by market, sector and status."
+permalink: /theses/
+page_js: /assets/js/theses-archive.js
+---
+<div id="theses-page">
+  <header class="page-head">
+    <h1>
+      <span class="lang-en">Investment theses</span>
+      <span class="lang-es">Tesis de inversión</span>
+    </h1>
+    <p class="lead">
+      <span class="lang-en">Every position starts with a written thesis. The archive below is the
+      full record — open and closed, right and wrong.</span>
+      <span class="lang-es">Cada posición nace de una tesis escrita. Este archivo es el registro
+      completo: abiertas y cerradas, aciertos y errores.</span>
+    </p>
+  </header>
+
+  {% assign all = site.theses_en | concat: site.theses_es %}
+  {% if all.size > 0 %}
+  {% assign sorted = all | sort: "date" | reverse %}
+  {% assign markets = all | map: "market" | compact | uniq | sort %}
+  {% assign sectors = all | map: "sector" | compact | uniq | sort %}
+
+  <div class="filter-bar">
+    <select id="f-market" data-i18n-aria-label="th.market">
+      <option value="" data-i18n="filters.market_all">All markets</option>
+      {% for m in markets %}{% if m != "" %}<option value="{{ m }}">{{ m }}</option>{% endif %}{% endfor %}
+    </select>
+    <select id="f-sector" data-i18n-aria-label="th.sector">
+      <option value="" data-i18n="filters.sector_all">All sectors</option>
+      {% for s in sectors %}{% if s != "" %}<option value="{{ s }}">{{ s }}</option>{% endif %}{% endfor %}
+    </select>
+    <select id="f-status" data-i18n-aria-label="thesis.status">
+      <option value="" data-i18n="filters.status_all">Open &amp; closed</option>
+      <option value="open" data-i18n="filters.open">Open</option>
+      <option value="closed" data-i18n="filters.closed">Closed</option>
+    </select>
+    <button type="button" class="filter-reset" id="f-reset" data-i18n="filters.reset">Reset</button>
+    <span class="filter-count" id="f-count"></span>
+  </div>
+
+  <div class="card-grid" data-thesis-list>
+    {% for t in sorted %}{% include thesis-card.html thesis=t %}{% endfor %}
+  </div>
+  <div class="empty-state" id="arch-nomatch" hidden data-i18n="arch.nomatch">No theses match the selected filters.</div>
+  {% else %}
+  <div class="empty-state" data-i18n="arch.none">No theses published yet. The first write-ups are on their way.</div>
+  {% endif %}
+</div>

@@ -1,0 +1,87 @@
+---
+layout: default
+---
+{% if page.collection == "theses_en" %}
+  {% assign counterpart = site.theses_es | where: "ticker", page.ticker | first %}
+{% else %}
+  {% assign counterpart = site.theses_en | where: "ticker", page.ticker | first %}
+{% endif %}
+<article class="article-wrap">
+  <p class="article-back">
+    <a href="{{ '/theses/' | relative_url }}" data-i18n="thesis.back">← All theses</a>
+  </p>
+
+  <header class="article-header">
+    {% if page.market != blank or page.sector != blank %}
+    <p class="eyebrow">
+      {% if page.market != blank %}{{ page.market }}{% endif %}{% if page.market != blank and page.sector != blank %} · {% endif %}{% if page.sector != blank %}{{ page.sector }}{% endif %}
+    </p>
+    {% endif %}
+    <h1 class="article-title">{{ page.title }}</h1>
+    {% if page.description != blank %}
+    <p class="article-lead">{{ page.description }}</p>
+    {% endif %}
+
+    <dl class="article-meta">
+      {% if page.date %}
+      <div>
+        <dt data-i18n="thesis.published">Published</dt>
+        <dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}" data-date="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%b %Y" }}</time></dd>
+      </div>
+      {% endif %}
+      {% if page.ticker %}
+      <div>
+        <dt data-i18n="thesis.ticker">Ticker</dt>
+        <dd><span class="ticker-chip">{{ page.ticker }}</span></dd>
+      </div>
+      {% endif %}
+      {% if page.market_cap != blank %}
+      <div>
+        <dt data-i18n="thesis.mcap">Mkt cap at publication</dt>
+        <dd>{{ page.market_cap }}</dd>
+      </div>
+      {% endif %}
+      {% if page.status != blank %}
+      <div>
+        <dt data-i18n="thesis.status">Status</dt>
+        <dd><span class="badge badge-{{ page.status }}" data-i18n="status.{{ page.status }}">{{ page.status }}</span>
+        {% if page.status == "closed" and page.return_pct != blank %}<span class="badge-return">{{ page.return_pct }}</span>{% endif %}</dd>
+      </div>
+      {% endif %}
+    </dl>
+
+    {% if counterpart %}
+    <p class="article-altlang">
+      {% if page.collection == "theses_en" %}
+      <a href="{{ counterpart.url | relative_url }}">Este análisis también está disponible en español →</a>
+      {% else %}
+      <a href="{{ counterpart.url | relative_url }}">This write-up is also available in English →</a>
+      {% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {% if page.substack != blank %}
+  <div class="article-cta">
+    <a class="btn btn-primary" href="{{ page.substack }}" target="_blank" rel="noopener" data-i18n="thesis.readfull">Read the full write-up on Substack</a>
+  </div>
+  {% endif %}
+
+  <aside class="disclaimer-box" aria-label="Disclaimer">
+    <p><strong>Disclaimer.</strong> This is not investment advice or a recommendation to buy
+    or sell any security. It reflects my personal opinion at the time of publication and may
+    contain errors. I may hold, or may have held, a position in the securities discussed.
+    Figures are unaudited. Do your own research and consult a licensed financial adviser
+    before making any investment decision. Past performance is not indicative of future results.</p>
+    <p><strong>Aviso legal.</strong> Esto no es asesoramiento de inversión ni una recomendación
+    de compra o venta de ningún valor. Refleja mi opinión personal en el momento de la
+    publicación y puede contener errores. Puedo mantener, o haber mantenido, posiciones en los
+    valores comentados. Las cifras no están auditadas. Haz tu propia investigación y consulta a
+    un asesor financiero autorizado antes de tomar cualquier decisión de inversión.
+    Rentabilidades pasadas no garantizan rentabilidades futuras.</p>
+  </aside>
+</article>

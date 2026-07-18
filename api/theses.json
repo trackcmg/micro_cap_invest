@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /api/theses.json
+sitemap: false
+---
+{% assign all = site.theses_en | concat: site.theses_es %}{
+  "generated": {{ site.time | date_to_xmlschema | jsonify }},
+  "theses": [
+    {% for t in all %}{
+      "ticker": {{ t.ticker | jsonify }},
+      "aliases": {{ t.aliases | jsonify }},
+      "lang": {{ t.lang | jsonify }},
+      "url": {{ t.url | relative_url | jsonify }},
+      "title": {{ t.title | jsonify }},
+      "status": {{ t.status | jsonify }},
+      "date": {{ t.date | date: "%Y-%m-%d" | jsonify }},
+      "market": {{ t.market | jsonify }},
+      "sector": {{ t.sector | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

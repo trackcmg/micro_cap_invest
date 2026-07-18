@@ -1,0 +1,36 @@
+---
+layout: page
+title: About
+description: "Who is behind the portfolio and how to get in touch."
+permalink: /about/
+---
+<header class="page-head">
+  <h1>
+    <span class="lang-en">About</span>
+    <span class="lang-es">Sobre mí</span>
+  </h1>
+</header>
+
+<div style="max-width:720px">
+  <p class="lead">
+    <span class="lang-en placeholder-note">[EDIT — Two or three short paragraphs: who you are, how
+    long you have been investing, why micro/nano caps, and what readers will find here. Keep it
+    factual — the track record page does the selling.]</span>
+    <span class="lang-es placeholder-note">[EDITAR — Dos o tres párrafos cortos: quién eres, cuánto
+    llevas invirtiendo, por qué micro/nano caps y qué encontrará aquí el lector. Mantenlo factual:
+    la página de track record ya vende por sí sola.]</span>
+  </p>
+
+  <p class="lead" style="margin-top:18px">
+    <span class="lang-en placeholder-note">[EDIT — Optional second paragraph: influences, day job if
+    relevant, disclosure of how you manage your own capital.]</span>
+    <span class="lang-es placeholder-note">[EDITAR — Segundo párrafo opcional: influencias, a qué te
+    dedicas si es relevante, y la aclaración de que gestionas tu propio capital.]</span>
+  </p>
+
+  <div class="hero-cta" style="margin-top:34px">
+    {% if site.substack_url and site.substack_url != "" %}<a class="btn btn-primary" href="{{ site.substack_url }}" target="_blank" rel="noopener">Substack</a>{% endif %}
+    {% if site.twitter_url and site.twitter_url != "" %}<a class="btn btn-ghost" href="{{ site.twitter_url }}" target="_blank" rel="noopener">X / Twitter</a>{% endif %}
+    {% if site.email and site.email != "" %}<a class="btn btn-ghost" href="mailto:{{ site.email }}">Email</a>{% endif %}
+  </div>
+</div>

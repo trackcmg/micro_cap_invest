@@ -1,0 +1,15 @@
+{% assign t = include.thesis %}
+<article class="thesis-card" data-ticker="{{ t.ticker }}" data-lang="{{ t.lang }}" data-market="{{ t.market }}" data-sector="{{ t.sector }}" data-status="{{ t.status }}">
+  <div class="thesis-card-top">
+    <time datetime="{{ t.date | date: '%Y-%m-%d' }}" data-date="{{ t.date | date: '%Y-%m-%d' }}">{{ t.date | date: "%b %Y" }}</time>
+    <span class="badge-lang">{{ t.lang | upcase }}</span>
+  </div>
+  <h3><a href="{{ t.url | relative_url }}">{{ t.title }}</a></h3>
+  {% if t.description != blank %}<p class="thesis-card-summary">{{ t.description }}</p>{% endif %}
+  <div class="thesis-card-foot">
+    <span class="ticker-chip">{{ t.ticker }}</span>
+    {% if t.market != blank %}<span>{{ t.market }}</span>{% endif %}
+    {% if t.sector != blank %}<span>· {{ t.sector }}</span>{% endif %}
+    <span class="badge badge-{{ t.status }}" data-i18n="status.{{ t.status }}">{{ t.status }}</span>
+  </div>
+</article>
