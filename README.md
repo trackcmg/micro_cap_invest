@@ -18,11 +18,10 @@ subir un fichero Markdown. Sin build local, sin npm, sin frameworks.
 
 ## 1 · Puesta en marcha (10 minutos)
 
-1. **Crea el repositorio** en GitHub:
-   - `tuusuario.github.io` → el sitio queda en `https://tuusuario.github.io`
-   - o cualquier otro nombre (p. ej. `investing`) → queda en
-     `https://tuusuario.github.io/investing` y **debes** poner `baseurl: "/investing"`
-     en `_config.yml`.
+1. **Crea el repositorio** `micro_cap_invest` en GitHub (público). El sitio queda en
+   `https://trackcmg.github.io/micro_cap_invest/` — `_config.yml` ya viene
+   configurado con ese `url` y `baseurl`. Si algún día cambias el nombre del repo,
+   cambia `baseurl` a `"/nuevo-nombre"`; con dominio propio, `baseurl: ""`.
 2. **Sube todo el contenido de esta carpeta** al repo (rama `main`).
 3. En GitHub: **Settings → Pages → Source: Deploy from a branch → `main` / root**.
 4. Edita **`_config.yml`** — todos los campos marcados `[EDITAR]`:
@@ -64,20 +63,18 @@ subir un fichero Markdown. Sin build local, sin npm, sin frameworks.
      `substack` (link al artículo completo si existe).
 
 3. **Imágenes**: crea la carpeta `assets/theses/<TICKER>/` y deja ahí los PNG/JPG
-   (charts, capturas de cuentas anuales, tablas). En el Markdown:
+   (charts, capturas de cuentas anuales, tablas). En el Markdown, **siempre con el
+   prefijo `../../`** (así funcionan igual en este repo, en otro o con dominio):
 
    ```markdown
-   ![Evolución de ingresos 2015-2025](/assets/theses/SPSY.L/revenue.png)
+   ![Evolución de ingresos 2015-2025](../../assets/theses/SPSY.L/revenue.png)
    *Ingresos y owner earnings. Fuente: cuentas anuales.*
    ```
 
    La línea en *cursiva* justo debajo de la imagen se muestra como pie de foto.
-   Para la imagen de compartir en Twitter, añade en el frontmatter:
-   `image: /assets/theses/SPSY.L/cover.png` (ideal 1200×630).
-
-   > Nota: si publicas en un repo de proyecto (con `baseurl`), antepón el baseurl
-   > a las rutas de imagen dentro del Markdown: `/investing/assets/theses/...`.
-   > Con sitio de usuario o dominio propio (lo habitual) no hace falta nada.
+   Para la imagen de compartir en Twitter, añade en el frontmatter
+   `image: /assets/theses/SPSY.L/cover.png` (ideal 1200×630) — este campo es la
+   excepción: va con ruta absoluta y el sistema le añade el baseurl solo.
 
 4. `git add . && git commit -m "Tesis SPSY.L" && git push` — listo.
 
@@ -103,17 +100,28 @@ añade variantes en el frontmatter: `aliases: ["ACME.TO", "ACM"]`.
 
 ## 3 · Datos de cartera y track record
 
-Las páginas **Cartera** y **Track record** leen un JSON con el esquema de tu
-dashboard (`holdings`, `closedTrades`, `history`, `cash`, `totalInvested`). La URL
-se configura en `_config.yml`:
+Las páginas **Cartera** y **Track record** leen un JSON con este esquema:
+`holdings`, `closedTrades`, `history`, `cash`, `totalInvested`. La URL se
+configura en `_config.yml`:
 
 ```yaml
-portfolio_data_url: "https://trackcmg.github.io/data.json"
+portfolio_data_url: "/portfolio.json"
 ```
 
-**Por defecto apunta al `data.json` público de tu dashboard actual**, que ya se sirve
-con CORS abierto — funciona sin tocar nada. Se actualiza cada vez que haces push de
-`data.json` en el repo `trackcmg.github.io`.
+**Por defecto lee `portfolio.json`, un fichero incluido en este mismo repo** con un
+snapshot sanitizado de tus posiciones (solo datos de inversión). La web no llama a
+ningún servicio externo tuyo ni revela dónde vive tu sistema de seguimiento.
+
+### Actualizar los datos
+
+Reemplaza el contenido de `portfolio.json` con el JSON exportado de tu sistema de
+seguimiento (mismo esquema; las claves personales tipo gym/books/movies sobran —
+elimínalas) y haz push. Nada más.
+
+> `portfolio.json` es público al estar en el repo: incluye nº de acciones y precios
+> medios de entrada (necesarios para calcular los pesos). Si no quieres publicar
+> esos importes, es tu decisión mantener el fichero al mínimo — pero sin `shares` y
+> `entryPrice` la página de Cartera no puede calcular pesos.
 
 ### Opción B — endpoint público en tu Apps Script (datos siempre al día)
 
@@ -149,11 +157,6 @@ Después: **Deploy → Manage deployments → New version** y pon en `_config.ym
 ```yaml
 portfolio_data_url: "https://script.google.com/macros/s/TU_ID/exec?action=publicData"
 ```
-
-### Opción C — fichero en este repo
-
-Copia un `portfolio.json` con ese esquema a la raíz de este repo y apunta
-`portfolio_data_url: "/portfolio.json"`. Máximo control, actualización manual.
 
 ### Privacidad
 

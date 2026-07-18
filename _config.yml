@@ -10,15 +10,12 @@ description: "Independent value investor focused on overlooked micro and nano ca
 author_name: "CMG"                        # [EDITAR] Tu nombre o pseudónimo
 
 # ── URL del sitio ────────────────────────────────────────────
-# [EDITAR — IMPORTANTE] Sin barra final. Ejemplos:
-#   https://tuusuario.github.io        (GitHub Pages de usuario)
-#   https://www.tudominio.com          (dominio propio)
-# Con url vacía el sitio funciona, pero las etiquetas Open Graph
-# y el sitemap no llevarán URLs absolutas (peor para SEO/Twitter).
-url: ""
-# Solo si publicas en un repo de proyecto (https://usuario.github.io/repo):
-# baseurl: "/repo"   — en caso contrario déjalo vacío.
-baseurl: ""
+# Configurado para el repo de proyecto "micro_cap_invest":
+#   https://trackcmg.github.io/micro_cap_invest/
+# Si algún día usas dominio propio: url pasa a ser el dominio y
+# baseurl se queda vacío ("").
+url: "https://trackcmg.github.io"
+baseurl: "/micro_cap_invest"
 
 # ── Redes y contacto ─────────────────────────────────────────
 substack_url: "https://YOURNAME.substack.com"   # [EDITAR]
@@ -29,11 +26,12 @@ twitter:
 email: ""                                       # [EDITAR] opcional; vacío = no se muestra
 
 # ── Datos de cartera (dashboard) ─────────────────────────────
-# JSON con el esquema de trackcmg (holdings / closedTrades / history).
-# Por defecto apunta al data.json público de tu dashboard actual.
-# Ver README → "Conectar los datos de la cartera" para alternativas
-# (endpoint público de Apps Script o fichero local en este repo).
-portfolio_data_url: "https://trackcmg.github.io/data.json"
+# JSON con el esquema holdings / closedTrades / history / cash /
+# totalInvested. Por defecto lee portfolio.json, incluido en este
+# mismo repo (la web no llama a ningún servicio externo tuyo).
+# Ver README → "Datos de cartera" para actualizarlo o cambiar a un
+# endpoint de Apps Script.
+portfolio_data_url: "/portfolio.json"
 
 # Privacidad de la vista pública:
 show_entry_prices: false    # true → muestra precio medio de entrada en Cartera

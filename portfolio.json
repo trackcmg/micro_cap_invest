@@ -1,0 +1,209 @@
+{
+  "holdings": [
+    {
+      "ticker": "AMR",
+      "name": "Alpha Metallurgical Resources",
+      "shares": 70,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "entryPrice": 172.64,
+      "dividends": 0
+    },
+    {
+      "ticker": "TGO.TO",
+      "name": "TeraGo Inc",
+      "shares": 27000,
+      "currency": "CAD",
+      "exchange": "TSXV",
+      "entryPrice": 0.876,
+      "dividends": 0
+    },
+    {
+      "ticker": "MPE.L",
+      "name": "MP Evans Group",
+      "shares": 1000,
+      "currency": "GBP",
+      "exchange": "LSE",
+      "entryPrice": 11.02,
+      "dividends": 0
+    },
+    {
+      "ticker": "BQE.V",
+      "name": "BQE Water",
+      "shares": 625,
+      "currency": "CAD",
+      "exchange": "TSXV",
+      "entryPrice": 67.5,
+      "dividends": 0
+    },
+    {
+      "ticker": "SPSY.L",
+      "name": "Spectra Systems",
+      "shares": 4131,
+      "currency": "GBP",
+      "exchange": "AIM",
+      "entryPrice": 1.385,
+      "dividends": 0
+    },
+    {
+      "ticker": "NTBR.L",
+      "name": "Northern Bear",
+      "shares": 21121,
+      "currency": "GBP",
+      "exchange": "AIM",
+      "entryPrice": 1.043,
+      "dividends": 0
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "B",
+      "shares": 20,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "entryPrice": 471.76,
+      "dividends": 0
+    }
+  ],
+  "closedTrades": [
+    {
+      "ticker": "A3M",
+      "name": "Atresmedia",
+      "currency": "EUR",
+      "totalShares": 1000,
+      "avgBuy": 4.4166,
+      "sellPrice": 6.08,
+      "dividends": 0
+    },
+    {
+      "ticker": "ACT",
+      "name": "Alzchem Group",
+      "currency": "EUR",
+      "totalShares": 100,
+      "avgBuy": 61.708,
+      "sellPrice": 164.6,
+      "dividends": 135
+    },
+    {
+      "ticker": "REP",
+      "name": "Repsol",
+      "currency": "EUR",
+      "totalShares": 1000,
+      "avgBuy": 10.6482,
+      "sellPrice": 17.51,
+      "dividends": 944.63
+    },
+    {
+      "ticker": "FUR",
+      "name": "Fugro",
+      "currency": "EUR",
+      "totalShares": 500,
+      "avgBuy": 12.46,
+      "sellPrice": 12.15,
+      "dividends": 318.75
+    },
+    {
+      "ticker": "AMR*",
+      "name": "Alpha Met. Resources (partially closed)",
+      "currency": "USD",
+      "totalShares": 49,
+      "avgBuy": 118.8239,
+      "sellPrice": 236.8714,
+      "dividends": 0
+    },
+    {
+      "ticker": "TOT",
+      "name": "Total Energy Services",
+      "currency": "CAD",
+      "totalShares": 2500,
+      "avgBuy": 11.7,
+      "sellPrice": 21.8,
+      "dividends": 400
+    },
+    {
+      "ticker": "MPE*",
+      "name": "MP Evans Group (partially closed)",
+      "currency": "GBP",
+      "totalShares": 500,
+      "avgBuy": 11.02,
+      "sellPrice": 14.8,
+      "dividends": 0
+    },
+    {
+      "ticker": "TWC",
+      "name": "TWC Enterprises",
+      "currency": "CAD",
+      "totalShares": 400,
+      "avgBuy": 17.5,
+      "sellPrice": 18.5,
+      "dividends": 0
+    },
+    {
+      "ticker": "BN",
+      "name": "Brookfield Corp",
+      "currency": "USD",
+      "totalShares": 35,
+      "avgBuy": 39.65,
+      "sellPrice": 41,
+      "dividends": 0
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-03-26",
+      "totalInvested": 59000,
+      "totalValue": 107465.65
+    },
+    {
+      "date": "2026-03-27",
+      "totalInvested": 59250,
+      "totalValue": 110747.27
+    },
+    {
+      "date": "2026-03-28",
+      "totalInvested": 59250,
+      "totalValue": 110747.27
+    },
+    {
+      "date": "2026-03-30",
+      "totalInvested": 60500,
+      "totalValue": 111965.99
+    },
+    {
+      "date": "2026-03-31",
+      "totalInvested": 60500,
+      "totalValue": 111423.68
+    },
+    {
+      "date": "2026-04-01",
+      "totalInvested": 60500,
+      "totalValue": 112259.05
+    },
+    {
+      "date": "2026-04-02",
+      "totalInvested": 60500,
+      "totalValue": 110154.22
+    },
+    {
+      "date": "2026-04-03",
+      "totalInvested": 60500,
+      "totalValue": 110291.51
+    },
+    {
+      "date": "2026-04-06",
+      "totalInvested": 60500,
+      "totalValue": 109747.06
+    },
+    {
+      "date": "2026-04-07",
+      "totalInvested": 60500,
+      "totalValue": 110585.93
+    },
+    {
+      "date": "2026-04-08",
+      "totalInvested": 60500,
+      "totalValue": 109934.26
+    }
+  ],
+  "cash": 270,
+  "totalInvested": 60500
+}
