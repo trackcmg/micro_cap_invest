@@ -4,6 +4,7 @@ title: Home
 permalink: /
 page_js: /assets/js/home.js
 ---
+{% comment %} Portfolio stats strip removed with the Portfolio section. {% endcomment %}
 <section class="hero">
   <div class="container">
     <p class="eyebrow" data-i18n="home.eyebrow">Independent value investor</p>
@@ -28,24 +29,7 @@ page_js: /assets/js/home.js
   </div>
 </section>
 
-<section class="stats-strip" id="home-stats" hidden>
-  <div class="container">
-    <div class="stat">
-      <span class="stat-value tnum" data-stat="open">—</span>
-      <span class="stat-label" data-i18n="home.stat_open">Open positions</span>
-    </div>
-    <div class="stat">
-      <span class="stat-value tnum" data-stat="markets">—</span>
-      <span class="stat-label" data-i18n="port.stat_markets">Markets</span>
-    </div>
-    <div class="stat">
-      <span class="stat-value tnum" data-stat="theses">—</span>
-      <span class="stat-label" data-i18n="home.stat_theses">Theses published</span>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="latest-theses">
+<section class="section section-top" id="latest-theses">
   <div class="container">
     <div class="section-head">
       <h2 class="section-title" data-i18n="home.latest">Latest theses</h2>

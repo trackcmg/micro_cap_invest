@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}"{% if page.collection %} data-fixed-lang="true"{% endif %}>
 {% include head.html %}
-{% assign pdu = site.portfolio_data_url %}
-{% unless pdu contains "://" %}{% assign pdu = pdu | relative_url %}{% endunless %}
 <body
-  data-theses-index="{{ '/api/theses.json' | relative_url }}"
-  data-portfolio-url="{{ pdu }}">
+  data-theses-index="{{ '/api/theses.json' | relative_url }}">
   <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
   {% include header.html %}
   <main id="main">

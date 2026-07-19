@@ -1,16 +1,15 @@
 # Web de inversión — GitHub Pages
 
-Sitio estático bilingüe (EN/ES) para publicar tesis de inversión, cartera en vivo y
-track record. Construido con **Jekyll nativo de GitHub Pages**: publicar una tesis es
-subir un fichero Markdown. Sin build local, sin npm, sin frameworks.
+Sitio estático bilingüe (EN/ES) para publicar tesis de inversión y track record.
+Construido con **Jekyll nativo de GitHub Pages**: publicar una tesis es subir un
+fichero Markdown. Sin build local, sin npm, sin frameworks.
 
 | Sección | URL | Contenido |
 |---|---|---|
-| Home | `/` | Presentación, filosofía, últimas tesis, stats en vivo |
+| Home | `/` | Presentación, filosofía, últimas tesis |
 | Tesis | `/theses/` | Archivo con filtros (mercado, sector, estado) |
 | Tesis individual | `/thesis/<ticker>/` (EN) · `/tesis/<ticker>/` (ES) | Página propia por tesis |
-| Cartera | `/portfolio/` | Holdings en vivo desde tu `data.json`, enlazados a sus tesis |
-| Track record | `/track-record/` | Cerradas + agregados + curva valor vs capital |
+| Track record | `/track-record/` | Fecha de apertura y precio de entrada, enlazado a cada tesis |
 | Metodología | `/methodology/` | Tu framework (placeholders para rellenar) |
 | Sobre mí | `/about/` | Bio y contacto |
 
@@ -89,36 +88,21 @@ Crea los dos ficheros (uno en `_theses_en/`, otro en `_theses_es/`) con **el mis
 Una tesis puede existir en un solo idioma sin ningún problema — se muestra tal cual
 en ambas vistas.
 
-### Cómo enlaza la cartera con las tesis
+### Cómo enlaza el track record con las tesis
 
-Automático, por convención: se compara el `ticker` del frontmatter con el ticker del
-`data.json` (mayúsculas/minúsculas y el `*` de cierres parciales se ignoran; `MPE`
-casa con `MPE.L` por símbolo base). Si un ticker cambió o cotiza con otro símbolo,
-añade variantes en el frontmatter: `aliases: ["ACME.TO", "ACM"]`.
+Automático, por convención: se compara el `ticker` del frontmatter de la tesis con
+el `ticker` de cada entrada de `_data/track_record.yml` (mayúsculas/minúsculas se
+ignoran; `MPE` casa con `MPE.L` por símbolo base). Si un ticker cambió o cotiza con
+otro símbolo, añade variantes en el frontmatter: `aliases: ["ACME.TO", "ACM"]`.
 
 ---
 
-## 3 · Datos de cartera y track record
+## 3 · Track record
 
-La web **no publica importes por diseño**: ni valor de cartera, ni capital
-desplegado, ni tamaños de posición, ni P&L. Solo composición, fechas de apertura y
-precios de entrada.
+La web **no publica importes por diseño**: ni valor de cartera, ni tamaños de
+posición, ni P&L. Solo fechas de apertura y precios de entrada, enlazados a la tesis.
 
-### Cartera (`portfolio.json`)
-
-La página Cartera lee `portfolio.json`, en la raíz de este repo. Una línea por
-posición, sin cantidades:
-
-```json
-{ "ticker": "RNO", "name": "Renault Group", "currency": "EUR", "exchange": "Euronext" }
-```
-
-Añadir o quitar una posición = editar ese fichero y hacer push. El `ticker` enlaza
-automáticamente con su tesis si existe. (La URL del fichero se configura en
-`_config.yml` → `portfolio_data_url`, por si algún día quieres servirlo desde otro
-sitio.)
-
-### Track record (`_data/track_record.yml`)
+### `_data/track_record.yml`
 
 La página Track record se genera desde `_data/track_record.yml`: una entrada por
 posición con `name`, `ticker`, `date` (fecha de apertura, YYYY-MM-DD) y `price`
@@ -174,17 +158,18 @@ bundle exec jekyll serve
 ├── _config.yml            ← configuración y campos [EDITAR]
 ├── _theses_en/            ← tesis en inglés  (una por fichero .md)
 ├── _theses_es/            ← tesis en español
+├── _data/track_record.yml ← track record (fecha + precio de apertura)
 ├── _templates/
 │   └── thesis-template.md ← plantilla con el frontmatter documentado
 ├── _layouts/              ← default / page / thesis
 ├── _includes/             ← head, header, footer, tarjeta de tesis
 ├── assets/
 │   ├── css/main.css       ← sistema de diseño (claro/oscuro)
-│   ├── js/                ← i18n, datos, cartera, track record, filtros
+│   ├── js/                ← i18n, índice de tesis, track record, filtros
 │   ├── img/               ← og-default, favicons  ← reemplazables
 │   └── theses/<TICKER>/   ← imágenes de cada tesis
 ├── api/theses.json        ← índice ticker→tesis (se genera solo)
-├── index.html · theses.html · portfolio.html · track-record.html
+├── index.html · theses.html · track-record.html
 ├── methodology.html · about.html · 404.html
 ├── robots.txt · CNAME.example · Gemfile
 ```

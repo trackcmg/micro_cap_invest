@@ -235,15 +235,8 @@ html[data-lang="es"] .lang-btn[data-set-lang="es"] {
 
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; }
 
-.stats-strip {
-  border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair);
-  padding: 26px 0;
-}
-.stats-strip .container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-
-@media (max-width: 640px) {
-  .stats-strip .container { grid-template-columns: 1fr; gap: 18px; }
-}
+/* Home: theses list sits directly under the hero */
+.section-top { padding-top: 8px; border-top: 1px solid var(--hair); }
 
 /* ── Stat tiles ─────────────────────────────────────────────── */
 .stat { display: flex; flex-direction: column; gap: 2px; }

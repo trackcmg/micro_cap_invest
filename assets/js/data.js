@@ -1,7 +1,5 @@
 /* ============================================================
-   data.js — portfolio JSON, theses index, formatters
-   Portfolio schema (composition only, no amounts):
-     { holdings: [ { ticker, name, currency, exchange } ] }
+   data.js — theses index, ticker→thesis mapping, formatters
    ============================================================ */
 (function () {
   'use strict';
@@ -33,17 +31,6 @@
       return v;
     });
   }
-
-  CMG.getPortfolio = function () {
-    var url = document.body.getAttribute('data-portfolio-url');
-    if (!url) { return Promise.reject(new Error('portfolio_data_url not configured')); }
-    return cached('cmg-portfolio', 10, function () {
-      return fetchJSON(url).then(function (r) {
-        if (!r.json || !Array.isArray(r.json.holdings)) { throw new Error('unexpected schema'); }
-        return { data: r.json, lastModified: r.lastModified };
-      });
-    });
-  };
 
   CMG.getThesesIndex = function () {
     var url = document.body.getAttribute('data-theses-index');
