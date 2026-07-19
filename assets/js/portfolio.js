@@ -1,5 +1,6 @@
 /* ============================================================
-   portfolio.js — live holdings view with thesis links
+   portfolio.js — current holdings with thesis links
+   No amounts, no weights, no sizing: composition only.
    ============================================================ */
 (function () {
   'use strict';
@@ -9,8 +10,7 @@
     if (!root) { return; }
 
     var CMG = window.CMG;
-    var state = { data: null, lastModified: null, map: null, fx: null };
-    var showEntry = document.body.getAttribute('data-show-entry') === 'true';
+    var state = { holdings: null, lastModified: null, map: null };
 
     function skeleton() {
       var rows = '';
@@ -30,34 +30,20 @@
       });
     }
 
-    function thesisCell(t) {
-      if (!t) { return '<span class="no-thesis">—</span>'; }
-      return '<a class="thesis-link" href="' + t.url + '">' + CMG.t('common.thesis_arrow') + '</a>';
-    }
-
     function render() {
-      var d = state.data;
-      var fx = state.fx;
       var esc = CMG.escapeHTML;
 
-      var hs = (d.holdings || []).map(function (h) {
-        var rate = fx[h.currency] || 1;
-        var cost = (Number(h.shares) || 0) * (Number(h.entryPrice) || 0) * rate;
-        return { h: h, cost: cost, thesis: CMG.findThesis(state.map, h.ticker) };
+      var hs = state.holdings.map(function (h) {
+        return { h: h, thesis: CMG.findThesis(state.map, h.ticker) };
       });
 
-      var total = hs.reduce(function (s, x) { return s + x.cost; }, 0);
-      hs.sort(function (a, b) { return b.cost - a.cost; });
-      hs.forEach(function (x) { x.weight = total > 0 ? (x.cost / total) * 100 : 0; });
-
-      var top3 = hs.slice(0, 3).reduce(function (s, x) { return s + x.weight; }, 0);
       var markets = {};
       var currencies = {};
       hs.forEach(function (x) {
         var m = x.h.exchange || '—';
         var c = x.h.currency || '—';
-        markets[m] = (markets[m] || 0) + x.weight;
-        currencies[c] = (currencies[c] || 0) + x.weight;
+        markets[m] = (markets[m] || 0) + 1;
+        currencies[c] = (currencies[c] || 0) + 1;
       });
 
       var html = '';
@@ -65,7 +51,6 @@
       /* stats */
       html += '<div class="stat-grid">';
       html += '<div class="stat"><span class="stat-value">' + hs.length + '</span><span class="stat-label">' + CMG.t('port.stat_positions') + '</span></div>';
-      html += '<div class="stat"><span class="stat-value">' + CMG.fmtPct(top3, 0) + '</span><span class="stat-label">' + CMG.t('port.stat_top3') + '</span></div>';
       html += '<div class="stat"><span class="stat-value">' + Object.keys(markets).length + '</span><span class="stat-label">' + CMG.t('port.stat_markets') + '</span></div>';
       html += '</div>';
 
@@ -75,8 +60,6 @@
         '<th>' + CMG.t('th.ticker') + '</th>' +
         '<th>' + CMG.t('th.market') + '</th>' +
         '<th>' + CMG.t('th.ccy') + '</th>' +
-        (showEntry ? '<th class="num">' + CMG.t('th.entry') + '</th>' : '') +
-        '<th class="num">' + CMG.t('th.weight') + '</th>' +
         '<th>' + CMG.t('th.thesis') + '</th>' +
         '</tr></thead><tbody>';
 
@@ -91,30 +74,28 @@
           '<td><span class="ticker-chip">' + esc(h.ticker) + '</span></td>' +
           '<td>' + esc(h.exchange || '—') + '</td>' +
           '<td>' + esc(h.currency || '—') + '</td>' +
-          (showEntry ? '<td class="num">' + CMG.fmtMoney(Number(h.entryPrice), h.currency) + '</td>' : '') +
-          '<td class="num"><span class="wcell"><span class="wbar"><i style="width:' + Math.min(100, x.weight).toFixed(1) + '%"></i></span>' + CMG.fmtPct(x.weight, 1) + '</span></td>' +
-          '<td>' + thesisCell(x.thesis) + '</td>' +
+          '<td>' + (x.thesis
+            ? '<a class="thesis-link" href="' + x.thesis.url + '">' + CMG.t('common.thesis_arrow') + '</a>'
+            : '<span class="no-thesis">—</span>') + '</td>' +
           '</tr>';
       });
       html += '</tbody></table></div>';
 
-      /* meta row */
-      html += '<div class="data-meta">';
+      /* meta + note */
       if (state.lastModified) {
-        html += '<span>' + CMG.t('port.updated') + ': ' + CMG.fmtDate(state.lastModified) + '</span>';
+        html += '<div class="data-meta"><span>' + CMG.t('port.updated') + ': ' + CMG.fmtDate(state.lastModified) + '</span></div>';
       }
-      html += '</div>';
-      html += '<p class="footnote">' + CMG.t('port.weights_note') + '</p>';
+      html += '<p class="footnote">' + CMG.t('port.note') + '</p>';
 
-      /* allocation */
+      /* allocation by position count */
       function allocCard(title, obj) {
         var entries = Object.keys(obj).map(function (k) { return [k, obj[k]]; })
           .sort(function (a, b) { return b[1] - a[1]; });
         var max = entries.length ? entries[0][1] : 1;
         var rows = entries.map(function (e) {
           return '<div class="alloc-row"><span class="alloc-label">' + esc(e[0]) + '</span>' +
-            '<span class="alloc-track"><span class="alloc-fill" style="width:' + ((e[1] / max) * 100).toFixed(1) + '%"></span></span>' +
-            '<span class="alloc-val">' + CMG.fmtPct(e[1], 1) + '</span></div>';
+            '<span class="alloc-track"><span class="alloc-fill" style="width:' + ((e[1] / max) * 100).toFixed(0) + '%"></span></span>' +
+            '<span class="alloc-val">' + e[1] + '</span></div>';
         }).join('');
         return '<div class="alloc-card"><h3>' + title + '</h3>' + rows + '</div>';
       }
@@ -128,19 +109,18 @@
 
     function load() {
       root.innerHTML = skeleton();
-      Promise.all([CMG.getPortfolio(), CMG.getThesesIndex(), CMG.getFX()])
+      Promise.all([CMG.getPortfolio(), CMG.getThesesIndex()])
         .then(function (res) {
-          state.data = res[0].data;
+          state.holdings = res[0].data.holdings || [];
           state.lastModified = res[0].lastModified;
           state.map = CMG.buildThesisMap(res[1]);
-          state.fx = res[2];
           render();
         })
         .catch(function () { renderError(); });
     }
 
     document.addEventListener('cmg:lang', function () {
-      if (state.data) { render(); }
+      if (state.holdings) { render(); }
     });
 
     load();

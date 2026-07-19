@@ -10,6 +10,7 @@ market_cap: "€7.5bn"
 description: "El mercado valora solo los activos financieros de Renault por encima de toda su capitalización. Dacia, las furgonetas y la marca Renault vienen de regalo — mientras el dolor real del sector (China, aranceles de EEUU) ocurre en mercados donde Renault tiene exposición cero."
 image: /assets/theses/RNO/sotp_bridge.png
 ---
+
 *Publicado en julio de 2026. Capitalización en el momento de publicación: ~€7.5bn (~290M de acciones). Todo el razonamiento en términos de capitalización y valor de empresa.*
 
 ## La versión en un párrafo
@@ -44,6 +45,14 @@ Los €7.4bn de caja neta automovilística merecen su propia cautela, y la he ap
 
 La pérdida neta titular de €10.9bn en 2025 es el número que asustó a los escáneres de pantalla. Es casi íntegramente la consecuencia no monetaria de pasar la participación en Nissan de puesta en equivalencia a valor razonable: un cargo de remedición de €9.3bn más €2.3bn de contribución negativa de Nissan. Excluyendo Nissan, el beneficio neto fue positivo (~€0.7bn). El saneamiento de hecho *ayuda* a la tesis: el balance ya lleva Nissan a mercado, así que esa fuente de sorpresas negativas está agotada.
 
+### Qué estás comprando exactamente, pieza a pieza
+
+**Dacia (€8.9bn) — el búnker anticrisis.** Dacia no es "una marca de coches baratos"; es la máquina de volumen más rentable del automóvil europeo. Vende casi exclusivamente a cliente particular — sin volcar coches en flotas de alquiler, sin automatriculaciones, sin canal de descuento — de modo que cada coche sale a precio de tarifa, y sus fábricas operan por encima del 130% de utilización, diluyendo los costes fijos más que ningún competidor. Los márgenes ya son de doble dígito, con un objetivo oficial de superar el 15% antes de 2030. La gama es intensiva en híbridos y combustión (Duster, Bigster; ventas de híbridos Dacia +122%) — exactamente las tecnologías donde la ventaja de coste de los eléctricos chinos muerde menos. Su único punto débil genuino, el Spring eléctrico fabricado en China, se está arreglando de raíz: la siguiente generación traslada la producción a Europa, sacando la bala arancelaria de la recámara. Un 7x EV/EBIT para esta franquicia no es generosidad; es la tarifa de un mercado que se niega a mirar.
+
+**Vehículo comercial (€5.1bn) — la anualidad silenciosa.** Un fontanero o una flota de última milla no compra una ficha técnica; compra disponibilidad — una red de talleres que devuelve a la carretera mañana una Kangoo o una Master averiada, con piezas en stock y furgoneta de sustitución mientras tanto. Renault es el nº2 europeo en vehículo comercial, la Master ha sido elegida mejor furgoneta grande en Reino Unido dos años seguidos, y las ventas de furgonetas eléctricas de la marca crecieron ~90%. El canal B2B significa mejores precios, ingresos recurrentes de mantenimiento y renovación de contratos — y Renault además fabrica furgonetas que se venden con la insignia de Nissan, embolsándose el beneficio industrial sobre la marca de otro. Los entrantes chinos no tienen respuesta aquí: ni red, ni confianza, ni piezas al día siguiente. Por eso este segmento lleva 5x y no 3.5x.
+
+**Mobilize Financial Services (€4.25bn) — el banco atornillado al concesionario.** Mobilize (la antigua RCI Banque) es la financiera cautiva del grupo: financia aproximadamente la mitad de los coches que vende el grupo, capturando el diferencial entre su coste de financiación y el tipo al cliente, con una morosidad históricamente baja. Genera ~€850M de beneficio neto recurrente sobre unos €4bn de capital propio — un prestamista con ROE de doble dígito medio que valoro a 5x beneficios, apenas por encima de libros. Su contribución al beneficio operativo del grupo alcanzó €1,468M en 2025, desde €1,295M el año anterior, lo que hace que mi marca parezca conservadora antes que generosa. El mercado trata este negocio como una nota al pie; por sí solo vale más de la mitad de toda la capitalización de Renault.
+
 ## Pilar 1: el dolor de este sector es geográfico, y Renault está de pie en el sitio correcto
 
 Este es el punto que la tesis bajista ignora sistemáticamente. "Las automovilísticas europeas tradicionales se mueren" mezcla dos enfermedades completamente distintas, y Renault no tiene ninguna de las dos.
@@ -60,11 +69,19 @@ Renault vende ~69% de sus volúmenes en Europa, donde es un grupo top-3, el Clio
 
 ![Mix regional](../../assets/theses/RNO/regional_mix.png)
 
-El contrapunto honesto: la fortaleza de Renault es también su concentración. Las marcas chinas ya superan el 10% de cuota en varios mercados europeos y rondan el 14% del segmento eléctrico europeo, y Europa es exactamente hacia donde van todas. Dos mitigantes. Primero, la densidad de distribución y postventa — una red hiperlocal de concesionarios y talleres en toda Europa que costó décadas construir y que el comprador de segmento B y de furgonetas necesita de verdad — es un foso que sobrevive a aranceles y guerras de precios. Segundo, el muro arancelario (hasta ~35–40% sobre eléctricos fabricados en China) obliga a los entrantes chinos a fabricar en Europa, con costes laborales, energéticos y regulatorios europeos, disolviendo la mayor parte de su ventaja estructural. La batalla en Europa será real, pero se librará en los términos de Renault, en el campo de Renault, contra rivales que pierden su arma principal en la frontera.
-
 <!-- PLACEHOLDER CAPTURA: screenshot-q2-china-collapse.png — recorte de prensa o gráfico de las entregas alemanas en China del Q2 2026, opcional -->
 
-## Pilar 2: Horse Powertrain — la cola de combustión, segregada, marcada por un tercero y ausente de todos los screeners
+## Pilar 2: el desembarco chino en Europa será más lento y más caro de lo que el mercado descuenta
+
+La segunda pata de la tesis bajista es que lo que BYD le hizo a VW en China está a punto de ocurrir en Europa. De acuerdo — pero vender coches no es vender teléfonos. Exige entrega física, financiación y, sobre todo, postventa: nadie se gasta 30,000€ con una marca que no puede arreglarle una celda de batería a menos de 50 km de casa. La distribución y el servicio son la mitad del negocio que la narrativa de la "invasión china" nunca modela.
+
+Mirad quién ha conseguido de verdad abrir Europa. MG es la excepción que confirma la regla: no llegó como una startup china desconocida — compró una insignia británica centenaria y con ella el acceso a una red que hoy supera los 800 puntos de venta en Europa. Esa red, no el producto, es la razón de que el MG4 se vendiera. BYD ataca el mismo problema con la urgencia del talonario — fichando grandes grupos de distribución europeos, construyendo su planta húngara con otra planeada en Turquía — y Chery empieza ensamblando kits desmontados en la antigua fábrica de Nissan en Barcelona. Todo esto es real. Y todo lleva años, no trimestres.
+
+Y cuando fabriquen aquí, la economía cambia bajo sus pies. El muro arancelario — hasta ~35–40% sobre eléctricos fabricados en China — fuerza producción europea con costes laborales, energéticos y regulatorios europeos, con los materiales de batería procesados aún importados de Asia y la normativa de Ayudas de Estado de la UE prohibiendo las subvenciones que construyeron su ventaja de coste en casa. La ventaja estructural se disuelve en gran parte en la frontera. Lo que cruza intacto es capital y paciencia — que les compra una larga guerra de desgaste en el segmento B, no una blitzkrieg.
+
+Nada de esto significa que la amenaza sea falsa. Las marcas chinas ya superan el 10% de cuota en varios mercados europeos y rondan el 14% del segmento eléctrico europeo, y mi caso base asume presión permanente de precios en el coche pequeño. La cuestión es el *calendario y el terreno*: el mercado está cotizando una derrota en 2026, cuando lo que viene es un desgaste de 2028 en adelante, librado en el campo de Renault, contra una densidad hiperlocal de concesionarios y talleres que costó décadas construir, en los segmentos — coches pequeños, furgonetas, híbridos — donde la única arma del atacante importa menos.
+
+## Pilar 3: Horse Powertrain — la cola de combustión, segregada, marcada por un tercero y ausente de todos los screeners
 
 En mayo de 2024 Renault y Geely fusionaron todas sus operaciones de motores de combustión e híbridos en una JV al 50/50: Horse Powertrain, con sede en Londres — 17 plantas, 5 centros de I+D en 3 continentes, ~19,000 empleados, capacidad para ~5 millones de unidades de propulsión al año, suministrando motores, sistemas híbridos y transmisiones a Renault, Dacia, Volvo, Nissan, Proton y otros. En diciembre de 2024, Saudi Aramco compró un 10% (a partes iguales a cada socio) sobre una valoración de empresa de €7.4bn, dejando a Renault y Geely con un 45% cada uno.
 
@@ -80,23 +97,42 @@ La relación con Geely va más allá de Horse. Geely posee el 34% de Renault Kor
 
 <!-- PLACEHOLDER CAPTURA: screenshot-horse-structure.png — diapositiva de estructura accionarial/activos de Horse Powertrain de materiales de Renault o Horse -->
 
+## Pilar 4: la Alianza dejó de ser un culebrón y empezó a pagar alquiler
+
+La Alianza reestructurada — ambas partes al 15% con plenos derechos de voto, cooperación reducida a proyectos concretos con caso de negocio — ha pasado silenciosamente del drama de gobernanza a un conjunto de contratos que generan caja y opcionalidad.
+
+**Baterías de estado sólido: una call gratis.** En el reparto líder–seguidor de la Alianza, Nissan lidera el desarrollo de baterías de próxima generación para el grupo mientras Renault lidera el software y la arquitectura del vehículo. Nissan está entre los fabricantes tradicionales más avanzados en baterías de estado sólido: en abril de 2026 confirmó celdas prototipo de 23 capas validadas en su línea piloto de Yokohama, con hoja de ruta hacia producción comercial en 2028 — apuntando a aproximadamente el doble de densidad energética que los packs actuales, tiempos de carga reducidos a un tercio y costes en torno a $65/kWh, es decir, paridad real de precio con la combustión. Si eso aterriza, Renault accede a la tecnología sin haber pagado en solitario la factura del I+D. Todos los modelos bajistas asumen que Renault peleará los 2030 con la misma química de ion-litio que los demás, pagando la energía europea; el mercado lleva esta opción a exactamente cero.
+
+**Ampere como fabricante europeo de Nissan.** Nissan ha concluido que la filial eléctrica de Renault diseña coches eléctricos pequeños para Europa mejor y más barato que ella misma: Ampere desarrollará y fabricará en Francia el compacto eléctrico de Nissan, más un modelo del segmento A derivado del nuevo Twingo a partir de 2026. Ingresos por contrato — y, más importante, volumen que llena precisamente las fábricas francesas que Renault no puede cerrar por motivos políticos, diluyendo los costes fijos que el Estado le obliga a cargar. Un lastre estructural convertido en trabajo remunerado.
+
+**Escala donde nadie mira.** Las plataformas compartidas hacen que un Nissan Qashqai y un Renault Austral sean estructuralmente el mismo coche, dando volúmenes de compra conjunta que ninguno conseguiría solo. Renault fabrica furgonetas que se venden con insignia Nissan y se apunta el beneficio industrial. Y en muchos mercados las ventas europeas de Nissan se financian a través de Mobilize — Renault cobra margen financiero sobre los coches de su socio.
+
+## El segundo acto: un plan internacional que las pantallas no cotizan
+
+En 2025 Renault compró a Nissan su parte de la planta compartida de Chennai, tomando el 100% del control de su base industrial india. Alrededor de eso se articula el plan internacional: unos €3bn para lanzar 8 modelos fuera de Europa hasta 2027 sobre una nueva plataforma modular diseñada para mercados emergentes — combustión, híbrido, flex-fuel, 4x4: las tecnologías que esos mercados compran de verdad — con India haciendo además de hub exportador de bajo coste con objetivo de ~€2bn anuales de exportaciones en 2030, y la meta declarada de duplicar el ingreso neto por vehículo vendido fuera de Europa respecto a 2019. El Kardian, fabricado en Brasil y Marruecos, es la primera prueba.
+
+No es un moonshot; es el mismo manual que ya funciona — producto híbrido/combustión desde plantas con ventaja de coste, vendido en mercados que crecen a doble dígito para el grupo, donde la economía del eléctrico chino viaja peor. El riesgo de ejecución es real: India es una pelea a cuchillo arbitrada por las estructuras de coste de Maruti-Suzuki y Hyundai, las victorias operativas en LatAm históricamente se las ha comido la depreciación de las divisas, y BYD también está construyendo en Brasil. Precisamente por eso mi SOTP no da a este plan ningún crédito. Es un segundo acto gratis encima de una valoración que ya funciona sin él.
+
 ## La realidad operativa que el precio ignora
 
 - Ejercicio 2025: ingresos €57.9bn (+3.0%), margen operativo 6.3% (€3.6bn), FCF automovilístico €1.47bn, caja neta al alza hasta €7.37bn. Guía cumplida.
 - Q1 2026: ingresos +7.3% hasta €12.5bn; automoción +6.5%; Mobilize +13%. Furgonetas de vuelta al crecimiento, +15% en Europa.
 - Ejecución de producto: el Renault 5 E-Tech supera las 100k unidades acumuladas, nº1 del segmento B eléctrico en Europa y eléctrico más vendido de Francia en 2025 con aproximadamente el doble que el segundo (Model Y). Ventas eléctricas de la marca +72% en Europa en 2025 (152k unidades, 20% del mix de turismos); otro +40% en el Q1 2026. Los híbridos completos rondan el 38–40% de las ventas de turismos de la marca. Híbridos Dacia +122%. El Twingo E-Tech por debajo de €20k está llegando ahora — la respuesta directa a los eléctricos chinos de segmento A.
-- La contribución de Mobilize al beneficio operativo del grupo alcanzó €1,468M en 2025, desde €1,295M — lo que hace que mi valoración de €4.25bn (5x sobre ~€850M netos) parezca conservadora antes que generosa.
 - Software: Ampere monta Android Automotive con silicio de Qualcomm — infotainment best-in-class sin la hoguera de miles de millones en un sistema operativo propio que quemó a VW.
 - Retribución al accionista: dividendo forward de €2.20, un 8.4% de rentabilidad al precio actual. Te pagan generosamente por esperar.
 
 ![Momentum eléctrico e híbrido](../../assets/theses/RNO/ev_momentum.png)
 
+![Renault 5 E-Tech](../../assets/theses/RNO/renault-5-etech.jpg)
+*Renault 5 E-Tech: nº1 del segmento B eléctrico en Europa y eléctrico más vendido de Francia en 2025 — la transición eléctrica ejecutada con producto, no con promesas.*
+
 ## Riesgos, ponderados con honestidad
 
 - **La compresión de márgenes es real y está guiada.** La guía 2026 es ~5.5% de margen de grupo y ~€1.0bn de FCF automovilístico — a la baja interanual por dilución del mix eléctrico, consolidación de India y presión de precios en Europa. Mi SOTP usa un 5% para Renault turismos precisamente para que esa debilidad guiada ya esté en el número.
-- **Los entrantes chinos en Europa** (cubierto arriba): el caso base debe asumir presión permanente de márgenes en el segmento B. La posición de coste de Dacia y su canal retail son el escudo; no son impenetrables.
+- **Los entrantes chinos en Europa** (Pilar 2): el caso base debe asumir presión permanente de márgenes en el segmento B. La posición de coste de Dacia y su canal retail son el escudo; no son impenetrables. Para 2027–28 las plantas húngara y turca estarán operando.
 - **El Estado francés** posee el 15% del capital y ~30% de los votos (derechos de voto doble). Bloquea cierres de plantas, condiciona la asignación de capital y, según se filtró, vetó una aproximación de BYD en julio de 2026. Es la mejor razón por la que el descuento nunca cierra del todo — por eso aplico un 20% a nivel de conglomerado y por eso mi objetivo es €23–26bn y no €31bn.
-- **Nissan** sigue frágil; las acciones del fideicomiso son una salida lenta a precios deprimidos. Llevo la participación a mercado menos un 25%.
+- **Nissan** sigue frágil; las acciones del fideicomiso son una salida lenta a precios deprimidos. Llevo la participación a mercado menos un 25%. El programa de estado sólido es opcionalidad, no una promesa — si se retrasa más allá de 2028, nada cambia en mi valoración, pero tampoco mejora.
+- **Ejecución internacional.** India castiga a quien no pueda igualar los costes de Maruti-Suzuki, y LatAm trae una volatilidad de divisas que históricamente se ha comido las ganancias operativas al consolidar. Hay ~€3bn comprometidos en un plan al que mi valoración no da crédito — el riesgo es un retorno mediocre sobre ese capital, no una tesis rota.
 - **Ciclicidad del vehículo comercial**: 2025 demostró lo rápido que puede girar el mercado de furgonetas (-16.5% para la marca). La recuperación está en marcha pero el segmento no es inmune.
 
 ## Qué tiene que pasar para perder dinero aquí
@@ -107,7 +143,8 @@ A €7.5bn, el negocio industrial cotiza por debajo de cero. Una pérdida perman
 
 - Ventas continuadas de acciones del fideicomiso de Nissan convirtiendo un activo en papel con descuento en caja.
 - Eventos de monetización de Horse Powertrain: ventas adicionales de participación, contratos con terceros fabricantes, una eventual salida a bolsa.
+- Los hitos del estado sólido de Nissan camino de la producción en 2028 — cada uno repone precio a una opción que el mercado lleva a cero.
 - Retribución al accionista: un 8.4% de rentabilidad por dividendo con la caja neta subiendo; cualquier recompra a estos niveles es masivamente acretiva según la SOTP.
 - Rampa del Twingo E-Tech y la ola de producto 2026–27 defendiendo el segmento B.
+- Cumplimiento del plan internacional: volúmenes del Kardian y exportaciones indias escalando hacia el objetivo de €2bn.
 - Cada trimestre de FCF cumplido encogiendo la narrativa de "trampa de valor".
-

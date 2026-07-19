@@ -1,5 +1,5 @@
 /* ============================================================
-   home.js — live stats strip on the home page
+   home.js — stats strip (composition only, no amounts)
    ============================================================ */
 (function () {
   'use strict';
@@ -27,32 +27,27 @@
     function fill() {
       if (!raw) { return; }
       var openEl = strip.querySelector('[data-stat="open"]');
-      var closedEl = strip.querySelector('[data-stat="closed"]');
-      var growthEl = strip.querySelector('[data-stat="growth"]');
-
+      var marketsEl = strip.querySelector('[data-stat="markets"]');
+      var thesesEl = strip.querySelector('[data-stat="theses"]');
       if (openEl) { openEl.textContent = String(raw.open); }
-      if (closedEl) { closedEl.textContent = String(raw.closed); }
-      if (growthEl) {
-        if (raw.growth == null) {
-          growthEl.textContent = '—';
-        } else {
-          growthEl.textContent = CMG.fmtPct(raw.growth, 0, true);
-          growthEl.classList.toggle('pos', raw.growth > 0);
-          growthEl.classList.toggle('neg', raw.growth < 0);
-        }
-      }
+      if (marketsEl) { marketsEl.textContent = String(raw.markets); }
+      if (thesesEl) { thesesEl.textContent = String(raw.theses); }
       strip.hidden = false;
     }
 
-    CMG.getPortfolio().then(function (r) {
-      var d = r.data;
-      var last = (d.history && d.history.length) ? d.history[d.history.length - 1] : null;
+    Promise.all([CMG.getPortfolio(), CMG.getThesesIndex()]).then(function (res) {
+      var holdings = (res[0].data && res[0].data.holdings) || [];
+      var markets = {};
+      holdings.forEach(function (h) { if (h.exchange) { markets[h.exchange] = true; } });
+      var tickers = {};
+      ((res[1] && res[1].theses) || []).forEach(function (t) {
+        var k = CMG.normalizeTicker(t.ticker);
+        if (k) { tickers[k] = true; }
+      });
       raw = {
-        open: (d.holdings || []).length,
-        closed: (d.closedTrades || []).length,
-        growth: (last && last.totalInvested > 0)
-          ? ((last.totalValue / last.totalInvested) - 1) * 100
-          : null
+        open: holdings.length,
+        markets: Object.keys(markets).length,
+        theses: Object.keys(tickers).length
       };
       fill();
     }).catch(function () { /* strip stays hidden */ });

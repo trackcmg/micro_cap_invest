@@ -33,10 +33,6 @@ email: ""                                       # [EDITAR] opcional; vacío = no
 # endpoint de Apps Script.
 portfolio_data_url: "/portfolio.json"
 
-# Privacidad de la vista pública:
-show_entry_prices: false    # true → muestra precio medio de entrada en Cartera
-show_eur_amounts: false     # true → muestra P&L realizado en EUR en Track record
-
 # ── Build (no suele hacer falta tocar nada de aquí abajo) ────
 markdown: kramdown
 kramdown:

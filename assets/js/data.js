@@ -1,15 +1,12 @@
 /* ============================================================
-   data.js — portfolio JSON, theses index, FX, formatters
-   Consumes the portfolio data schema:
-     { holdings[], closedTrades[], history[], cash, totalInvested }
+   data.js — portfolio JSON, theses index, formatters
+   Portfolio schema (composition only, no amounts):
+     { holdings: [ { ticker, name, currency, exchange } ] }
    ============================================================ */
 (function () {
   'use strict';
 
   var CMG = window.CMG = window.CMG || {};
-
-  /* Static FX fallback (X → EUR), used if the live FX API is down */
-  var STATIC_FX = { EUR: 1, USD: 0.8696, CAD: 0.6369, GBP: 1.1574 };
 
   function fetchJSON(url, timeoutMs) {
     var ctrl = new AbortController();
@@ -56,17 +53,6 @@
     }).catch(function () { return { theses: [] }; });
   };
 
-  /* Live FX (EUR base) with static fallback */
-  CMG.getFX = function () {
-    return cached('cmg-fx', 60, function () {
-      return fetchJSON('https://open.er-api.com/v6/latest/EUR', 8000).then(function (r) {
-        var rates = r.json && r.json.rates;
-        if (!rates || !rates.USD || !rates.CAD || !rates.GBP) { throw new Error('bad fx payload'); }
-        return { EUR: 1, USD: 1 / rates.USD, CAD: 1 / rates.CAD, GBP: 1 / rates.GBP };
-      });
-    }).catch(function () { return STATIC_FX; });
-  };
-
   /* ── ticker → thesis mapping ────────────────────────────── */
   CMG.normalizeTicker = function (s) {
     return String(s == null ? '' : s).toUpperCase().trim().replace(/\*+$/, '').trim();
@@ -109,31 +95,6 @@
   /* ── formatters ─────────────────────────────────────────── */
   CMG.locale = function () { return CMG.lang() === 'es' ? 'es-ES' : 'en-GB'; };
 
-  CMG.fmtPct = function (v, digits, signed) {
-    if (v == null || isNaN(v)) { return '—'; }
-    var d = (digits == null) ? 1 : digits;
-    var s = Math.abs(v).toFixed(d);
-    if (CMG.lang() === 'es') { s = s.replace('.', ','); }
-    var sign = v < 0 ? '−' : (signed ? '+' : '');
-    return sign + s + '%';
-  };
-
-  CMG.fmtEUR = function (v, maxFrac) {
-    if (v == null || isNaN(v)) { return '—'; }
-    return new Intl.NumberFormat(CMG.locale(), {
-      style: 'currency', currency: 'EUR', maximumFractionDigits: maxFrac == null ? 0 : maxFrac
-    }).format(v);
-  };
-
-  CMG.fmtMoney = function (v, ccy) {
-    if (v == null || isNaN(v)) { return '—'; }
-    try {
-      return new Intl.NumberFormat(CMG.locale(), {
-        style: 'currency', currency: ccy || 'EUR', maximumFractionDigits: 2
-      }).format(v);
-    } catch (e) { return v.toFixed(2) + ' ' + ccy; }
-  };
-
   CMG.fmtDate = function (iso) {
     if (!iso) { return '—'; }
     var d = new Date(String(iso).length === 10 ? iso + 'T12:00:00' : iso);
@@ -145,25 +106,5 @@
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
-  };
-
-  /* ── closed trade P&L ──
-     grossPL(native) = shares × (sell − buy)
-     netPL(native)   = grossPL + dividends
-     return%         = netPL / (shares × buy) × 100                */
-  CMG.calcClosed = function (t) {
-    var shares = Number(t.totalShares) || 0;
-    var buy = Number(t.avgBuy) || 0;
-    var sell = Number(t.sellPrice) || 0;
-    var div = Number(t.dividends) || 0;
-    var invested = shares * buy;
-    var plNative = shares * (sell - buy) + div;
-    return {
-      ret: invested > 0 ? (plNative / invested) * 100 : 0,
-      plNative: plNative,
-      invested: invested,
-      partial: /\*\s*$/.test(String(t.ticker || '')),
-      displayTicker: CMG.normalizeTicker(t.ticker)
-    };
   };
 })();

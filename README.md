@@ -100,89 +100,39 @@ añade variantes en el frontmatter: `aliases: ["ACME.TO", "ACM"]`.
 
 ## 3 · Datos de cartera y track record
 
-Las páginas **Cartera** y **Track record** leen un JSON con este esquema:
-`holdings`, `closedTrades`, `history`, `cash`, `totalInvested`. La URL se
-configura en `_config.yml`:
+La web **no publica importes por diseño**: ni valor de cartera, ni capital
+desplegado, ni tamaños de posición, ni P&L. Solo composición, fechas de apertura y
+precios de entrada.
+
+### Cartera (`portfolio.json`)
+
+La página Cartera lee `portfolio.json`, en la raíz de este repo. Una línea por
+posición, sin cantidades:
+
+```json
+{ "ticker": "RNO", "name": "Renault Group", "currency": "EUR", "exchange": "Euronext" }
+```
+
+Añadir o quitar una posición = editar ese fichero y hacer push. El `ticker` enlaza
+automáticamente con su tesis si existe. (La URL del fichero se configura en
+`_config.yml` → `portfolio_data_url`, por si algún día quieres servirlo desde otro
+sitio.)
+
+### Track record (`_data/track_record.yml`)
+
+La página Track record se genera desde `_data/track_record.yml`: una entrada por
+posición con `name`, `ticker`, `date` (fecha de apertura, YYYY-MM-DD) y `price`
+(precio de entrada, texto libre con símbolo de divisa):
 
 ```yaml
-portfolio_data_url: "/portfolio.json"
+- name: "Renault Group"
+  ticker: "RNO"
+  date: 2026-07-18
+  price: "€26.14"
 ```
 
-**Por defecto lee `portfolio.json`, un fichero incluido en este mismo repo** con un
-snapshot sanitizado de tus posiciones (solo datos de inversión). La web no llama a
-ningún servicio externo tuyo ni revela dónde vive tu sistema de seguimiento.
-
-### Actualizar los datos
-
-Reemplaza el contenido de `portfolio.json` con el JSON exportado de tu sistema de
-seguimiento (mismo esquema; las claves personales tipo gym/books/movies sobran —
-elimínalas) y haz push. Nada más.
-
-> `portfolio.json` es público al estar en el repo: incluye nº de acciones y precios
-> medios de entrada (necesarios para calcular los pesos). Si no quieres publicar
-> esos importes, es tu decisión mantener el fichero al mínimo — pero sin `shares` y
-> `entryPrice` la página de Cartera no puede calcular pesos.
-
-### Opción B — endpoint público en tu Apps Script (datos siempre al día)
-
-Tu Web App de GAS exige sesión de Google (correcto para el dashboard privado). Para
-la web pública puedes añadir una acción de **solo lectura y sin datos sensibles** al
-principio de tu `doGet(e)`, antes de la validación de sesión:
-
-```javascript
-// —— Público: datos sanitizados para la web de tesis ——
-if (e.parameter.action === 'publicData') {
-  // Lee el MISMO fichero JSON de Drive que usa tu acción getData.
-  // Sustituye la línea siguiente por tu función real de lectura:
-  var d = JSON.parse(leerJsonDeDrive_());
-  var pub = {
-    updated: new Date().toISOString(),
-    holdings: (d.holdings || []).map(function (h) {
-      return { ticker: h.ticker, name: h.name, shares: h.shares,
-               currency: h.currency, exchange: h.exchange, entryPrice: h.entryPrice };
-    }),
-    closedTrades: d.closedTrades || [],
-    history: d.history || [],
-    cash: d.cash || 0,
-    totalInvested: d.totalInvested || 0
-    // Nota: gym/books/movies/series NO se incluyen.
-  };
-  return ContentService.createTextOutput(JSON.stringify(pub))
-    .setMimeType(ContentService.MimeType.JSON);
-}
-```
-
-Después: **Deploy → Manage deployments → New version** y pon en `_config.yml`:
-
-```yaml
-portfolio_data_url: "https://script.google.com/macros/s/TU_ID/exec?action=publicData"
-```
-
-### Privacidad
-
-Dos interruptores en `_config.yml` (por defecto apagados):
-
-```yaml
-show_entry_prices: false   # precio medio de entrada en la tabla de Cartera
-show_eur_amounts: false    # P&L realizado en EUR en Track record
-```
-
-Con ambos en `false` la web pública muestra composición, pesos (a coste), retornos
-porcentuales y la curva de valor — sin importes por posición.
-
-### Fechas de entrada/salida en Track record
-
-Tu `closedTrades` actual no guarda fechas, así que esas columnas muestran `—`. Si
-añades `entryDate: "2024-03-01"` y `exitDate: "2025-01-15"` (ISO) a cada trade del
-JSON, aparecen automáticamente. Los cierres parciales (`AMR*`) se marcan con `*`.
-
-### Cálculo de retornos
-
-Réplica del `calcTrade` de tu dashboard, en divisa local:
-`retorno % = (acciones × (venta − compra) + dividendos) / (acciones × compra)`.
-Incluye dividendos; excluye comisiones, impuestos y efecto divisa. El FX (para pesos
-de cartera y EUR opcionales) usa `open.er-api.com` con fallback a tipos estáticos —
-la misma cadena que tu dashboard.
+Se ordena solo (la más reciente arriba) y cada fila enlaza con su tesis cuando está
+publicada. Las posiciones sin tesis muestran `—`.
 
 ---
 

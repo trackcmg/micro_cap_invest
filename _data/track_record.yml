@@ -1,0 +1,36 @@
+# ════════════════════════════════════════════════════════════
+#  Track record público — fecha de apertura y precio de entrada
+#  Una entrada por posición. Se ordena solo (más reciente arriba).
+#  price: texto libre con símbolo de divisa.
+#  ticker: enlaza automáticamente con la tesis si existe
+#          (mismo ticker que el frontmatter de la tesis).
+# ════════════════════════════════════════════════════════════
+- name: "Alpha Metallurgical Resources"
+  ticker: "AMR"
+  date: 2026-07-20
+  price: "$144"
+
+- name: "Zoomd Technologies"
+  ticker: "ZOMD.V"
+  date: 2026-07-20
+  price: "C$0.48"
+
+- name: "Renault Group"
+  ticker: "RNO"
+  date: 2026-07-18
+  price: "€26.14"
+
+- name: "Northern Bear"
+  ticker: "NTBR.L"
+  date: 2026-04-01
+  price: "£1.02"
+
+- name: "Spectra Systems"
+  ticker: "SPSY.L"
+  date: 2026-01-30
+  price: "£1.40"
+
+- name: "BQE Water"
+  ticker: "BQE.V"
+  date: 2026-01-15
+  price: "C$67.50"

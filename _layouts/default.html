@@ -5,9 +5,7 @@
 {% unless pdu contains "://" %}{% assign pdu = pdu | relative_url %}{% endunless %}
 <body
   data-theses-index="{{ '/api/theses.json' | relative_url }}"
-  data-portfolio-url="{{ pdu }}"
-  data-show-entry="{{ site.show_entry_prices }}"
-  data-show-eur="{{ site.show_eur_amounts }}">
+  data-portfolio-url="{{ pdu }}">
   <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
   {% include header.html %}
   <main id="main">
