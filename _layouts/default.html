@@ -2,7 +2,8 @@
 <html lang="{{ page.lang | default: 'en' }}"{% if page.collection %} data-fixed-lang="true"{% endif %}>
 {% include head.html %}
 <body
-  data-theses-index="{{ '/api/theses.json' | relative_url }}">
+  data-theses-index="{{ '/api/theses.json' | relative_url }}"
+  data-price-proxy="{{ site.price_proxy_url }}">
   <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
   {% include header.html %}
   <main id="main">

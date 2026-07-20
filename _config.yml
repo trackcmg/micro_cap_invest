@@ -25,6 +25,14 @@ twitter:
   card: summary_large_image
 email: ""                                       # [EDITAR] opcional; vacío = no se muestra
 
+# ── Cotizaciones en vivo (Track record) ──────────────────────
+# Proxy de Google Apps Script que reenvía peticiones a Yahoo Finance
+# (Yahoo bloquea las llamadas directas desde el navegador por CORS).
+# Uso: <proxy>?url=<URL de Yahoo codificada>
+# Déjalo vacío ("") para desactivar los precios en vivo: la tabla
+# usará entonces el campo current_price de _data/track_record.yml.
+price_proxy_url: "https://script.google.com/macros/s/AKfycbyWUy-SpQFdJZnI1TWeL68pu5gdax4Tj6ZHg_pSY-R2HWzaHB4KDZo44se5vMdu_8xV/exec"
+
 # ── Build (no suele hacer falta tocar nada de aquí abajo) ────
 markdown: kramdown
 kramdown:

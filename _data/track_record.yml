@@ -8,13 +8,19 @@
 #    date          fecha de apertura (YYYY-MM-DD). Ordena la tabla.
 #    price         precio de ENTRADA. Texto libre con símbolo de divisa.
 #    sell_price    precio de VENTA. Vacío "" = posición abierta → muestra "—"
-#    current_price precio ACTUAL. Vacío "" → muestra "—"
-#                  El % de variación vs. entrada se calcula solo y se
-#                  colorea (verde si sube, rojo si baja).
+#    yahoo         símbolo en Yahoo Finance. Solo hace falta si NO coincide
+#                  con `ticker` (p. ej. RNO → RNO.PA en Euronext París).
+#    current_price OPCIONAL. Precio manual de reserva: solo se usa si la
+#                  cotización en vivo falla. Normalmente déjalo vacío.
 #
-#  ⚠ IMPORTANTE: usa la MISMA divisa y unidad en price, sell_price y
-#    current_price de una misma fila (no mezclar £1.02 con 102p), o el
-#    porcentaje saldrá mal.
+#  El PRECIO ACTUAL se descarga EN VIVO de Yahoo Finance (a través del
+#  proxy de Apps Script configurado en _config.yml → price_proxy_url) y
+#  el % vs. entrada se calcula y colorea solo. Las cotizaciones de
+#  Londres llegan en peniques (GBp) y se convierten a libras
+#  automáticamente.
+#
+#  ⚠ IMPORTANTE: usa la MISMA divisa y unidad que la cotización real en
+#    `price` (£1.02, no 102p), o el porcentaje saldrá mal.
 # ════════════════════════════════════════════════════════════
 - name: "Alpha Metallurgical Resources"
   ticker: "AMR"
@@ -32,6 +38,7 @@
 
 - name: "Renault Group"
   ticker: "RNO"
+  yahoo: "RNO.PA"
   date: 2026-07-18
   price: "€26.14"
   sell_price: ""
