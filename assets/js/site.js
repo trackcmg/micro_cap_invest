@@ -10,6 +10,7 @@
   var I18N = {
     en: {
       'a11y.skip': 'Skip to content',
+      'nav.language': 'Language',
       'nav.theses': 'Theses',
       'nav.track': 'Track record',
       'nav.method': 'Methodology',
@@ -54,6 +55,7 @@
     },
     es: {
       'a11y.skip': 'Saltar al contenido',
+      'nav.language': 'Idioma',
       'nav.theses': 'Tesis',
       'nav.track': 'Track record',
       'nav.method': 'Metodología',
@@ -162,12 +164,32 @@
     });
   };
 
+  /* URL of this page in another language, if a dedicated version exists
+     (declared as <link rel="alternate" hreflang="…"> — theses only). */
+  function alternateUrl(l) {
+    var alt = document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+    if (!alt) { return null; }
+    var href = alt.getAttribute('href');
+    if (!href) { return null; }
+    var target;
+    try { target = new URL(href, location.href); } catch (e) { return null; }
+    var a = target.pathname.replace(/\/+$/, '');
+    var b = location.pathname.replace(/\/+$/, '');
+    return a === b ? null : target.href;      // null when it is this very page
+  }
+
   CMG.setLang = function (l) {
     if (l !== 'en' && l !== 'es') { return; }
     try { localStorage.setItem('cmg-lang', l); } catch (e) {}
+
+    /* Single-language pages (theses) switch by navigating to their
+       counterpart, so the change is total: chrome *and* content. */
+    var url = alternateUrl(l);
+    if (url) { location.href = url; return; }
+
     var d = document.documentElement;
     d.setAttribute('data-lang', l);
-    if (!d.hasAttribute('data-fixed-lang')) { d.setAttribute('lang', l); }
+    d.setAttribute('lang', l);
     CMG.applyI18n();
     CMG.localizeDates();
     CMG.dedupeThesisCards();
@@ -184,10 +206,50 @@
     document.dispatchEvent(new CustomEvent('cmg:theme'));
   };
 
+  /* ── language dropdown ──────────────────────────────────── */
+  function initLangMenu() {
+    var menu = document.querySelector('[data-lang-menu]');
+    if (!menu) { return null; }
+    var trigger = menu.querySelector('[data-lang-toggle]');
+    var dropdown = menu.querySelector('.lang-dropdown');
+    if (!trigger || !dropdown) { return null; }
+
+    function onDocClick(e) { if (!menu.contains(e.target)) { close(); } }
+    function onKey(e) {
+      if (e.key === 'Escape') { close(); trigger.focus(); }
+    }
+    function open() {
+      dropdown.hidden = false;
+      trigger.setAttribute('aria-expanded', 'true');
+      document.addEventListener('click', onDocClick);
+      document.addEventListener('keydown', onKey);
+      var first = dropdown.querySelector('.lang-option');
+      if (first) { first.focus(); }
+    }
+    function close() {
+      dropdown.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      document.removeEventListener('click', onDocClick);
+      document.removeEventListener('keydown', onKey);
+    }
+
+    trigger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (dropdown.hidden) { open(); } else { close(); }
+    });
+
+    return close;
+  }
+
   /* ── boot ───────────────────────────────────────────────── */
   function init() {
+    var closeLangMenu = initLangMenu();
+
     document.querySelectorAll('[data-set-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () { CMG.setLang(btn.getAttribute('data-set-lang')); });
+      btn.addEventListener('click', function () {
+        if (closeLangMenu) { closeLangMenu(); }
+        CMG.setLang(btn.getAttribute('data-set-lang'));
+      });
     });
 
     var themeBtn = document.querySelector('[data-theme-toggle]');

@@ -18,6 +18,8 @@ Northern Bear generó £86M de ingresos en el año a marzo de 2026, gana un ~30%
 
 ## Qué es Northern Bear — y por qué importa la estructura de holding
 
+<img class="thesis-logo" src="../../assets/theses/NTBR.L/northern-bear-logo.png" alt="Northern Bear plc">
+
 Northern Bear no es una empresa operativa; es una holding con sede en Newcastle que posee **diez filiales autónomas**, cada una con su propio director gerente que dirige el negocio en el día a día, reportando al CEO del grupo John Davies. La matriz aporta estrategia y consolidación financiera y casi nada más — el coste central es de aproximadamente £1.5M frente a £86M de ingresos.
 
 ![Estructura de holding](../../assets/theses/NTBR.L/holding_structure.png)

@@ -171,19 +171,46 @@ html:not([data-lang]) .lang-es { display: none !important; }
 
 .header-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
 
-.lang-switch {
-  display: inline-flex; border: 1px solid var(--hair-2); border-radius: 8px; overflow: hidden;
+/* ── Language menu ──────────────────────────────────────────── */
+.lang-menu { position: relative; }
+
+.lang-trigger {
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 32px; padding: 0 10px;
+  border: 1px solid var(--hair-2); border-radius: 8px;
+  background: transparent; color: var(--ink-2);
+  font-size: 13px; font-weight: 500; cursor: pointer;
+  transition: color 140ms ease, border-color 140ms ease;
 }
-.lang-btn {
-  border: 0; background: transparent; color: var(--ink-3);
-  font-size: 11.5px; font-weight: 600; letter-spacing: 0.04em;
-  padding: 6px 10px; cursor: pointer;
-  transition: background 140ms ease, color 140ms ease;
+.lang-trigger:hover { color: var(--ink); border-color: var(--ink-3); }
+.lang-caret { transition: transform 160ms ease; opacity: 0.7; }
+.lang-trigger[aria-expanded="true"] .lang-caret { transform: rotate(180deg); }
+
+.lang-dropdown {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 60;
+  min-width: 152px; padding: 5px;
+  background: var(--surface);
+  border: 1px solid var(--hair-2); border-radius: 10px;
+  box-shadow: var(--shadow);
+  animation: langIn 130ms ease;
 }
-html[data-lang="en"] .lang-btn[data-set-lang="en"],
-html[data-lang="es"] .lang-btn[data-set-lang="es"] {
-  background: var(--ink); color: var(--paper);
+.lang-dropdown[hidden] { display: none; }
+
+@keyframes langIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+.lang-option {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  width: 100%; padding: 8px 10px;
+  border: 0; border-radius: 7px; background: transparent;
+  color: var(--ink); font-size: 13.5px; font-weight: 500;
+  text-align: left; cursor: pointer;
+  transition: background 120ms ease;
 }
+.lang-option:hover { background: var(--surface-2); }
+
+.lang-check { opacity: 0; flex-shrink: 0; color: var(--accent); }
+html[data-lang="en"] .lang-option[data-set-lang="en"] .lang-check,
+html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; }
 
 .theme-toggle, .nav-toggle {
   display: inline-flex; align-items: center; justify-content: center;
@@ -575,6 +602,17 @@ html[data-lang="es"] .lang-btn[data-set-lang="es"] {
   display: block; margin: 30px auto;
   border: 1px solid var(--hair); border-radius: 10px;
   background: var(--surface);
+}
+
+/* Company logo inside an article: small, and always on a light card so
+   navy-on-transparent logos stay legible in dark mode too. */
+.prose img.thesis-logo {
+  max-width: 220px;
+  margin: 26px auto 34px;
+  padding: 20px 24px;
+  background: #f6f4ef;
+  border: 1px solid var(--hair);
+  border-radius: 12px;
 }
 
 /* An italic-only line right after an image reads as its caption */

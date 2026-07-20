@@ -5,16 +5,35 @@
     (function () {
       var d = document.documentElement;
       try {
+        /* Single-language pages (theses) declare their own language: the UI
+           follows the document so the page is coherent end to end. */
+        var forced = d.getAttribute('data-page-lang');
         var q = new URLSearchParams(location.search).get('lang');
-        var l = (q === 'es' || q === 'en') ? q : (localStorage.getItem('cmg-lang') || 'en');
         if (q === 'es' || q === 'en') { localStorage.setItem('cmg-lang', q); }
+        var pref = (q === 'es' || q === 'en') ? q : (localStorage.getItem('cmg-lang') || 'en');
+        var l = forced || pref;
         d.setAttribute('data-lang', l);
-        if (!d.hasAttribute('data-fixed-lang')) { d.setAttribute('lang', l); }
+        d.setAttribute('lang', l);
         if (localStorage.getItem('cmg-theme') === 'dark') { d.setAttribute('data-theme', 'dark'); }
       } catch (e) { d.setAttribute('data-lang', 'en'); }
     })();
   </script>
   {% seo %}
+
+  {%- comment -%}
+    Language alternates. On a thesis these point at the other language version,
+    which is both correct SEO and what the language switcher navigates to.
+  {%- endcomment -%}
+  {% if page.collection %}
+    {% if page.collection == "theses_en" %}
+      {% assign cp = site.theses_es | where: "ticker", page.ticker | first %}
+    {% else %}
+      {% assign cp = site.theses_en | where: "ticker", page.ticker | first %}
+    {% endif %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | relative_url }}">
+    {% if cp %}<link rel="alternate" hreflang="{{ cp.lang }}" href="{{ cp.url | relative_url }}">{% endif %}
+  {% endif %}
+
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f6f4ef">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
@@ -23,9 +42,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {%- comment -%}
+    ?v=<build time> busts the browser cache on every deploy, so visitors never
+    get a stale stylesheet or script after an update.
+  {%- endcomment -%}
+  {% assign v = site.time | date: '%Y%m%d%H%M%S' %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ v }}">
   {% if page.charts %}<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>{% endif %}
-  <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  <script defer src="{{ '/assets/js/data.js' | relative_url }}"></script>
-  {% if page.page_js %}<script defer src="{{ page.page_js | relative_url }}"></script>{% endif %}
+  <script defer src="{{ '/assets/js/site.js' | relative_url }}?v={{ v }}"></script>
+  <script defer src="{{ '/assets/js/data.js' | relative_url }}?v={{ v }}"></script>
+  {% if page.page_js %}<script defer src="{{ page.page_js | relative_url }}?v={{ v }}"></script>{% endif %}
 </head>

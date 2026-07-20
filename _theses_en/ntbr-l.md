@@ -18,6 +18,8 @@ Northern Bear generated £86m of revenue in the year to March 2026, earns a ~30%
 
 ## What Northern Bear is — and why the holding structure matters
 
+<img class="thesis-logo" src="../../assets/theses/NTBR.L/northern-bear-logo.png" alt="Northern Bear plc">
+
 Northern Bear is not an operating company; it is a holding company headquartered in Newcastle that owns **ten autonomous subsidiaries**, each with its own managing director running the business day-to-day, reporting up to group CEO John Davies. The parent provides strategy and financial consolidation and almost nothing else — central cost is roughly £1.5m against £86m of revenue.
 
 ![Holding structure](../../assets/theses/NTBR.L/holding_structure.png)
