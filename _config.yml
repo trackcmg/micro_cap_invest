@@ -4,10 +4,10 @@
 # ============================================================
 
 # ── Identidad ────────────────────────────────────────────────
-title: "CMG Investing"                    # [EDITAR] Nombre público del sitio / tu marca
-tagline: "Value investing in micro & nano caps"   # [EDITAR] Subtítulo corto (inglés)
-description: "Independent value investor focused on overlooked micro and nano caps across AIM, TSXV and continental Europe. Investment theses and track record."  # [EDITAR] Meta description por defecto
-author_name: "CMG"                        # [EDITAR] Tu nombre o pseudónimo
+title: "MicroEquityResearch"              # Nombre público del sitio / tu marca
+tagline: "Value investing in micro & nano caps"   # Subtítulo corto (inglés)
+description: "Independent value research on overlooked micro and nano caps across AIM, TSXV and continental Europe. Written investment theses and a public track record."  # Meta description por defecto
+author_name: "MicroEquityResearch"        # [EDITAR si prefieres tu nombre] Aparece en el © del footer
 
 # ── URL del sitio ────────────────────────────────────────────
 # Configurado para el repo de proyecto "micro_cap_invest":

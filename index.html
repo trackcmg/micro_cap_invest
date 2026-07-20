@@ -38,8 +38,13 @@ page_js: /assets/js/home.js
     {% assign all = site.theses_en | concat: site.theses_es %}
     {% if all.size > 0 %}
     {% assign latest = all | sort: "date" | reverse %}
+    {% comment %}
+      No Liquid limit here: both language versions must reach the DOM so the
+      client-side dedupe can pick the right one per language. site.js hides one
+      of each pair, home.js then trims the list to 3 visible cards.
+    {% endcomment %}
     <div class="card-grid" data-thesis-list>
-      {% for t in latest limit: 6 %}{% include thesis-card.html thesis=t %}{% endfor %}
+      {% for t in latest %}{% include thesis-card.html thesis=t %}{% endfor %}
     </div>
     {% else %}
     <div class="empty-state" data-i18n="arch.none">No theses published yet. The first write-ups are on their way.</div>
