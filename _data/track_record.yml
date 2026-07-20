@@ -1,36 +1,59 @@
 # ════════════════════════════════════════════════════════════
-#  Track record público — fecha de apertura y precio de entrada
-#  Una entrada por posición. Se ordena solo (más reciente arriba).
-#  price: texto libre con símbolo de divisa.
-#  ticker: enlaza automáticamente con la tesis si existe
-#          (mismo ticker que el frontmatter de la tesis).
+#  Track record público
+#
+#  Campos por posición:
+#    name          nombre de la compañía
+#    ticker        enlaza automáticamente con la tesis si existe
+#                  (mismo ticker que el frontmatter de la tesis)
+#    date          fecha de apertura (YYYY-MM-DD). Ordena la tabla.
+#    price         precio de ENTRADA. Texto libre con símbolo de divisa.
+#    sell_price    precio de VENTA. Vacío "" = posición abierta → muestra "—"
+#    current_price precio ACTUAL. Vacío "" → muestra "—"
+#                  El % de variación vs. entrada se calcula solo y se
+#                  colorea (verde si sube, rojo si baja).
+#
+#  ⚠ IMPORTANTE: usa la MISMA divisa y unidad en price, sell_price y
+#    current_price de una misma fila (no mezclar £1.02 con 102p), o el
+#    porcentaje saldrá mal.
 # ════════════════════════════════════════════════════════════
 - name: "Alpha Metallurgical Resources"
   ticker: "AMR"
   date: 2026-07-20
   price: "$144"
+  sell_price: ""
+  current_price: ""
 
 - name: "Zoomd Technologies"
   ticker: "ZOMD.V"
   date: 2026-07-20
   price: "C$0.48"
+  sell_price: ""
+  current_price: ""
 
 - name: "Renault Group"
   ticker: "RNO"
   date: 2026-07-18
   price: "€26.14"
+  sell_price: ""
+  current_price: ""
 
 - name: "Northern Bear"
   ticker: "NTBR.L"
   date: 2026-04-01
   price: "£1.02"
+  sell_price: ""
+  current_price: ""
 
 - name: "Spectra Systems"
   ticker: "SPSY.L"
   date: 2026-01-30
   price: "£1.40"
+  sell_price: ""
+  current_price: ""
 
 - name: "BQE Water"
   ticker: "BQE.V"
   date: 2026-01-15
   price: "C$67.50"
+  sell_price: ""
+  current_price: ""

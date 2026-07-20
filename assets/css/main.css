@@ -4,7 +4,12 @@
    ============================================================ */
 
 /* ── Tokens ─────────────────────────────────────────────────── */
+/* Declaring color-scheme tells mobile browsers (Chrome's "auto dark theme")
+   that this site manages its own light/dark palette, so they must not
+   auto-invert the page — which was darkening the paper background and
+   leaving the navy logo unreadable on phones. */
 :root {
+  color-scheme: light;
   --paper: #f6f4ef;
   --surface: #fdfcfa;
   --surface-2: #efece4;
@@ -34,6 +39,7 @@
 }
 
 [data-theme="dark"] {
+  color-scheme: dark;
   --paper: #0e1418;
   --surface: #151d23;
   --surface-2: #1b2630;
@@ -121,11 +127,22 @@ html:not([data-lang]) .lang-es { display: none !important; }
   object-fit: contain; display: block;
 }
 
-/* The emblem is navy — on the dark surface it needs a light chip to stay legible */
+/* The emblem is navy — on any dark surface it needs a light chip to stay legible */
 [data-theme="dark"] .brand-mark {
   background: #f6f4ef;
   border-radius: 7px;
   padding: 2px;
+}
+
+/* Safety net: if a browser still forces a dark rendering despite color-scheme,
+   the chip keeps the logo readable. Invisible in normal light mode (chip colour
+   matches the paper background). */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .brand-mark {
+    background: #f6f4ef;
+    border-radius: 7px;
+    padding: 2px;
+  }
 }
 
 .brand-name {
@@ -385,7 +402,7 @@ html[data-lang="es"] .lang-btn[data-set-lang="es"] {
 /* ── Tables ─────────────────────────────────────────────────── */
 .table-scroll { overflow-x: auto; border: 1px solid var(--hair); border-radius: var(--radius); background: var(--surface); }
 
-.data-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 560px; }
+.data-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 720px; }
 
 .data-table thead th {
   font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
@@ -409,6 +426,11 @@ html[data-lang="es"] .lang-btn[data-set-lang="es"] {
 .cell-company { font-weight: 500; }
 .cell-company a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--hair-2); transition: border-color 120ms ease, color 120ms ease; }
 .cell-company a:hover { color: var(--accent); border-color: var(--accent); }
+
+/* % move next to the current price */
+.delta { font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.delta.pos { color: var(--pos); }
+.delta.neg { color: var(--neg); }
 
 .thesis-link {
   font-size: 12.5px; font-weight: 500; color: var(--accent); text-decoration: none; white-space: nowrap;
