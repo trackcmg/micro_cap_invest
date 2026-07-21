@@ -21,8 +21,6 @@ Renault cotiza a ~€7.5bn. Mi suma de partes, construida división a división 
 
 ## Suma de partes
 
-<img class="thesis-logo" src="../../assets/theses/RNO/renault-logo.svg" alt="Renault Group">
-
 Valoro cada negocio sobre EBIT normalizado y múltiplos apropiados a su economía — sin atajos consolidados y sin EBITDA.
 
 | Segmento | Base | Valor (€M) |

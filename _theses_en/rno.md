@@ -21,8 +21,6 @@ Renault trades at ~€7.5bn. My sum-of-the-parts, built division by division wit
 
 ## Sum of the parts
 
-<img class="thesis-logo" src="../../assets/theses/RNO/renault-logo.svg" alt="Renault Group">
-
 I value each business on normalized EBIT and multiples appropriate to its economics — no consolidated shortcuts, no EBITDA.
 
 | Segment | Basis | Value (€m) |
