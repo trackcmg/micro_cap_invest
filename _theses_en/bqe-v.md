@@ -18,6 +18,8 @@ BQE Water designs, builds and then operates water-treatment plants for the metal
 
 ## The business: land, then expand
 
+<img class="thesis-logo" src="../../assets/theses/BQE.V/bqe-logo.png" alt="BQE Water Inc.">
+
 Headquartered in Vancouver, BQE serves metals mining, smelting and refining through two revenue streams that form a flywheel:
 
 **Technical services (the land phase).** Feasibility studies, lab testing, pilot demonstrations, engineering design, plant commissioning. Non-recurring but strategic: it proves BQE's capability on a specific site and embeds its institutional knowledge of that site's chemistry.
@@ -72,6 +74,9 @@ Each site is a multi-year contract that a competitor cannot take without the cus
 - **China JV (JCC-BQE).** Metal recovery from cyanide and base-metal streams; seasonal, and a modest 2025 contributor, but a live operation.
 
 Behind the footprint: management is in active discussions for operations agreements at **four additional Canadian sites** starting in 2026, and a new aquatic toxicology laboratory came online in Q2 2026, adding specialized investigative testing to the land phase of the flywheel.
+
+![Treated water discharging at Eagle Mine](../../assets/theses/BQE.V/eagle-mine-discharge.jpg)
+*Eagle Mine, Yukon: treated water returning to the environment. BQE built the emergency system from scratch and discharged over 1 million cubic metres of clean water — the work that produced roughly half of 2025 technical services revenue.*
 
 ## Potential sites: how the pipeline compounds
 

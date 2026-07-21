@@ -18,6 +18,8 @@ BQE Water diseña, construye y después opera plantas de tratamiento de agua par
 
 ## El negocio: land, y después expand
 
+<img class="thesis-logo" src="../../assets/theses/BQE.V/bqe-logo.png" alt="BQE Water Inc.">
+
 Con sede en Vancouver, BQE sirve a minería, fundición y refino de metales a través de dos líneas de ingresos que forman un volante de inercia:
 
 **Servicios técnicos (la fase land).** Estudios de viabilidad, ensayos de laboratorio, demostraciones piloto, ingeniería de diseño, puesta en marcha de plantas. No recurrente pero estratégico: demuestra la capacidad de BQE en un emplazamiento concreto e incrusta su conocimiento institucional de la química de ese sitio.
@@ -72,6 +74,9 @@ Cada emplazamiento es un contrato plurianual que un competidor no puede arrebata
 - **JV en China (JCC-BQE).** Recuperación de metales de corrientes de cianuro y metales base; estacional, y contribuyente modesta en 2025, pero operación viva.
 
 Detrás del mapa: la dirección está en discusiones activas para acuerdos de operación en **cuatro emplazamientos canadienses adicionales** a partir de 2026, y un nuevo laboratorio de toxicología acuática entró en servicio en el Q2 2026, añadiendo ensayos de investigación especializados a la fase land del volante.
+
+![Descarga de agua tratada en Eagle Mine](../../assets/theses/BQE.V/eagle-mine-discharge.jpg)
+*Eagle Mine, Yukón: agua tratada volviendo al medio. BQE construyó el sistema de emergencia desde cero y vertió más de 1 millón de metros cúbicos de agua limpia — el trabajo que generó aproximadamente la mitad de los ingresos por servicios técnicos de 2025.*
 
 ## Emplazamientos potenciales: cómo compone el pipeline
 
