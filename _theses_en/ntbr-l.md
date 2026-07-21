@@ -8,7 +8,7 @@ market: "AIM"
 sector: "Specialist building services"
 market_cap: "~£15.4m"
 description: "An £86m-revenue building-services holding company earning a 30% return on capital, sitting on net cash, paying a rising dividend and buying back a quarter of itself at 6x earnings — trading around 5x earnings because it is too small for institutions to own, while three post-tragedy laws write its demand into statute through 2027."
-image: /assets/theses/NTBR.L/holding_structure.png
+image: /assets/theses/NTBR.L/group_structure.png
 ---
 *Published July 2026. Market cap ~£15.4m (~112p, ~13.76m shares); net cash £6.2m; EV ~£9m. Reasoning in enterprise value, owner's earnings and returns on capital — no EBITDA.*
 
@@ -22,7 +22,8 @@ Northern Bear generated £86m of revenue in the year to March 2026, earns a ~30%
 
 Northern Bear is not an operating company; it is a holding company headquartered in Newcastle that owns **ten autonomous subsidiaries**, each with its own managing director running the business day-to-day, reporting up to group CEO John Davies. The parent provides strategy and financial consolidation and almost nothing else — central cost is roughly £1.5m against £86m of revenue.
 
-![Holding structure](../../assets/theses/NTBR.L/holding_structure.png)
+![The group structure](../../assets/theses/NTBR.L/group_structure.png)
+*Northern Bear's own group chart. H Peel & Sons still appears on it: the diagram predates the 2025 closure, when its contracts and customers moved across to Arcas.*
 
 The model matters because building services is a business of local relationships, site knowledge and operator judgement. A centralised roll-up destroys exactly what makes each firm valuable; a federation of owner-operators preserves it. Each MD knows their patch, their clients, their crews. The parent's job is capital allocation — decide which subsidiaries deserve investment, which can be bolted onto, and which no longer earn their place. Three divisions:
 
@@ -47,6 +48,9 @@ The wider point is what this says about the parent. A federation of ten subsidia
 Northern Bear sits at the intersection of three regulatory forces creating mandatory, non-discretionary demand for exactly its services. These are not cyclical tailwinds; they are structural, multi-year and bipartisan.
 
 **Building Safety Act 2022 (post-Grenfell).** The 2017 Grenfell Tower fire killed 72 people. The Act that followed made building owners personally accountable for safety, creating enormous demand for passive fire-stopping remediation — Isoler's core work. The company's own investor material is blunt: "Grenfell effect — driving opportunities in all sectors" and "tier-one contractor remedial works — negotiated works rather than tender." Negotiated work means higher margins and less competition: when a tier-one contractor needs fire stopping on a remediation project, they go to firms they know and trust, not to the lowest bid. This is repeat, relationship-driven work with pricing power.
+
+![Isoler crews on a facade remediation](../../assets/theses/NTBR.L/isoler-facade-works.jpg)
+*Isoler operatives on a suspended platform during facade works. This is what the thesis is actually about: crews on buildings, doing remediation that a statute requires someone to do.*
 
 **Awaab's Law.** Awaab Ishak was two years old when he died in 2020 from mould exposure in Rochdale social housing. The law bearing his name came into force on 27 October 2025, mandating strict timeframes for social landlords to investigate and remediate hazards. England has ~4.5 million social homes; landlords must investigate reported hazards within 10 working days and make properties safe within 5 (24 hours for emergencies), with non-compliance exposing them to court action and compensation. Phase 1 (Oct 2025) covers damp, mould and emergency hazards; Phase 2 (2026) adds excess cold/heat, falls, structural collapse, fire and electrical hazards; Phase 3 (2027) covers everything remaining. This is not deferrable capex — it is legally mandated remediation on a housing stock starved of investment for decades, and it lands directly on Northern Bear's roofing and building-services divisions.
 

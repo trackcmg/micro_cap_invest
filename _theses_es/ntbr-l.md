@@ -8,7 +8,7 @@ market: "AIM"
 sector: "Specialist building services"
 market_cap: "~£15.4M"
 description: "Una holding de servicios de construcción con £86M de ingresos que gana un 30% de retorno sobre el capital, con caja neta, pagando un dividendo creciente y habiendo recomprado un cuarto de sí misma a 6x beneficios — cotizando a ~5x beneficios porque es demasiado pequeña para que las instituciones la posean, mientras tres leyes post-tragedia escriben su demanda en el código legal hasta 2027."
-image: /assets/theses/NTBR.L/holding_structure.png
+image: /assets/theses/NTBR.L/group_structure.png
 ---
 *Publicado en julio de 2026. Capitalización ~£15.4M (~112p, ~13.76M acciones); caja neta £6.2M; EV ~£9M. Razonamiento en valor de empresa, owner's earnings y retornos sobre el capital — sin EBITDA.*
 
@@ -22,7 +22,8 @@ Northern Bear generó £86M de ingresos en el año a marzo de 2026, gana un ~30%
 
 Northern Bear no es una empresa operativa; es una holding con sede en Newcastle que posee **diez filiales autónomas**, cada una con su propio director gerente que dirige el negocio en el día a día, reportando al CEO del grupo John Davies. La matriz aporta estrategia y consolidación financiera y casi nada más — el coste central es de aproximadamente £1.5M frente a £86M de ingresos.
 
-![Estructura de holding](../../assets/theses/NTBR.L/holding_structure.png)
+![La estructura del grupo](../../assets/theses/NTBR.L/group_structure.png)
+*El organigrama oficial de Northern Bear. H Peel & Sons todavía aparece en él: el diagrama es anterior al cierre de 2025, cuando sus contratos y clientes pasaron a Arcas.*
 
 El modelo importa porque los servicios de construcción son un negocio de relaciones locales, conocimiento del emplazamiento y criterio del operador. Un roll-up centralizado destruye exactamente lo que hace valiosa a cada firma; una federación de dueños-operadores lo preserva. Cada director gerente conoce su zona, sus clientes, sus cuadrillas. El trabajo de la matriz es la asignación de capital — decidir qué filiales merecen inversión, cuáles se pueden ampliar con adquisiciones, y cuáles ya no se ganan su sitio. Tres divisiones:
 
@@ -47,6 +48,9 @@ Lo relevante es lo que esto dice de la matriz. Una federación de diez filiales 
 Northern Bear se sitúa en la intersección de tres fuerzas regulatorias que crean demanda obligatoria y no discrecional para exactamente sus servicios. No son vientos de cola cíclicos; son estructurales, plurianuales y con apoyo de ambos partidos.
 
 **Building Safety Act 2022 (post-Grenfell).** El incendio de la Grenfell Tower en 2017 mató a 72 personas. La ley que siguió hizo a los propietarios de edificios personalmente responsables de la seguridad, creando una enorme demanda de remediación de sellado pasivo contra incendios — el trabajo central de Isoler. El propio material para inversores de la empresa es directo: "efecto Grenfell — impulsando oportunidades en todos los sectores" y "trabajos de remediación de contratistas tier-one — trabajos negociados en lugar de licitación". El trabajo negociado significa mayores márgenes y menos competencia: cuando un contratista tier-one necesita sellado contra incendios en un proyecto de remediación, va a las firmas que conoce y en las que confía, no a la oferta más baja. Es trabajo repetido, impulsado por relaciones y con poder de fijación de precios.
+
+![Cuadrillas de Isoler en una remediación de fachada](../../assets/theses/NTBR.L/isoler-facade-works.jpg)
+*Operarios de Isoler en una plataforma suspendida durante trabajos de fachada. De esto va realmente la tesis: cuadrillas en edificios, haciendo una remediación que una ley obliga a que alguien haga.*
 
 **Awaab's Law.** Awaab Ishak tenía dos años cuando murió en 2020 por exposición a moho en vivienda social de Rochdale. La ley que lleva su nombre entró en vigor el 27 de octubre de 2025, mandando plazos estrictos para que los caseros sociales investiguen y remedien peligros. Inglaterra tiene ~4.5 millones de viviendas sociales; los caseros deben investigar los peligros reportados en 10 días laborables y hacer las propiedades seguras en 5 (24 horas para emergencias), con el incumplimiento exponiéndolos a acción judicial e indemnizaciones. La Fase 1 (oct 2025) cubre humedad, moho y peligros de emergencia; la Fase 2 (2026) añade frío/calor excesivo, caídas, colapso estructural, incendio y peligros eléctricos; la Fase 3 (2027) cubre todo lo restante. Esto no es capex diferible — es remediación obligada por ley sobre un parque de viviendas hambriento de inversión durante décadas, y aterriza directamente en las divisiones de roofing y building services de Northern Bear.
 
