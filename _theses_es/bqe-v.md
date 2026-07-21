@@ -75,9 +75,6 @@ Cada emplazamiento es un contrato plurianual que un competidor no puede arrebata
 
 Detrás del mapa: la dirección está en discusiones activas para acuerdos de operación en **cuatro emplazamientos canadienses adicionales** a partir de 2026, y un nuevo laboratorio de toxicología acuática entró en servicio en el Q2 2026, añadiendo ensayos de investigación especializados a la fase land del volante.
 
-![Descarga de agua tratada en Eagle Mine](../../assets/theses/BQE.V/eagle-mine-discharge.jpg)
-*Eagle Mine, Yukón: agua tratada volviendo al medio. BQE construyó el sistema de emergencia desde cero y vertió más de 1 millón de metros cúbicos de agua limpia — el trabajo que generó aproximadamente la mitad de los ingresos por servicios técnicos de 2025.*
-
 ## Emplazamientos potenciales: cómo compone el pipeline
 
 Cada victoria crea la credencial para la siguiente. Tres motores impulsan la conversión de nuevos emplazamientos:

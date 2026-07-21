@@ -75,9 +75,6 @@ Each site is a multi-year contract that a competitor cannot take without the cus
 
 Behind the footprint: management is in active discussions for operations agreements at **four additional Canadian sites** starting in 2026, and a new aquatic toxicology laboratory came online in Q2 2026, adding specialized investigative testing to the land phase of the flywheel.
 
-![Treated water discharging at Eagle Mine](../../assets/theses/BQE.V/eagle-mine-discharge.jpg)
-*Eagle Mine, Yukon: treated water returning to the environment. BQE built the emergency system from scratch and discharged over 1 million cubic metres of clean water — the work that produced roughly half of 2025 technical services revenue.*
-
 ## Potential sites: how the pipeline compounds
 
 Each win creates the credential for the next. Three engines drive new-site conversion:

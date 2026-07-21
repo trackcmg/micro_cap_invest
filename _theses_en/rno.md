@@ -13,8 +13,6 @@ image: /assets/theses/RNO/sotp_bridge.png
 
 *Published July 2026. Market cap at publication: ~€7.5bn (~290m shares). All reasoning in market cap and enterprise value terms.*
 
-![Renault's new emblem](../../assets/theses/RNO/renault-emblem.jpg)
-
 ## The one-paragraph version
 
 Renault trades at ~€7.5bn. My sum-of-the-parts, built division by division with deliberately pessimistic assumptions, lands at €23–26bn after a 20% conglomerate discount. The excess net cash, the Nissan stake, the captive finance arm and the 45% stake in the Horse Powertrain JV — the pieces that require no belief in car manufacturing whatsoever — already add up to roughly €11bn on conservative marks. At today's price, the market is not just valuing the industrial business at zero; it is valuing it meaningfully below zero. And this for a group that just printed a 6.3% operating margin, €1.5bn of automotive free cash flow, and grew revenue 7.3% in Q1 2026.
@@ -48,9 +46,6 @@ The €7.4bn of automotive net cash deserves its own caveat, and I have applied 
 The 2025 headline net loss of €10.9bn is the number that scared the screen-scanners. It is almost entirely the non-cash consequence of moving the Nissan stake from equity-method accounting to fair value: a €9.3bn remeasurement charge plus €2.3bn of negative Nissan contribution. Strip Nissan and net income was positive (~€0.7bn). The write-down actually *helps* the thesis — the balance sheet now carries Nissan at market, so that source of negative surprises is spent.
 
 ### What you are actually buying, piece by piece
-
-![Assembly line at a Renault plant](../../assets/theses/RNO/assembly-line.jpg)
-*At €7.5bn the market is not valuing this at zero. It is valuing it below zero.*
 
 **Dacia (€8.9bn) — the anti-crisis bunker.** Dacia is not "a cheap car brand"; it is the most profitable volume machine in European autos. It sells almost exclusively to retail customers — no rental-fleet dumping, no self-registrations, no discount channel — so every car goes out at sticker price, and its plants run above 130% utilization, spreading fixed costs thinner than any competitor. Margins are already double-digit, with an official target above 15% before 2030. The range is hybrid- and ICE-heavy (Duster, Bigster; Dacia hybrid sales +122%) — exactly the technologies where Chinese EV cost advantages bite least. Its one genuine soft spot, the China-built Spring EV, is being fixed at the root: the next generation moves production to Europe, taking the tariff bullet out of the chamber. 7x EV/EBIT for this franchise is not generosity; it is the going rate of a market that refuses to look.
 
@@ -127,9 +122,6 @@ This is not a moonshot; it is the same playbook that already works — hybrid/IC
 - Shareholder returns: forward dividend €2.20, an 8.4% yield at the current price. You are paid handsomely to wait.
 
 ![EV and hybrid momentum](../../assets/theses/RNO/ev_momentum.png)
-
-![Renault 5 E-Tech](../../assets/theses/RNO/renault-5-etech.jpg)
-*Renault 5 E-Tech: #1 B-segment EV in Europe and France's best-selling BEV in 2025 — the electric transition executed with a product, not with promises.*
 
 ## Risks, honestly weighted
 

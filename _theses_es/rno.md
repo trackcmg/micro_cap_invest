@@ -13,8 +13,6 @@ image: /assets/theses/RNO/sotp_bridge.png
 
 *Publicado en julio de 2026. Capitalización en el momento de publicación: ~€7.5bn (~290M de acciones). Todo el razonamiento en términos de capitalización y valor de empresa.*
 
-![El nuevo emblema de Renault](../../assets/theses/RNO/renault-emblem.jpg)
-
 ## La versión en un párrafo
 
 Renault cotiza a ~€7.5bn. Mi suma de partes, construida división a división con supuestos deliberadamente pesimistas, arroja €23–26bn tras un descuento de conglomerado del 20%. La caja neta excedente, la participación en Nissan, la financiera cautiva y el 45% de la JV Horse Powertrain — las piezas que no exigen creer en absoluto en el negocio de fabricar coches — ya suman unos €11bn con marcas conservadoras. Al precio actual, el mercado no solo valora el negocio industrial a cero: lo valora sensiblemente por debajo de cero. Y esto en un grupo que acaba de imprimir un margen operativo del 6.3%, €1.5bn de flujo de caja libre automovilístico y un +7.3% de ingresos en el Q1 2026.
@@ -48,9 +46,6 @@ Los €7.4bn de caja neta automovilística merecen su propia cautela, y la he ap
 La pérdida neta titular de €10.9bn en 2025 es el número que asustó a los escáneres de pantalla. Es casi íntegramente la consecuencia no monetaria de pasar la participación en Nissan de puesta en equivalencia a valor razonable: un cargo de remedición de €9.3bn más €2.3bn de contribución negativa de Nissan. Excluyendo Nissan, el beneficio neto fue positivo (~€0.7bn). El saneamiento de hecho *ayuda* a la tesis: el balance ya lleva Nissan a mercado, así que esa fuente de sorpresas negativas está agotada.
 
 ### Qué estás comprando exactamente, pieza a pieza
-
-![Cadena de montaje en una planta de Renault](../../assets/theses/RNO/assembly-line.jpg)
-*A €7.5bn el mercado no está valorando esto a cero. Lo está valorando por debajo de cero.*
 
 **Dacia (€8.9bn) — el búnker anticrisis.** Dacia no es "una marca de coches baratos"; es la máquina de volumen más rentable del automóvil europeo. Vende casi exclusivamente a cliente particular — sin volcar coches en flotas de alquiler, sin automatriculaciones, sin canal de descuento — de modo que cada coche sale a precio de tarifa, y sus fábricas operan por encima del 130% de utilización, diluyendo los costes fijos más que ningún competidor. Los márgenes ya son de doble dígito, con un objetivo oficial de superar el 15% antes de 2030. La gama es intensiva en híbridos y combustión (Duster, Bigster; ventas de híbridos Dacia +122%) — exactamente las tecnologías donde la ventaja de coste de los eléctricos chinos muerde menos. Su único punto débil genuino, el Spring eléctrico fabricado en China, se está arreglando de raíz: la siguiente generación traslada la producción a Europa, sacando la bala arancelaria de la recámara. Un 7x EV/EBIT para esta franquicia no es generosidad; es la tarifa de un mercado que se niega a mirar.
 
@@ -127,9 +122,6 @@ No es un moonshot; es el mismo manual que ya funciona — producto híbrido/comb
 - Retribución al accionista: dividendo forward de €2.20, un 8.4% de rentabilidad al precio actual. Te pagan generosamente por esperar.
 
 ![Momentum eléctrico e híbrido](../../assets/theses/RNO/ev_momentum.png)
-
-![Renault 5 E-Tech](../../assets/theses/RNO/renault-5-etech.jpg)
-*Renault 5 E-Tech: nº1 del segmento B eléctrico en Europa y eléctrico más vendido de Francia en 2025 — la transición eléctrica ejecutada con producto, no con promesas.*
 
 ## Riesgos, ponderados con honestidad
 
