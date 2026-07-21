@@ -1,109 +1,162 @@
 ---
-title: "Alpha Metallurgical Resources: un solo año de pico ganó dos tercios de la capitalización actual"
+title: "Alpha Metallurgical Resources: un año de pico, dividido entre un tercio menos de acciones"
 ticker: "AMR"
 date: 2026-07-18
 status: open
 market: "NYSE"
 sector: "Metallurgical coal"
-market_cap: "~$2.2bn"
-description: "El mayor productor puro de carbón metalúrgico de EEUU, sin deuda y con un balance fortaleza, cotizando en el suelo del ciclo a ~$2.2bn — tras ganar $1.45bn de beneficio neto y $1.3bn de flujo de caja libre en un solo año de pico (2022). La infrainversión por motivos ESG está estrangulando el suministro nuevo de un producto sin sustituto a escala en la siderurgia primaria, mientras dos inversores value muy distintos acumulan el suelo."
+market_cap: "~$1.8bn"
+description: "El mayor productor puro de carbón metalúrgico de EEUU, prácticamente sin deuda, cotizando en el suelo del ciclo a ~$1.8bn tras ganar $1.45bn de beneficio neto en un solo año de pico (2022) — que sobre el número de acciones actual son ~$114 por acción frente a un precio de ~$144. El capital externo ha abandonado el sector mientras India construye altos hornos, y dos consejeros que poseen ~19% de la compañía están comprando el suelo."
 image: /assets/theses/AMR/peak_vs_marketcap.png
 ---
-*Publicado en julio de 2026. Capitalización ~$2.2bn (~$187/acción, ~13M acciones; muy por debajo del máximo de ~$253 de 52 semanas). Razonamiento en owner's earnings, flujo de caja libre y amplitud a lo largo del ciclo — sin EBITDA.*
+*Publicado en julio de 2026. Precio ~$144; 12.752.824 acciones en circulación (31-mar-2026) para una capitalización de ~$1.83bn. La acción está ~43% por debajo de su máximo de 52 semanas de $253,82. Razonamiento en owner's earnings, flujo de caja libre y amplitud a lo largo del ciclo — sin EBITDA.*
 
 ## La versión en un párrafo
 
-Alpha es el mayor productor puro de carbón metalúrgico de Estados Unidos — vende el carbón de coque que se convierte en el coque que reduce el mineral de hierro a hierro dentro de un alto horno, un proceso que todavía fabrica aproximadamente el 70% del acero mundial y para el que hoy no existe sustituto a escala. Es una materia prima violentamente cíclica, y AMR tiene un enorme apalancamiento operativo a ella: en el pico de 2022 la empresa ganó unos $1.45bn de beneficio neto y $1.3bn de flujo de caja libre — en un año, frente a una capitalización de aproximadamente $2.2bn hoy. No carga deuda bancaria, tiene varios cientos de millones en caja, y ha pasado el ciclo bajista canibalizando sin descanso sus propias acciones, retirando en torno al 31% de la empresa desde 2022. El setup estructural es la parte interesante: años de estrangulamiento de capital por motivos ESG están encogiendo la base de suministro de metcoal precisamente cuando India despliega siderurgia de alto horno, y como una mina nueva tarda casi una década en permisarse y arrancar, el suministro no puede responder rápido a un pico de demanda. No necesitas pronosticar el próximo pico. Necesitas un balance fortaleza que sobreviva el suelo y una dirección que encoja el número de acciones mientras espera — que es exactamente lo que apuestan dos inversores value muy distintos, Mohnish Pabrai y el director de AMR Kenneth Courtis, mientras acumulan a estos niveles.
+Alpha es el mayor productor puro de carbón metalúrgico de Estados Unidos. Vende el carbón de coque que se convierte en el coque que reduce el mineral de hierro dentro de un alto horno — la ruta que todavía fabrica en torno al 70% del acero mundial y para la que no existe sustituto a escala. La materia prima es violentamente cíclica y AMR tiene un fuerte apalancamiento operativo sobre ella: en el pico de 2022 ganó ~$1.45bn de beneficio neto y ~$1.3bn de flujo de caja libre en un solo año, frente a una capitalización de ~$1.83bn hoy. Carga $12,2M de deuda total contra $367M de caja e inversiones a corto, y ha pasado la caída retirando ~32% de sus propias acciones. Esa combinación produce el número sobre el que se construye esta tesis: el beneficio de 2022, dividido entre el número de acciones actual, son **~$114 por acción** — frente a un precio de ~$144. Estás pagando aproximadamente 1,3x los beneficios del último pico, sin asumir que el siguiente sea mejor. El resto del trabajo consiste en establecer que la compañía sobrevive al valle el tiempo suficiente para alcanzarlo, y que el lado de la oferta sigue roto.
 
-## Por qué el carbón metalúrgico no es "solo carbón"
+## Por qué el carbón metalúrgico no es "carbón sin más"
 
-La distinción más importante de esta tesis es la que el mercado difumina: el carbón metalúrgico (de coque) y el carbón térmico son productos distintos con destinos distintos. El carbón térmico se quema para electricidad y está en declive estructural y permanente a medida que las renovables lo desplazan. El carbón metalúrgico es un reactante químico en la siderurgia, y su demanda está acoplada al acero, no a la energía.
+La distinción que el mercado difumina: el carbón metalúrgico (de coque) y el térmico son productos distintos con destinos distintos. El térmico se quema para generar electricidad y está en declive estructural a medida que las renovables lo desplazan. El metalúrgico es un reactivo químico en la siderurgia, y su demanda va ligada al acero, no a la electricidad.
 
-Aquí está la química, porque es el foso. El acero es una aleación de hierro y carbono; el hierro existe en la corteza terrestre solo como óxido de hierro, que debe reducirse químicamente a hierro metálico. En la ruta dominante alto horno / horno básico de oxígeno — aproximadamente el 70% del acero mundial — esa reducción la hace el coque, que es carbono casi puro fabricado horneando carbón metalúrgico a ~1,000-1,100°C en un horno sin oxígeno durante 12-36 horas. El coque hace tres trabajos a la vez dentro del horno: es el combustible, es el agente químico reductor que arranca el oxígeno del mineral, y es la estructura física permeable que sostiene la carga de mineral y deja pasar el gas y el metal fundido. Ningún otro insumo hace los tres a escala industrial. Los hornos de arco eléctrico (EAF) alimentados con chatarra están creciendo e importan al margen, pero no pueden reemplazar la siderurgia primaria: no se puede fabricar el acero incremental del mundo solo con acero reciclado, y el acero primario de alta calidad sigue necesitando la ruta de alto horno. La industria del acero consume aproximadamente tres cuartas partes de todo el carbón metalúrgico, y en un año reciente usó del orden de 750 millones de toneladas. El acero está embebido en todo — edificios, redes, coches, ferrocarriles, turbinas eólicas, defensa — y la propia transición energética es intensiva en acero. La demanda del producto final no se va a ninguna parte.
+La química es el foso. El hierro solo existe en la corteza como óxido de hierro, que debe reducirse químicamente a hierro metálico. En la ruta alto horno / convertidor al oxígeno —en torno al 70% del acero mundial— esa reducción la hace el coque, carbono casi puro que se obtiene horneando carbón metalúrgico a ~1.000-1.100 °C en un horno sin oxígeno. Dentro del alto horno el coque hace tres trabajos a la vez: es el combustible, es el agente reductor que arranca el oxígeno del mineral, y es la estructura permeable que sostiene la carga mientras el gas y el metal fundido la atraviesan. Ninguna otra materia hace las tres cosas a escala industrial. Los hornos de arco eléctrico alimentados con chatarra crecen y cuentan en el margen, pero no se puede fabricar el acero incremental del mundo solo con acero reciclado. La demanda mundial de carbón de coque ronda los 1.114 Mt anuales, y la siderurgia es prácticamente su único destino.
 
-La tesis bajista, que merece enunciarse con claridad: la IEA proyecta que la demanda global de metcoal caiga gradualmente esta década (de ~1,114 Mt hacia ~1,061 Mt para 2030) a medida que sube la cuota de EAF y el acero chino se estanca. Eso es real y no lo descarto. Pero dos cosas lo mitigan. Primero, una senda de demanda suavemente descendente importa mucho menos que la respuesta del suministro cuando la base de suministro se estrangula más rápido de lo que se desvanece la demanda — ver abajo. Segundo, la propia IEA señala a India como la fuerza compensatoria: el despliegue de alto horno de India y su escasa dotación doméstica de carbón de coque la convierten en importador estructural creciente, exactamente la pata de demanda que el consenso sigue subestimando.
+La tesis bajista merece enunciarse sin rodeos: la AIE proyecta que esa demanda decline gradualmente esta década, desde ~1.114 Mt hacia ~1.061 Mt en 2030, a medida que sube la cuota de horno eléctrico y el acero chino se estanca. Es real. Pero una senda de caída del 5% en una década importa mucho menos que lo que ocurra con la oferta en ese mismo periodo — y la propia AIE señala a India como la fuerza compensatoria.
 
-## El estrangulamiento estructural: producto esencial, suministro menguante, retardo de respuesta de una década
+## India, con números
 
-Este es el núcleo de la tesis, y es una historia de suministro más que de demanda.
+"India crece" es el peor tipo de argumento sin cifras, así que aquí están. India importó **83,1 Mt de carbón de coque en 2025, un 9,4% más interanual**, y S&P Global proyecta que eso llegue a ~94 Mt en 2026 y ~149 Mt en 2035. Un estudio independiente de EY-Parthenon y la Indian Steel Association sitúa la demanda importadora un 42% arriba, hasta ~115 Mt en 2030. El motor es político: una capacidad instalada de acero de ~200 Mt tiene como objetivo alcanzar 300 Mt en 2030-31 —reafirmado en febrero de 2026— y ~400 Mt en 2035-36, con en torno al 64-65% de la capacidad en desarrollo por la ruta de alto horno, a ~770 kg de carbón metalúrgico por tonelada de acero.
+
+La parte estructural es que India no puede abastecerse: su carbón de coque doméstico tiene alta ceniza y azufre y lava mal, lo que deja al país dependiendo de las importaciones para en torno al 90% de sus necesidades. La Mission Coking Coal del gobierno apunta a 140 Mt de producción doméstica bruta en 2030, pero el bajo rendimiento tras lavado es precisamente la razón por la que tres previsiones independientes siguen proyectando importaciones al alza. Mientras tanto, la cuota estadounidense en las importaciones indias ha pasado del 8% (2021) al 15% (2025), y se proyecta que las exportaciones metalúrgicas de EEUU caigan hacia 38 Mt en 2035 frente a una demanda importadora india de ~149 Mt.
+
+*Son proyecciones de terceros a una década vista y deben tomarse como dirección, no como precisión.*
+
+## El estrangulamiento estructural: producto esencial, oferta sin capital
 
 ![Tesis estructural](../../assets/theses/AMR/structural_thesis.png)
 
-**El ESG ha estrangulado el suministro de nuevas minas.** Durante la mayor parte de la última década, el capital para nuevos proyectos de carbón metalúrgico se ha retirado por motivos ESG — los bancos no prestan, los fondos no lo mantienen, las aseguradoras no lo cubren. Los directivos del sector son directos sobre la consecuencia. El CEO de Core Natural Resources describió la producción de metcoal como "constreñida por años de infrainversión, degradación continua y agotamiento de la base global de reservas, así como presión regulatoria continuada". Eso no es una escasez cíclica; es una erosión estructural de la base productiva. La misma presión ESG que hace el sector no invertible para muchos es precisamente lo que crea la escasez — el mercado está desfinanciando el suministro futuro de un producto que el mundo todavía necesita.
+**El capital externo ha abandonado el sector.** Durante buena parte de la última década, la financiación para carbón metalúrgico se ha retirado por motivos ESG: los bancos no prestan, los fondos no lo tienen, las aseguradoras no lo cubren. El CEO de Core Natural Resources describió la producción metalúrgica como "limitada por años de infrainversión, degradación y agotamiento continuos de la base global de reservas, además de una presión regulatoria persistente".
 
-**Una mina nueva tarda casi una década.** El carbón metalúrgico no es un grifo. Permisar, desarrollar y arrancar una mina greenfield lleva aproximadamente 5-10 años. Por eso el lado de la oferta no puede responder a un pico de precios: para cuando los precios altos justificarían nueva capacidad, el ciclo a menudo ya ha girado otra vez. El retardo de respuesta es estructural, y es lo que hace que los precios del metcoal se muevan tan violentamente — pequeños cambios en oferta o demanda no tienen adónde ir salvo al precio.
+La matización honesta, porque un lector que siga el sector la va a aportar de todos modos: sí se siguen construyendo minas nuevas. Blue Creek, de Warrior Met, completó su construcción en el Q1 2026 con un coste superior a $1.0bn y eleva su capacidad nominal un 88%; AMR tiene su propia rampa de Kingston Wildcat. La afirmación exacta no es "no hay oferta nueva", sino que **el capital greenfield hoy solo existe dentro de incumbentes que se autofinancian**. No está entrando capital externo nuevo al sector. Eso no debilita la tesis: concentra el beneficio en el puñado de productores con fuerza para financiarse solos, que es el grupo al que pertenece AMR.
 
-**El agotamiento es silencioso pero implacable.** Las minas existentes se agotan; las reservas se degradan; las mejores vetas se minan primero. Sin reinversión sostenida, la base de suministro agregada desciende año tras año incluso antes de cualquier shock de demanda nuevo.
+**Una mina nueva lleva casi una década.** Permisos, desarrollo y rampa de una mina greenfield suman en torno a 5-10 años. Para cuando los precios altos justificarían capacidad nueva, el ciclo ya ha girado con frecuencia. Ese desfase es la razón de que los precios del metalúrgico se muevan con tanta violencia: pequeños desplazamientos de oferta o demanda no tienen a dónde ir salvo al precio.
 
-Junta las tres — un producto esencial y difícil de sustituir; una base de suministro que se estrangula y agota activamente; y un retardo de una década antes de que el suministro pueda responder — y tienes la precondición clásica para picos de precio violentos y repetidos. No estás apostando por un solo catalizador. Estás apostando por un desajuste estructural que se resuelve, una y otra vez, a través del precio de la materia prima.
+**El agotamiento es silencioso y constante.** Las minas existentes se agotan, las reservas se degradan, las mejores vetas se explotan primero. Sin reinversión sostenida, la base agregada de oferta se reduce año tras año antes incluso de cualquier shock de demanda.
 
-## La ciclicidad, y el apalancamiento de AMR a ella
+## El ciclo tiene una tasa base
 
-El metcoal es una de las materias primas más cíclicas que existen. El benchmark High Vol A de la costa este de EEUU de Platts alcanzó aproximadamente $300/tonelada en su máximo de dos años de octubre de 2023 y cayó a unos $172/tonelada para mayo de 2025 — una caída del 43% en dieciocho meses — y esa es una amplitud normal para este mercado, no un caso atípico.
+"Espera al ciclo" solo sirve si el ciclo tiene un historial. El carbón metalúrgico ha dado picos aproximadamente cada cuatro a seis años, y los picos comparten origen: vienen del lado de la oferta, no de un auge de demanda. El benchmark contractual de 2008 cerca de $300/t; el movimiento spot de 2011 por encima de $330/t con las inundaciones de Queensland; la subida de 2016 hacia $300/t por la política china de los 276 días; y el récord de 2021-22, con el carbón de coque premium australiano alcanzando en torno a $600-670/t en marzo de 2022. Cuatro picos en unos quince años, cada uno disparado por una interrupción de oferta en un mercado que no puede añadir oferta rápido.
 
-![Ciclo de precio del carbón](../../assets/theses/AMR/coal_price_cycle.png)
+![Ciclo del precio del carbón](../../assets/theses/AMR/coal_price_cycle.png)
 
-AMR es una forma de alto apalancamiento operativo de poseer ese ciclo. Sus costes son relativamente fijos; su precio realizado no lo es; así que el swing en el precio del carbón cae al flujo de caja con amplificación. Todo el sentido de poseer el productor más grande y mejor capitalizado es que este apalancamiento juega a tu favor en el pico y no te mata en el suelo.
+El benchmark Platts High Vol A de la costa este estadounidense tocó unos $300/t en su máximo de octubre de 2023 y cayó a unos $172/t en mayo de 2025 — un 43% en dieciocho meses, que aquí es una amplitud normal y no una anomalía. La Niña y la temporada de inundaciones de Queensland siguen siendo un generador recurrente de shocks que no exige que la demanda haga nada en absoluto.
 
-## Las economías del año de pico frente al precio de hoy
+*Los cuatro puntos históricos de precio son aproximados y deberían contrastarse con Platts o Argus antes de darlos por buenos.*
 
-Este es el número que replantea la oportunidad. Mira lo que hizo AMR a lo largo de un ciclo completo:
+## La economía del año de pico, por acción
 
-![Beneficio de pico vs capitalización](../../assets/theses/AMR/peak_vs_marketcap.png)
+![Beneficio de pico frente a capitalización](../../assets/theses/AMR/peak_vs_marketcap.png)
 
-En 2022 — el pico — AMR generó ingresos de unos $4.1bn, beneficio neto de aproximadamente $1.45bn, y flujo de caja libre de unos $1.3bn. En un año. La empresa entera hoy vale unos $2.2bn. Un solo año de pico produjo flujo de caja libre igual a bastante más de la mitad de la capitalización actual, y beneficio neto igual a aproximadamente dos tercios de ella.
+En 2022 AMR generó ingresos de ~$4.1bn, beneficio neto de $1.451,7M y flujo de caja libre de ~$1.3bn — en un año. La compañía entera vale hoy ~$1.83bn. Ese único año de pico produjo un beneficio neto equivalente a en torno al 79% de la capitalización actual, y un flujo de caja libre equivalente a alrededor del 71%. Solo en 2022 la compañía devolvió $517M en recompras y $100M en dividendos.
 
-El ciclo luego hizo lo que hacen los ciclos. Los ingresos cayeron a $3.47bn (2023), $2.96bn (2024) y $2.13bn (2025); el flujo de caja libre bajó de $1.3bn (2022) a $575M (2023) a $349M (2024) y se volvió ligeramente negativo en 2025; el año de suelo produjo un EBITDA ajustado de solo $121.9M y una pequeña pérdida neta. El Q4 2025 fue una pérdida neta de ~$17M. Esto es un suelo, y la tesis no pretende lo contrario — depende de ello. La pregunta nunca es qué gana AMR en el fondo; es qué gana a lo largo de un ciclo, y si puede sobrevivir el fondo en forma de capturar el próximo pico. En ambos puntos el balance es la respuesta.
+La versión por acción es el número que conviene retener. Esos $1.451,7M se ganaron sobre aproximadamente 18-19M de acciones medias. Divididos entre las 12.752.824 acciones en circulación hoy, ese mismo beneficio son **~$114 por acción** — frente a un precio de ~$144. Repetir el último pico, sin mejora alguna, implica en torno a 1,3x los beneficios de pico. El FCF de pico sale a ~$102 por acción sobre la misma base.
 
-## El balance fortaleza y la máquina de recompras
+Después el ciclo hizo lo que hacen los ciclos. Los ingresos cayeron a $3.47bn (2023), $2.96bn (2024) y $2.13bn (2025); el flujo de caja libre bajó de $1.3bn a $575M y a $349M, y se volvió ligeramente negativo en 2025; el año de valle produjo un EBITDA ajustado de $121,9M y una pequeña pérdida neta. Esto es un valle y la tesis depende de que lo sea. La pregunta no es cuánto gana AMR en el fondo, sino si llega intacta al siguiente techo.
 
-En la industria del carbón, el deterioro permanente de capital viene de dos cosas: demasiado apalancamiento, y disrupción operativa durante una bajada. AMR ha reducido deliberadamente ambos riesgos. Opera esencialmente sin deuda bancaria (deuda total sobre fondos propios en torno al 0.3%) y tiene varios cientos de millones de dólares en caja — una fortaleza diseñada para seguir rentable en mercados fuertes y viable en débiles. Ese conservadurismo es la razón entera por la que un productor cíclico de materia prima en desgracia puede ser una tenencia racional de largo plazo en lugar de un riesgo de aniquilación: cuando los competidores más débiles y apalancados se ven forzados a recortar y vender en el fondo, AMR simplemente espera.
+## Cuantificar la supervivencia
 
-Y mientras espera, se come a sí misma — de la mejor manera posible.
+"Balance fortaleza" es una afirmación. Aquí está la aritmética en su lugar.
 
-![Caníbal de recompras](../../assets/theses/AMR/buyback_cannibal.png)
+A 31 de marzo de 2026 AMR tenía **$317,2M de caja más $49,6M de inversiones a corto plazo**, con una línea ABL sin disponer que añade $184,3M de disponibilidad para **$476,2M de liquidez total**, frente a **$12,2M de deuda total**. En 2025 —el peor año del ciclo, con 15,3 Mt vendidas y EBITDA ajustado de $121,9M— el flujo de caja libre fue de **-$20,4M**.
 
-Desde marzo de 2022, AMR ha recomprado aproximadamente 6.9 millones de acciones por unos $1.1bn, reduciendo las acciones básicas en circulación en aproximadamente un 31%. Suspendió el dividendo para priorizar las recompras y lo ha hecho durante el ciclo bajista, cuando las acciones están más baratas — el momento correcto para retirar acciones. Queda una autorización de recompra adicional de ~$1.5bn sin usar. Este es el patrón "caníbal" que los inversores value aprecian: una empresa con fuerte generación de caja a lo largo del ciclo convirtiendo esa caja en un número de acciones permanentemente menor, de modo que cada pico futuro se divide entre muchas menos acciones. Si el metcoal simplemente cicla de vuelta hacia un precio normal-a-alto con el número de acciones ya reducido en un tercio, la capacidad de beneficio por acción es dramáticamente mayor de lo que era en el último pico. La recompra no es ingeniería financiera; es el mecanismo que convierte la caja cíclica en valor compuesto por acción.
+A ese ritmo de quema, solo los $367M de caja e inversiones financian en torno a dieciocho años de condiciones de valle sin tocar la línea de crédito. Incluso con una quema sensiblemente peor, de $50M anuales, son más de siete años. La pregunta de si AMR sobrevive hasta el siguiente pico no está reñida.
 
-## El dinero inteligente: dos inversores muy distintos, comprando el mismo suelo
+Dos cosas estabilizan además el corto plazo. La guía para 2026 es de 15,1-16,5 Mt de metalúrgico a un coste de $95-101 por tonelada, con capex de $148-168M más $35-45M a afiliadas — y **el 48% del volumen metalúrgico ya está comprometido y con precio fijado**, con el 100% del subproducto vendido. Las realizaciones del Q1 2026 muestran la estructura: 1,1 Mt de exportación indexada a Australia a $144,95, 1,4 Mt de otra exportación a $110,32, y 0,8 Mt doméstica a $137,27. Ese libro doméstico, con precio fijado anualmente, es un suelo parcial bajo las realizaciones.
 
-Cuando un insider que entiende los activos y un inversor value externo que entiende la demanda acumulan independientemente el mismo nombre en desgracia en el fondo, merece la pena prestar atención.
+## Q1 2026: qué dice realmente el último trimestre
+
+El último trimestre reportado fue una pérdida neta de $11,0M sobre ingresos de $525,0M, con EBITDA ajustado de ~$30M — una mejora respecto al mismo trimestre del año anterior pese a dos lastres identificables: una **parada planificada de un mes en el terminal de exportación DTA** para mejoras de equipos, y mayores costes de diésel y mantenimiento. La pérdida es real; también lo es que ocurrió en la parte más floja del ciclo con el balance apenas moviéndose.
+
+## El terminal que nadie valora
+
+AMR posee el **65% de Dominion Terminal Associates**, el terminal de exportación de Newport News, junto con 19 minas. En un mercado seaborne eso es integración vertical en la única pieza de infraestructura de la que un exportador estadounidense no puede prescindir, y no aparece reflejado de forma visible en ninguna parte de la valoración.
+
+También es un riesgo de concentración, y el Q1 2026 lo demostró: una sola parada planificada en ese terminal fue el principal responsable de un trimestre flojo. El activo y el riesgo son el mismo hecho.
+
+## Quién está comprando
 
 ![Compradores alineados](../../assets/theses/AMR/aligned_buyers.png)
 
-**Mohnish Pabrai** — socio gestor de Pabrai Investment Funds y Dhandho Funds, discípulo declarado de Buffett/Munger y autor de *The Dhandho Investor* — hizo una notable apuesta de concentración en metcoal. En un momento vendió esencialmente todas sus otras posiciones estadounidenses (Micron, Brookfield, Seritage y más) y concentró todo su 13F de EEUU en productores de carbón metalúrgico: AMR, Warrior Met Coal (HCC) y Core/CONSOL. AMR fue en torno al 38% de ese libro estadounidense a finales de 2024. Su enfoque es Dhandho de manual — "cara gano, cruz no pierdo mucho", bajo riesgo a la baja por el balance fortaleza, alto potencial al alza por el ciclo y las recompras. Su coste medio se ha reportado en torno a $183/acción; el patrón de promediar a la baja a través de los nombres de carbón durante el suelo es exactamente lo que hace un inversor value cuando la convicción es alta y el precio cae.
+**Kenneth Courtis** es consejero de AMR, ex vicepresidente de Goldman Sachs (Asia) y ex economista jefe de Deutsche Bank Asia — una carrera dedicada a leer exactamente los ciclos asiáticos del acero y las materias primas de los que depende esta tesis. Posee **985.394 acciones, alrededor del 7,7% de la compañía**, y ha comprado aproximadamente **$24,1M en los últimos seis meses sin una sola venta**: ~$16,0M en septiembre de 2025 en torno a $157, ~$14,7M en diciembre de 2025 entre $172 y $194, $4,4M en marzo de 2026 a ~$180, $2,8M en mayo a ~$189, y $2,0M el 12 de junio entre $200,49 y $201,11. Sí vendió en 2024 cerca de máximos, lo que convierte las compras actuales en una decisión meditada y no en lealtad refleja.
 
-**Kenneth Courtis** es el insider, y su perfil es inusual. Es director de AMR, el antiguo vicepresidente y director gerente de Goldman Sachs (Asia), y antiguo economista jefe y estratega de inversión de Deutsche Bank Asia — una autoridad genuina en economías asiáticas y ciclos de materias primas, y presidente de Starfort Investment Holdings. Esto importa porque la pata de demanda de la tesis del metcoal es una historia asiática (China estancándose, India subiendo), y Courtis ha pasado su carrera leyendo exactamente esas fuerzas. Ha estado comprando AMR agresivamente en el mercado abierto — más de $4.3 millones en meses recientes, incluyendo unos $2.0 millones el 12 de junio de 2026 a aproximadamente $200-201/acción — y haciéndolo directamente contra un consenso "Reduce" de Wall Street. Un insider con su pedigrí macro poniendo capital personal en el suelo, contra el sell-side, es una de las señales de mayor calidad disponibles.
+**Michael Gorzynski**, también consejero, mantiene **1.437.299 acciones de forma indirecta a través de Continental General — en torno al 11,3% de la compañía** — y añadió $7,27M (38.576 acciones) en diciembre de 2025, en la misma ventana. Entre los dos consejeros, aproximadamente el **19% de las acciones en circulación**, ambos ampliando en mínimos de ciclo.
 
-Dos inversores, puntos de observación opuestos — uno lee el balance y la recompra, el otro lee la demanda de acero asiática y el ciclo — convergiendo en la misma conclusión al mismo precio.
+**Mohnish Pabrai** sigue siendo accionista, pero el dato hay que actualizarlo: su 13F del Q1 2026 muestra Warrior Met al 39,9%, Transocean al 32,0% y AMR al 28,1%. AMR es su tercera posición, no la primera, y la cartera ya no está concentrada solo en carbón metalúrgico. Sí añadió ~6,8% a la posición en AMR durante el trimestre —sigue acumulando en el valle—, pero el marco de "metió todo su libro estadounidense en carbón metalúrgico" está desfasado, y conviene señalar que el inversor externo más asociado a esta operación pondera hoy más al competidor.
 
-## Valoración: qué estás pagando
+## Por qué está barata: el descuento ESG también aplica a la acción
 
-A ~$2.2bn, estás comprando el mayor productor puro de metcoal de EEUU, sin deuda, con un balance fortaleza, en el fondo de su ciclo, con en torno a un tercio de las acciones ya retiradas y una autorización adicional grande pendiente. Sobre los números de suelo de 2025 el múltiplo trailing parece poco destacable — eso es lo que hace un suelo. El marco relevante es a lo largo del ciclo: un negocio que puede ganar $1.3bn de flujo de caja libre en un año de pico, ahora valorado en $2.2bn en total, con un número de acciones reducido un 31%, no requiere hipótesis heroicas para estar barato. Requiere solo que el ciclo se comporte como un ciclo. Si el metcoal pasa algún tiempo significativo cerca de precios normales-a-altos en los próximos años, la generación de caja por acción frente al precio de hoy es altamente asimétrica. La parte baja está genuinamente amortiguada — sin deuda, caja real, la postura operativa de menor riesgo — y la parte alta es el apalancamiento operativo completo del mayor productor, dividido entre una base de acciones menguante.
+La tesis usa la huida del capital ESG para explicar por qué falta *oferta*. La misma fuerza opera sobre la *acción*, y explica el descuento del propio título: los fondos con exclusiones de carbón no pueden tenerla al margen de sus números, queda fuera del complejo de índices ESG, y la cobertura se ha reducido a dos analistas en seis meses — con una mediana de precio objetivo de $186 y B. Riley en $207.
 
-Este es un setup Dhandho en el sentido literal que Pabrai le da: el balance limita la parte baja, y el ciclo más las recompras proveen la parte alta.
+Ese es el mecanismo del mispricing, y también identifica quién lo arbitra. La compañía compra lo que los mandatos institucionales prohíben comprar a las instituciones. Una recompra es la respuesta natural a una base accionarial que está estructuralmente restringida, no económicamente desconvencida.
+
+## La recompra, con precisión
+
+![Recompra de acciones](../../assets/theses/AMR/buyback_cannibal.png)
+
+Desde marzo de 2022 AMR ha retirado aproximadamente **7,0 millones de acciones por unos $1.2bn**, recortando las acciones básicas en circulación un ~32%, a un precio medio de **$165,74**. La autorización se elevó por tramos —$600M (mayo 2022), después $1bn, después $1,2bn (febrero 2023), después $1,5bn (noviembre 2023)— y el dividendo se suprimió a finales de 2023 para financiarla, tras haberse iniciado en el Q1 2022 y subido a $0,44 trimestrales en febrero de 2023.
+
+Dos correcciones sobre cómo se cuenta esto habitualmente. Primera: **quedan ~$300M de autorización, no $1,5bn**; la gran mayoría ya se ha gastado. Segunda: el ritmo se ha frenado con el flujo de caja — el Q1 2026 retiró solo 87.000 acciones por $17,5M, porque una recompra autofinanciada necesariamente se estrangula cuando el flujo de caja libre es negativo. La recompra es un mecanismo que funciona a lo largo del ciclo, no una palanca que la dirección pueda accionar a voluntad en el valle.
+
+Y una valoración honesta a precio de mercado: con un coste medio de $165,74 frente a una acción a ~$144, las recompras hechas hasta hoy están en pérdidas. Eso no invalida la aritmética por acción —las acciones han desaparecido de forma permanente y el próximo pico se divide entre menos— pero quien sostenga que la dirección clavó el suelo no está mirando los números.
+
+## AMR frente a Warrior Met
+
+Cualquiera que investigue AMR mirará Warrior Met (HCC) en la misma sesión, y Pabrai posee hoy más de la segunda. La comparación pertenece a la tesis, no a los márgenes.
+
+| | AMR | Warrior Met (HCC) |
+|---|---|---|
+| Capitalización | ~$1.83bn | ~$4.2bn |
+| Guía de volumen 2026 | 15,1-16,5 Mt | 12,5-13,5 Mt |
+| Capitalización por tonelada anual | ~$116 | ~$320 |
+| Guía de coste caja | $95-101/ton | $95-110/st |
+| Deuda total | $12,2M | Moderada, tras Blue Creek |
+| Liquidez | $476,2M | $363,7M |
+| Crecimiento | Rampa de Kingston Wildcat | Blue Creek: +88% capacidad, terminada |
+
+HCC es el mejor operador en coste y ya ha ejecutado un gran proyecto de crecimiento — Blue Creek arrancó el longwall ocho meses antes de plan, y el Q1 2026 dio ventas récord de 3,0 Mt y $143,4M de EBITDA ajustado. Cotiza en consecuencia.
+
+La elección es explícita: AMR es el tonelaje más barato y el balance más limpio; HCC es el coste más bajo y el crecimiento ya entregado, a casi el triple de precio por tonelada anual. Esta tesis toma el tonelaje barato porque la variable que más importa en un cíclico es el precio de la materia prima, no los últimos diez dólares de coste unitario — y porque a 1,3x los beneficios de pico por acción, el precio de entrada trabaja más que el margen operativo. Es una elección defendible, no evidente, y la ponderación de Pabrai es un argumento legítimo del otro lado.
+
+*Nota: la capitalización de HCC está derivada de su número de acciones diluidas del Q1 2026 y del precio actual; conviene verificar la base de volúmenes (short tons frente a toneladas métricas) antes de apoyarse en la comparación por tonelada. Warrior además se apuntó un crédito de $8,4M de la Sección 45X en el Q1 — merece confirmarse si AMR está reclamando el mismo crédito sobre producción equivalente.*
+
+## Valoración
+
+A ~$1.83bn estás comprando el mayor productor puro de carbón metalúrgico de EEUU, prácticamente sin deuda, en el fondo de su ciclo, con un tercio de las acciones ya retiradas. Sobre los números de valle de 2025 el múltiplo trailing no significa nada — eso es lo que hace un valle.
+
+El marco que importa es el del ciclo completo. Un beneficio de año de pico de ~$114 por acción frente a un precio de ~$144 significa que el último pico, sin mejorarlo, ya está casi pagado. La parte baja está acotada por $367M de caja frente a $12,2M de deuda y una quema que financia bastante más de una década de valle. La parte alta solo exige que una materia prima con la oferta estrangulada y una cadencia de picos de cuatro a seis años haga lo que ha hecho cuatro veces en quince años.
 
 ## Riesgos, ponderados con honestidad
 
-- **Es un cíclico de materia prima, y esto es el suelo.** 2025 fue una pequeña pérdida; el Q4 2025 perdió ~$17M; el FCF es negativo ahora mismo. Si el ciclo bajista es largo y profundo, la espera es dolorosa y la recompra se ralentiza. Estás suscribiendo el suelo, no escapándolo.
-- **La senda descendente de demanda es real.** La IEA sí proyecta un declive gradual de la demanda de metcoal hasta 2030 por la subida de la cuota EAF y la madurez del acero chino. La compensación de India y la dinámica de estrangulamiento del suministro son el contra, pero la tesis bajista no es frívola.
-- **China es el swing.** La debilidad del acero y el inmobiliario chinos ha empujado el precio a la baja antes y puede hacerlo otra vez; el comportamiento importador chino domina el mercado marítimo.
-- **Riesgo de ejecución y operativo.** La minería subterránea de los Apalaches conlleva riesgo de seguridad, geológico y de disrupción (el sector ha visto incendios de mina y paradas); el arranque greenfield de Kingston Wildcat de AMR tiene que ejecutar.
-- **Sin dividendo hoy.** El retorno de capital es enteramente vía recompra; los inversores de renta no reciben nada ahora, y la recompra es discrecional.
-- **Wall Street discrepa.** El consenso del sell-side es "Reduce" con objetivos de precio apenas por encima del precio actual. Eso es o la oportunidad o la advertencia, dependiendo de tu horizonte temporal — pero significa que no hay viento de cola de analistas a corto plazo.
-- **Política y comercio.** Los aranceles, la política comercial y el acceso a mercados de exportación afectan materialmente a un productor que envía una parte grande de su producción al extranjero.
+- **Esto es el valle, y es incómodo.** 2025 fue una pérdida pequeña, el Q1 2026 perdió $11,0M, el flujo de caja libre es negativo y la recompra se ha reducido a un goteo. Estás suscribiendo la espera, no evitándola.
+- **La senda de caída de la demanda es real.** La AIE sí proyecta un declive gradual de la demanda de metalúrgico hasta 2030 por mayor cuota de horno eléctrico y madurez del acero chino. India es el contrapeso, pero la tesis bajista no es frívola.
+- **China es el swing.** La debilidad del acero y el inmobiliario chinos ha hundido el precio antes y puede volver a hacerlo; el comportamiento chino domina el mercado seaborne.
+- **Concentración en el terminal.** El 65% de DTA es un activo y un punto único de fallo — el Q1 2026 mostró exactamente cómo una parada planificada allí se traslada a los resultados.
+- **Riesgo operativo.** La minería subterránea en los Apalaches conlleva riesgo de seguridad, geológico y de interrupción, y la rampa de Kingston Wildcat tiene que ejecutarse.
+- **Sin dividendo.** La retribución es enteramente recompra discrecional, y la recompra se frena precisamente cuando las acciones están más baratas.
+- **El sell-side discrepa.** Dos analistas, mediana de objetivo en $186. La cobertura escasa corta en ambos sentidos: es la razón de que exista el descuento y la razón de que pueda persistir.
+- **Política comercial.** Los aranceles y el acceso a mercados de exportación afectan de forma material a un productor que envía buena parte de su producción al exterior.
 
 ## Qué tiene que pasar para perder dinero de forma permanente
 
-Una pérdida permanente desde ~$2.2bn exige que el metcoal se quede cerca de precios de suelo durante años, que el balance fortaleza se erosione a pesar de no tener deuda y tener caja real, que la recompra deje de componer el valor por acción, y que el crecimiento estructural de importaciones de India más el estrangulamiento de suministro por ESG fracasen ambos en tensar el mercado a lo largo de un ciclo entero — todo en un negocio que vende un insumo que la siderurgia primaria no puede reemplazar actualmente. Los ciclos no se han comportado históricamente así, y un productor sin deuda retirando un tercio de sus acciones en el fondo está diseñado precisamente para sobrevivir la espera. La asimetría — parte baja limitada por el balance, parte alta cíclica-más-recompra — es la tesis, no un pronóstico de precio.
+Una pérdida permanente desde ~$1.83bn exige que el carbón metalúrgico se quede cerca de precios de valle durante buena parte de una década —lo suficiente para agotar a una compañía que quema $20M al año contra $367M de activos líquidos— mientras el crecimiento importador de India se estanca, no ocurre ninguna interrupción de oferta en un mercado que ha producido cuatro en quince años, y el tercio de acciones retirado no sirve de nada cuando el ciclo acabe girando. La asimetría, y no un pronóstico de precio, es la tesis.
 
 ## Catalizadores
 
-- **Cualquier recuperación del precio del metcoal** cayendo a través del apalancamiento operativo de AMR al flujo de caja y reavivando la recompra a un número de acciones menor.
-- **El crecimiento de importaciones de India** volviéndose innegable en los datos del comercio marítimo, validando la pata de demanda que el consenso infrapondera.
-- **La atrición continua del suministro** — cierres de minas, recortes de capex y agotamiento a través de una industria hambrienta de capital tensando el mercado desde el lado de la oferta.
-- **La propia recompra**: ~$1.5bn de autorización frente a una empresa de ~$2.2bn significa que las recompras continuadas son enormemente acretivas por acción a estos precios.
-- **La acumulación de insiders y gurús** continuando en señalar convicción contra un sell-side bajista.
-- **Kingston Wildcat** arrancando para añadir volumen de metcoal low-vol a una eventual recuperación de precio.
+- **Cualquier recuperación del precio del metalúrgico** trasladándose por el apalancamiento operativo de AMR al flujo de caja, y reactivando la recompra sobre un número de acciones menor.
+- **Una interrupción de oferta** del tipo que ha iniciado todos los picos anteriores: clima en Queensland, política china, o una parada importante.
+- **Los datos de importación india** siguiendo por encima de la senda de la AIE, validando la pata de demanda que el consenso infrapondera.
+- **Retribución al accionista**: con ~$300M de autorización restante, una recuperación del flujo de caja hace las recompras a estos precios muy acretivas por acción.
+- **Acumulación continuada de insiders** por parte de consejeros que ya poseen ~19% de la compañía.
+- **Kingston Wildcat** escalando volumen de bajo volátil hacia una eventual recuperación de precios.
 
 *Una nota sobre el sizing: el carbón metalúrgico es una materia prima volátil y cíclica y esto es una situación de suelo de ciclo. El tamaño de la posición debe reflejarlo.*
