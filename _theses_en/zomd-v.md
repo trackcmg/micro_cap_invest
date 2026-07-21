@@ -44,13 +44,19 @@ This is a process interruption, not a lost account or a competitive defeat. Bohe
 
 The bear counterpoint deserves stating, because it is fair: in Q1.26 management also cut roughly 20% of the workforce to "align cost structure with current activity levels," and a company confident in an imminent recovery does not usually cut a fifth of its staff. The generous reading is cost discipline that protects cash while the transition plays out; the skeptical reading is that management expects the reduced run-rate to persist. The thesis does not require resolving that debate — only that the cash floor holds while the upside levers have time to work.
 
-## The business is still cash-generative
+## Zoomd has been here before
 
-Zoomd's cost structure is largely variable, so when clients pull back, the costs pull back with them.
+The most useful thing in Zoomd's history is that this is the second collapse, not the first — and the audited accounts show what happened last time.
 
-![Still cash-generative](../../assets/theses/ZOMD.V/cash_generative.png)
+![The 2023 precedent](../../assets/theses/ZOMD.V/cash_generative.png)
 
-The bulk of cost of revenue is publisher and traffic-source spend, which contracts directly with revenue; the fixed base is primarily Israeli salaries and a single Herzliya office. That is why 2025 — the year the shock hit — still delivered record operating cash flow of C$25.2m on revenue of C$86.5m, and why Q1.26, with revenue down 62%, still produced positive operating cash flow of C$0.8m. A business that stays cash-positive at halved revenue does not burn through a C$31.7m cash pile. The 20% headcount cut reinforces that floor.
+In 2023 revenue fell 39%, from C$74.8m to C$45.3m. Management cut about 40% of the workforce, wrote off C$4.0m of capitalised software as unrecoverable, and the shares fell from C$0.175 to C$0.065. It looked terminal. Two things then happened: the business stayed cash-positive throughout — net cash from operations was C$0.6m in 2023, thin but never negative — and revenue recovered 70% the following year, to C$76.9m.
+
+That is the base rate the market appears to be ignoring. The pattern now rhymes with 2023: a revenue collapse, a workforce cut, a share price down roughly two-thirds. Last time the cost structure absorbed it and the business came back.
+
+The mechanism is the same in both episodes. The bulk of cost of revenue is publisher and traffic-source spend, which contracts directly with revenue; the fixed base is primarily Israeli salaries and a single Herzliya office. That is why Q1.26, with revenue down 62%, still produced positive operating cash flow of C$0.8m — the same thin-but-positive shape as 2023. A business that stays cash-positive at halved revenue does not burn through a C$31.7m cash pile.
+
+One thing the chart does not let me claim, though, and it matters: **heavy cash generation is a 2024-25 development, not a long record.** Operating cash flow was C$2.6m in 2022 and C$0.6m in 2023 before stepping up to C$10.9m and then C$25.2m. Two strong years is evidence that the model can generate real cash at scale; it is not proof that C$25.2m is a level to underwrite. The floor argument rests on the business staying cash-positive, which it has done in every year on record. The upside argument rests on it getting back toward the 2024-25 range, which is a judgement, not a given.
 
 ## The asymmetry
 
@@ -80,13 +86,17 @@ At a C$48.9m market cap with C$31.7m of net cash, the market prices the entire o
 
 One caveat on the cash-flow figure: 2025 operating cash flow of C$25.2m ran well ahead of the prior year and benefited from working-capital timing in a business whose receivables swing with campaign volume. Treat it as evidence of a genuinely cash-generative model, not as a run-rate.
 
+There is also an unrecognised asset here. At December 2023 Zoomd carried roughly US$20m of tax losses forward, with no deferred tax asset recognised against them because taxable income was not then in sight. Those losses shelter a meaningful slice of the profits earned since. It is not a reason to own the stock, but it does mean reported profits convert to cash better than a 23% Israeli corporate rate would suggest.
+
 ## Risks, honestly weighted
 
 - **Customer concentration is the core risk, and it just bit.** Two customers were 57% of FY25 revenue; the top ten were ~86%. The second paused customer may not fully return.
 - **The 20% headcount cut cuts both ways.** It protects cash, but it may signal that management expects the reduced run-rate to persist. Take it as evidence, not reassurance.
 - **The recovery is genuinely uncertain.** Management's own language is "early signs of realignment" for one customer and "visibility remains limited" for the other. Some analysts who covered the name took losses and exited after Q1.26.
 - **The new-client cohort has to keep scaling.** 30% of Q1.26 revenue from 2025 cohorts is encouraging, but it has to grow enough to offset the lost concentration, and new clients can churn.
+- **The cash-generation record is short.** Two strong years (2024-25) follow two thin ones (C$2.6m and C$0.6m of operating cash flow in 2022 and 2023). The business has always been cash-positive, but the scale of recent cash generation has not yet been tested across a full cycle.
 - **MarTech is competitive and platform-dependent.** Privacy changes cut both ways — they create the complexity Zoomd sells into, but they also constrain the whole ecosystem's measurability.
+- **Operations are concentrated in Israel.** Staff, the single office and the functional cost base sit in Herzliya, which brings both geopolitical exposure — the company flagged the October 2023 attack and the subsequent conflict in its accounts — and currency mismatch, since costs are largely in shekels against USD revenue.
 - **M&A execution risk.** Buying sub-scale firms for their client books is sensible in theory, but retaining acquired customers is not guaranteed, and capital spent on a bad deal is gone.
 - **Microcap illiquidity and FX.** Thin TSXV trading, a CAD quote on a USD-reporting business, and a small float mean this is a long-term ownership stake, not a trade. The CAD figures here move with the exchange rate as well as with the business.
 

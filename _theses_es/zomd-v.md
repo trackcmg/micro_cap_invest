@@ -44,13 +44,19 @@ Es una interrupción de proceso, no una cuenta perdida ni una derrota competitiv
 
 El contraargumento bajista merece mencionarse, porque es justo: en el Q1.26 la dirección también recortó cerca del 20% de la plantilla para "alinear la estructura de costes con los niveles de actividad actuales", y una empresa convencida de una recuperación inminente no suele recortar una quinta parte de su personal. La lectura generosa es disciplina de costes que protege la caja mientras la transición se resuelve; la escéptica, que la dirección espera que el nivel reducido de actividad persista. La tesis no exige resolver ese debate — solo que el suelo de caja aguante mientras las palancas de subida tienen tiempo de funcionar.
 
-## El negocio sigue generando caja
+## Zoomd ya ha estado aquí antes
 
-La estructura de costes de Zoomd es mayoritariamente variable, así que cuando los clientes recortan, los costes recortan con ellos.
+Lo más útil de la historia de Zoomd es que este es el segundo desplome, no el primero — y las cuentas auditadas muestran qué pasó la vez anterior.
 
-![Sigue generando caja](../../assets/theses/ZOMD.V/cash_generative.png)
+![El precedente de 2023](../../assets/theses/ZOMD.V/cash_generative.png)
 
-El grueso del coste de ventas es gasto en publishers y fuentes de tráfico, que se contrae directamente con los ingresos; la base fija son principalmente salarios en Israel y una única oficina en Herzliya. Por eso 2025 — el año en que golpeó el shock — aun así entregó un flujo de caja operativo récord de C$25.2M sobre ingresos de C$86.5M, y por eso el Q1.26, con los ingresos un 62% abajo, todavía produjo un flujo de caja operativo positivo de C$0.8M. Un negocio que sigue en caja positiva con los ingresos a la mitad no quema una posición de C$31.7M. El recorte del 20% de plantilla refuerza ese suelo.
+En 2023 los ingresos cayeron un 39%, de C$74.8M a C$45.3M. La dirección recortó cerca del 40% de la plantilla, dio de baja C$4.0M de software capitalizado por irrecuperable, y la acción pasó de C$0.175 a C$0.065. Parecía terminal. Entonces ocurrieron dos cosas: el negocio se mantuvo en caja positiva todo el tiempo — el flujo de caja neto de operaciones fue de C$0.6M en 2023, exiguo pero nunca negativo — y los ingresos se recuperaron un 70% al año siguiente, hasta C$76.9M.
+
+Esa es la base de partida que el mercado parece estar ignorando. El patrón actual rima con 2023: desplome de ingresos, recorte de plantilla, cotización un dos tercios abajo. La vez anterior la estructura de costes lo absorbió y el negocio volvió.
+
+El mecanismo es el mismo en ambos episodios. El grueso del coste de ventas es gasto en publishers y fuentes de tráfico, que se contrae directamente con los ingresos; la base fija son principalmente salarios en Israel y una única oficina en Herzliya. Por eso el Q1.26, con los ingresos un 62% abajo, todavía produjo un flujo de caja operativo positivo de C$0.8M — la misma forma exigua pero positiva que en 2023. Un negocio que sigue en caja positiva con los ingresos a la mitad no quema una posición de C$31.7M.
+
+Hay algo, eso sí, que el gráfico no me permite afirmar, y es importante: **la generación fuerte de caja es un fenómeno de 2024-25, no un historial largo.** El flujo de caja operativo fue de C$2.6M en 2022 y C$0.6M en 2023 antes de saltar a C$10.9M y luego a C$25.2M. Dos años fuertes son prueba de que el modelo puede generar caja real a escala; no son prueba de que C$25.2M sea un nivel sobre el que construir la tesis. El argumento del suelo se apoya en que el negocio siga en caja positiva, cosa que ha hecho todos los años de los que hay registro. El argumento de la subida se apoya en que vuelva hacia el rango de 2024-25, y eso es un juicio, no un hecho.
 
 ## La asimetría
 
@@ -80,13 +86,17 @@ Con una capitalización de C$48.9M y C$31.7M de caja neta, el mercado valora tod
 
 Una matización sobre la cifra de flujo de caja: los C$25.2M de 2025 superaron ampliamente los del año anterior y se beneficiaron del calendario del circulante en un negocio cuyas cuentas a cobrar oscilan con el volumen de campañas. Tómalo como prueba de un modelo genuinamente generador de caja, no como nivel recurrente.
 
+Hay además un activo no reconocido. A diciembre de 2023 Zoomd arrastraba unos US$20M de pérdidas fiscales sin activo por impuesto diferido reconocido, porque entonces no se preveía base imponible. Esas pérdidas protegen una parte relevante de los beneficios obtenidos desde entonces. No es una razón para comprar la acción, pero sí implica que el beneficio contable se convierte en caja mejor de lo que sugeriría el 23% de tipo corporativo israelí.
+
 ## Riesgos, ponderados con honestidad
 
 - **La concentración de clientes es el riesgo central, y acaba de morder.** Dos clientes fueron el 57% de los ingresos de FY25; los diez primeros, cerca del 86%. El segundo cliente pausado puede no volver del todo.
 - **El recorte del 20% de plantilla corta por los dos lados.** Protege la caja, pero puede señalar que la dirección espera que el nivel reducido persista. Tómalo como evidencia, no como tranquilidad.
 - **La recuperación es genuinamente incierta.** El propio lenguaje de la dirección es "señales tempranas de realineamiento" para un cliente y "visibilidad limitada" para el otro. Algunos analistas que cubrían el valor asumieron pérdidas y salieron tras el Q1.26.
 - **La cohorte de nuevos clientes tiene que seguir escalando.** Que el 30% de los ingresos del Q1.26 venga de cohortes de 2025 es alentador, pero tiene que crecer lo bastante para compensar la concentración perdida, y los clientes nuevos también pueden irse.
+- **El historial de generación de caja es corto.** Dos años fuertes (2024-25) siguen a dos flojos (C$2.6M y C$0.6M de flujo de caja operativo en 2022 y 2023). El negocio siempre ha estado en caja positiva, pero la magnitud de la generación reciente aún no se ha puesto a prueba a lo largo de un ciclo completo.
 - **El MarTech es competitivo y dependiente de plataformas.** Los cambios de privacidad cortan por los dos lados: crean la complejidad que Zoomd vende, pero también limitan la medibilidad de todo el ecosistema.
+- **Las operaciones están concentradas en Israel.** La plantilla, la única oficina y la base de costes están en Herzliya, lo que trae exposición geopolítica — la compañía señaló en sus cuentas el ataque de octubre de 2023 y el conflicto posterior — y desajuste de divisa, ya que los costes son en buena parte en shekels frente a ingresos en dólares.
 - **Riesgo de ejecución en M&A.** Comprar firmas subescala por su cartera de clientes es sensato en teoría, pero retener a esos clientes no está garantizado, y el capital gastado en una mala operación es capital perdido.
 - **Iliquidez de microcap y divisa.** La negociación fina en el TSXV, una cotización en CAD sobre un negocio que reporta en USD y un free float pequeño hacen de esto una participación a largo plazo, no un trade. Las cifras en CAD de esta tesis se mueven con el tipo de cambio además de con el negocio.
 
