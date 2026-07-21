@@ -18,6 +18,8 @@ Zoomd runs a performance-marketing platform that acquires paying users for large
 
 ## What Zoomd does
 
+<img class="thesis-logo" src="../../assets/theses/ZOMD.V/zoomd-logo.svg" alt="Zoomd Technologies">
+
 Zoomd, founded in 2012 and listed on the TSXV since 2019, is a marketing-technology (MarTech) company that sits one layer above the fragmented digital-advertising ecosystem. Its platform connects to 600-700 media sources — the major ad networks plus the long tail of the open internet — and dynamically allocates advertiser budgets to the best-performing channels, presenting a single control centre for user acquisition. The model is performance-based: Zoomd is paid when actual paying users are acquired, not for impressions. It serves large enterprise clients across 12+ verticals — ecommerce, iGaming, FinTech, entertainment — in 50+ countries, and a cornerstone client has historically been Shein, active across many markets.
 
 The structural pitch, in the founder's own framing, is that in-house media-buying teams have become less effective as Apple and Google privacy changes, shifting search feeds and rising complexity make the ecosystem harder to navigate. Because Zoomd connects to hundreds of sources and isn't dependent on any single platform, it can keep delivering results where a single-channel in-house team struggles. It builds population-segment profiles rather than storing personal data (a knowledge-graph approach), which is a genuine advantage in a GDPR world.

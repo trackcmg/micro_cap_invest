@@ -23,6 +23,8 @@ Spectra vende la química invisible dentro de los billetes y los sensores de alt
 
 ## Qué es realmente el negocio
 
+<img class="thesis-logo" src="../../assets/theses/SPSY.L/spsy-logo.png" alt="Spectra Systems Corporation">
+
 Fundada en 1996 desde la Universidad de Brown por el Dr. Nabil Lawandy — todavía CEO treinta años después — Spectra opera cuatro líneas conectadas:
 
 **Autenticación de billetes (la joya de la corona).** El modelo de maquinilla y cuchillas en su forma institucional más pura. Spectra vende a los bancos centrales los sensores de alta velocidad instalados en sus máquinas clasificadoras (la maquinilla) y después suministra, año tras año, los materiales encubiertos y tintas que deben incorporarse a cada billete nuevo para que esos sensores lo validen (las cuchillas). Una vez que un banco central diseña la química de Spectra dentro de su moneda, sustituirla implica rediseñar la seguridad de todo el dinero nacional y reequipar cada centro de efectivo del país. Los contratos se firman a 5-10 años; en la práctica las relaciones duran mucho más. Veinte bancos centrales, dos del G7, funcionan hoy sobre esto.

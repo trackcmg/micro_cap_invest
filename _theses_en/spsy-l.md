@@ -23,6 +23,8 @@ Spectra sells the invisible chemistry inside banknotes and the high-speed sensor
 
 ## What the business actually is
 
+<img class="thesis-logo" src="../../assets/theses/SPSY.L/spsy-logo.png" alt="Spectra Systems Corporation">
+
 Founded in 1996 out of Brown University by Dr. Nabil Lawandy — still CEO thirty years later — Spectra operates four connected lines:
 
 **Banknote authentication (the crown jewel).** The razor-and-blades model in its purest institutional form. Spectra sells central banks the high-speed sensors installed in their note-sorting machines (the razor), and then supplies, year after year, the covert taggant materials and inks that must be embedded in every new banknote for those sensors to validate it (the blades). Once a central bank designs Spectra's chemistry into its currency, replacing it means redesigning the security of the national money supply and re-equipping every cash centre in the country. Contracts are signed for 5-10 years; in practice the relationships run far longer. Twenty central banks, two of them G7, run on this today.
