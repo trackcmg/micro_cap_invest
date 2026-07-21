@@ -64,7 +64,7 @@ In 2022 AMR generated revenue of ~$4.1bn, net income of $1,451.7m and free cash 
 
 The per-share version is the number worth remembering. That $1,451.7m was earned on roughly 18-19m average shares. Divided by the 12,752,824 shares outstanding today, the same profit is **~$114 per share** — against a ~$144 share price. Repeating the last peak, with no improvement of any kind, implies about 1.3x peak earnings. The peak FCF works out at ~$102 per share on the same basis.
 
-The cycle then did what cycles do. Revenue fell to $3.47bn (2023), $2.96bn (2024) and $2.13bn (2025); free cash flow stepped down from $1.3bn to $575m to $349m and turned slightly negative in 2025; the trough year produced adjusted EBITDA of $121.9m and a small net loss. This is a trough and the thesis depends on it being one. The question is not what AMR earns at the bottom, but whether it reaches the next top intact.
+The cycle then did what cycles do. Revenue fell to $3.47bn (2023), $2.96bn (2024) and $2.13bn (2025); free cash flow stepped down from $1.3bn to $575m to $349m and turned slightly negative in 2025; the trough year produced adjusted EBITDA of $121.9m and a net loss of $61.7m. This is a trough and the thesis depends on it being one. The question is not what AMR earns at the bottom, but whether it reaches the next top intact.
 
 ## Quantifying survival
 

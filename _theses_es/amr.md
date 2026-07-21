@@ -64,7 +64,7 @@ En 2022 AMR generó ingresos de ~$4.1bn, beneficio neto de $1.451,7M y flujo de 
 
 La versión por acción es el número que conviene retener. Esos $1.451,7M se ganaron sobre aproximadamente 18-19M de acciones medias. Divididos entre las 12.752.824 acciones en circulación hoy, ese mismo beneficio son **~$114 por acción** — frente a un precio de ~$144. Repetir el último pico, sin mejora alguna, implica en torno a 1,3x los beneficios de pico. El FCF de pico sale a ~$102 por acción sobre la misma base.
 
-Después el ciclo hizo lo que hacen los ciclos. Los ingresos cayeron a $3.47bn (2023), $2.96bn (2024) y $2.13bn (2025); el flujo de caja libre bajó de $1.3bn a $575M y a $349M, y se volvió ligeramente negativo en 2025; el año de valle produjo un EBITDA ajustado de $121,9M y una pequeña pérdida neta. Esto es un valle y la tesis depende de que lo sea. La pregunta no es cuánto gana AMR en el fondo, sino si llega intacta al siguiente techo.
+Después el ciclo hizo lo que hacen los ciclos. Los ingresos cayeron a $3.47bn (2023), $2.96bn (2024) y $2.13bn (2025); el flujo de caja libre bajó de $1.3bn a $575M y a $349M, y se volvió ligeramente negativo en 2025; el año de valle produjo un EBITDA ajustado de $121,9M y una pérdida neta de $61,7M. Esto es un valle y la tesis depende de que lo sea. La pregunta no es cuánto gana AMR en el fondo, sino si llega intacta al siguiente techo.
 
 ## Cuantificar la supervivencia
 
