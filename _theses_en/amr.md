@@ -17,6 +17,9 @@ Alpha is the largest pure-play metallurgical coal producer in the United States.
 
 ## Why metallurgical coal is not "just coal"
 
+<img class="thesis-logo" src="../../assets/theses/AMR/amr-logo.png" alt="Alpha Metallurgical Resources">
+
+
 The distinction the market blurs: metallurgical (coking) coal and thermal coal are different products with different destinies. Thermal coal is burned for electricity and is in structural decline as renewables displace it. Metallurgical coal is a chemical reactant in steelmaking, and its demand is coupled to steel, not to power.
 
 The chemistry is the moat. Iron exists in the crust only as iron oxide, which must be chemically reduced to metallic iron. In the blast-furnace / basic-oxygen route — roughly 70% of world steel — that reduction is done by coke, which is near-pure carbon made by baking metallurgical coal at ~1,000-1,100°C in an oxygen-free oven. Inside the furnace the coke does three jobs at once: fuel, chemical reducing agent, and the permeable structure that holds up the ore burden while gas and molten metal pass through it. Nothing else does all three at industrial scale. Scrap-fed electric arc furnaces are growing and matter at the margin, but you cannot build the world's incremental steel out of recycled steel alone. Global coking coal demand runs at roughly 1,114 Mt a year, and steelmaking is where essentially all of it goes.

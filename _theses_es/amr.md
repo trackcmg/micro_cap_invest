@@ -17,6 +17,9 @@ Alpha es el mayor productor puro de carbón metalúrgico de Estados Unidos. Vend
 
 ## Por qué el carbón metalúrgico no es "carbón sin más"
 
+<img class="thesis-logo" src="../../assets/theses/AMR/amr-logo.png" alt="Alpha Metallurgical Resources">
+
+
 La distinción que el mercado difumina: el carbón metalúrgico (de coque) y el térmico son productos distintos con destinos distintos. El térmico se quema para generar electricidad y está en declive estructural a medida que las renovables lo desplazan. El metalúrgico es un reactivo químico en la siderurgia, y su demanda va ligada al acero, no a la electricidad.
 
 La química es el foso. El hierro solo existe en la corteza como óxido de hierro, que debe reducirse químicamente a hierro metálico. En la ruta alto horno / convertidor al oxígeno —en torno al 70% del acero mundial— esa reducción la hace el coque, carbono casi puro que se obtiene horneando carbón metalúrgico a ~1.000-1.100 °C en un horno sin oxígeno. Dentro del alto horno el coque hace tres trabajos a la vez: es el combustible, es el agente reductor que arranca el oxígeno del mineral, y es la estructura permeable que sostiene la carga mientras el gas y el metal fundido la atraviesan. Ninguna otra materia hace las tres cosas a escala industrial. Los hornos de arco eléctrico alimentados con chatarra crecen y cuentan en el margen, pero no se puede fabricar el acero incremental del mundo solo con acero reciclado. La demanda mundial de carbón de coque ronda los 1.114 Mt anuales, y la siderurgia es prácticamente su único destino.
