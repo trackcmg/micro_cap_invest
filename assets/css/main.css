@@ -652,6 +652,17 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
 .disclaimer-box p:last-child { margin-bottom: 0; }
 .disclaimer-box strong { color: var(--ink-2); }
 
+/* ── Position disclosure ────────────────────────────────────── */
+.disclosure-box {
+  margin-top: 56px; padding: 16px 20px;
+  background: var(--surface-2); border: 1px solid var(--hair);
+  border-left: 3px solid var(--ink-2); border-radius: var(--radius);
+  font-size: 13px; line-height: 1.65; color: var(--ink-2);
+}
+.disclosure-box p { margin: 0; }
+.disclosure-box strong { color: var(--ink-1, var(--ink-2)); }
+.disclosure-box + .disclaimer-box { margin-top: 16px; }
+
 /* ── Methodology blocks ─────────────────────────────────────── */
 .method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 8px; }
 @media (max-width: 760px) { .method-grid { grid-template-columns: 1fr; } }
