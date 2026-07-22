@@ -14,8 +14,8 @@ author_name: "MicroEquityResearch"        # [EDITAR si prefieres tu nombre] Apar
 #   https://trackcmg.github.io/micro_cap_invest/
 # Si algún día usas dominio propio: url pasa a ser el dominio y
 # baseurl se queda vacío ("").
-url: "https://trackcmg.github.io"
-baseurl: "/micro_cap_invest"
+url: "https://microequityresearch.com"
+baseurl: ""
 
 # ── Redes y contacto ─────────────────────────────────────────
 substack_url: "https://YOURNAME.substack.com"   # [EDITAR]
