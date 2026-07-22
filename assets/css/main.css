@@ -156,9 +156,9 @@ html:not([data-lang]) .lang-es { display: none !important; }
 @media (max-width: 420px) {
   .brand-name { font-size: 14px; }
   .brand-mark { width: 26px; height: 26px; }
-  .header-inner { gap: 6px; padding: 0 16px; }
+  .header-inner { gap: 6px; padding: 0 8px; }
   .header-actions { gap: 6px; }
-  .lang-trigger { padding: 0 6px; gap: 4px; font-size: 12px; height: 28px; }
+  .lang-trigger { padding: 0 4px; gap: 4px; font-size: 11px; height: 28px; }
   .theme-toggle, .nav-toggle { width: 28px; height: 28px; }
 }
 
