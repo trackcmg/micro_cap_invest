@@ -5,7 +5,7 @@ aliases: ["NTBR"]
 date: 2026-07-18
 status: open
 market: "AIM"
-sector: "Specialist building services"
+sector: "Building services"
 market_cap: "~£15.4M"
 description: "Una holding de servicios de construcción con £86M de ingresos que gana un 30% de retorno sobre el capital, con caja neta, pagando un dividendo creciente y habiendo recomprado un cuarto de sí misma a 6x beneficios — cotizando a ~5x beneficios porque es demasiado pequeña para que las instituciones la posean, mientras tres leyes post-tragedia escriben su demanda en el código legal hasta 2027."
 image: /assets/theses/NTBR.L/group_structure.png
