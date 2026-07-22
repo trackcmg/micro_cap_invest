@@ -56,4 +56,9 @@ permalink: /about/
   </p>
 
 
+  <div class="hero-cta" style="margin-top:34px">
+    {% if site.substack_url and site.substack_url != "" %}<a class="btn btn-primary" href="{{ site.substack_url }}" target="_blank" rel="noopener">Substack</a>{% endif %}
+    {% if site.twitter_url and site.twitter_url != "" %}<a class="btn btn-primary" href="{{ site.twitter_url }}" target="_blank" rel="noopener">X</a>{% endif %}
+  </div>
+
 </div>
