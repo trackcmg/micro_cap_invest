@@ -18,10 +18,10 @@ url: "https://microequityresearch.com"
 baseurl: ""
 
 # ── Redes y contacto ─────────────────────────────────────────
-substack_url: "https://YOURNAME.substack.com"   # [EDITAR]
-twitter_url: "https://x.com/YOURHANDLE"         # [EDITAR]
+substack_url: "https://microequityresearch.substack.com"   # [EDITAR]
+twitter_url: "https://x.com/MicroEqResearch"         # [EDITAR]
 twitter:
-  username: YOURHANDLE                          # [EDITAR] sin @ (para Twitter cards)
+  username: MicroEqResearch                          # [EDITAR] sin @ (para Twitter cards)
   card: summary_large_image
 email: ""                                       # [EDITAR] opcional; vacío = no se muestra
 
