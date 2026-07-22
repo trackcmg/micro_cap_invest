@@ -23,8 +23,8 @@ page_js: /assets/js/home.js
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="{{ '/theses/' | relative_url }}" data-i18n="home.cta">Read the theses</a>
-      {% if site.substack_url and site.substack_url != "" %}<a class="btn btn-ghost" href="{{ site.substack_url }}" target="_blank" rel="noopener">Substack</a>{% endif %}
-      {% if site.twitter_url and site.twitter_url != "" %}<a class="btn btn-ghost" href="{{ site.twitter_url }}" target="_blank" rel="noopener">X / Twitter</a>{% endif %}
+      {% if site.substack_url and site.substack_url != "" %}<a class="btn btn-primary" style="background-color: #FF6719; border-color: #FF6719; color: #ffffff;" href="{{ site.substack_url }}" target="_blank" rel="noopener">Substack</a>{% endif %}
+      {% if site.twitter_url and site.twitter_url != "" %}<a class="btn btn-primary" style="background-color: #000000; border-color: #000000; color: #ffffff;" href="{{ site.twitter_url }}" target="_blank" rel="noopener">X</a>{% endif %}
     </div>
   </div>
 </section>
