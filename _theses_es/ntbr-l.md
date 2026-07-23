@@ -9,7 +9,7 @@ sector: "Building services"
 market_cap: "~£15.4M"
 description: "Una holding de servicios de construcción con £86M de ingresos que gana un 30% de retorno sobre el capital, con caja neta, pagando un dividendo creciente y habiendo recomprado un cuarto de sí misma a 6x beneficios — cotizando a ~5x beneficios porque es demasiado pequeña para que las instituciones la posean, mientras tres leyes post-tragedia escriben su demanda en el código legal hasta 2027."
 image: /assets/theses/NTBR.L/group_structure.png
-substack: "https://microequityresearch.substack.com"
+substack: "https://microequityresearch.substack.com/p/northern-bear-an-86m-revenue-business"
 ---
 *Publicado en julio de 2026. Capitalización ~£15.4M (~112p, ~13.76M acciones); caja neta £6.2M; EV ~£9M. Razonamiento en valor de empresa, owner's earnings y retornos sobre el capital — sin EBITDA.*
 
