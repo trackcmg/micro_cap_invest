@@ -8,6 +8,7 @@ sector: "Metallurgical coal"
 market_cap: "~$1.8bn"
 description: "El mayor productor puro de carbón metalúrgico de EEUU, prácticamente sin deuda, cotizando en el suelo del ciclo a ~$1.8bn tras ganar $1.45bn de beneficio neto en un solo año de pico (2022) — que sobre el número de acciones actual son ~$114 por acción frente a un precio de ~$144. El capital externo ha abandonado el sector mientras India construye altos hornos, y dos consejeros que poseen ~19% de la compañía están comprando el suelo."
 image: /assets/theses/AMR/peak_vs_marketcap.png
+substack: "https://microequityresearch.substack.com"
 ---
 *Publicado en julio de 2026. Precio ~$144; 12.752.824 acciones en circulación (31-mar-2026) para una capitalización de ~$1.83bn. La acción está ~43% por debajo de su máximo de 52 semanas de $253,82. Razonamiento en owner's earnings, flujo de caja libre y amplitud a lo largo del ciclo — sin EBITDA.*
 

@@ -9,6 +9,7 @@ sector: "MarTech"
 market_cap: "~C$49m"
 description: "A profitable, cash-generative MarTech platform trading at ~C$49m with C$31.7m of net cash and no debt — about 65% of the market cap. Two top customers paused spend after swapping measurement software, halving revenue and leaving the market pricing near-permanent impairment. The variable-cost model stays cash-positive, concentration is falling, and several independent recovery levers cost nothing at today's price."
 image: /assets/theses/ZOMD.V/cash_vs_marketcap.png
+substack: "https://microequityresearch.substack.com/p/zoomd-technologies-a-cash-floor-and"
 ---
 *Published July 2026. Market cap ~C$49m (~100.8m shares near C$0.485). Net cash C$31.7m, no bank debt. Zoomd reports in USD; every figure here is converted to CAD at 1.4105 so the operating numbers and the quote are comparable.*
 

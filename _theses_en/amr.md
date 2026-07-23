@@ -8,6 +8,7 @@ sector: "Metallurgical coal"
 market_cap: "~$1.8bn"
 description: "The largest US pure-play metallurgical coal producer, effectively debt-free, trading at a trough-of-cycle ~$1.8bn after earning $1.45bn of net income in a single peak year (2022) — which on today's share count is ~$114 per share against a ~$144 price. External capital has left the sector while India's blast-furnace build-out grows, and two directors owning ~19% of the company are buying the bottom."
 image: /assets/theses/AMR/peak_vs_marketcap.png
+substack: "https://microequityresearch.substack.com"
 ---
 *Published July 2026. Share price ~$144; 12,752,824 shares outstanding (31-Mar-2026) for a market cap of ~$1.83bn. The stock is ~43% below its 52-week high of $253.82. Reasoning in owner's earnings, free cash flow and through-the-cycle amplitude — no EBITDA.*
 

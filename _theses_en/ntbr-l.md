@@ -9,6 +9,7 @@ sector: "Building services"
 market_cap: "~£15.4m"
 description: "An £86m-revenue building-services holding company earning a 30% return on capital, sitting on net cash, paying a rising dividend and buying back a quarter of itself at 6x earnings — trading around 5x earnings because it is too small for institutions to own, while three post-tragedy laws write its demand into statute through 2027."
 image: /assets/theses/NTBR.L/group_structure.png
+substack: "https://microequityresearch.substack.com"
 ---
 *Published July 2026. Market cap ~£15.4m (~112p, ~13.76m shares); net cash £6.2m; EV ~£9m. Reasoning in enterprise value, owner's earnings and returns on capital — no EBITDA.*
 

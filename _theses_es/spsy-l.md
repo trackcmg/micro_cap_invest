@@ -9,6 +9,7 @@ sector: "Security technology"
 market_cap: "~£90M"
 description: "Un oligopolista anti-falsificación con 30 años de historia que sirve a 20 bancos centrales, dirigido por su fundador con el 8% de las acciones, cotizando a ~10x beneficios normalizados con un dividendo del 5.5% — y con tres opcionalidades a escala gubernamental (billetes de polímero, timbres fiscales, pasaportes) valoradas a cero."
 image: /assets/theses/SPSY.L/valuation_floor.png
+substack: "https://microequityresearch.substack.com"
 ---
 *Publicado en julio de 2026. Capitalización ~£90M (~$120M; ~48.3M acciones a 186p, rango de 52 semanas 112-230p). Reporta en USD, cotiza en GBp. Todo el razonamiento en capitalización y valor de empresa.*
 

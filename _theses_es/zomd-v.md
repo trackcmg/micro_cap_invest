@@ -9,6 +9,7 @@ sector: "MarTech"
 market_cap: "~C$49M"
 description: "Una plataforma MarTech rentable y generadora de caja cotizando a ~C$49M con C$31.7M de caja neta y sin deuda — en torno al 65% de la capitalización. Dos clientes top pausaron su gasto tras cambiar su software de medición, reduciendo los ingresos a la mitad y dejando al mercado valorando un deterioro casi permanente. El modelo de coste variable sigue generando caja, la concentración cae, y varias palancas de recuperación independientes no cuestan nada al precio actual."
 image: /assets/theses/ZOMD.V/cash_vs_marketcap.png
+substack: "https://microequityresearch.substack.com/p/zoomd-technologies-a-cash-floor-and"
 ---
 *Publicado en julio de 2026. Capitalización ~C$49M (~100.8M acciones cerca de C$0.485). Caja neta C$31.7M, sin deuda bancaria. Zoomd reporta en USD; todas las cifras aquí están convertidas a CAD a 1.4105 para que las magnitudes operativas y la cotización sean comparables.*
 

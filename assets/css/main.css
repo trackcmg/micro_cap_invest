@@ -730,3 +730,10 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* Substack Button */
+.btn-substack { background: #ff6719; color: #fff; border: 1px solid #ff6719; }
+.btn-substack:hover { background: #e55c16; border-color: #e55c16; color: #fff; }
+[data-theme="dark"] .btn-substack { background: #ff6719; color: #fff; border-color: #ff6719; }
+[data-theme="dark"] .btn-substack:hover { background: #e55c16; border-color: #e55c16; }
+

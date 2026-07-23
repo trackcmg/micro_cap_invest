@@ -9,6 +9,7 @@ sector: "Automotive"
 market_cap: "€7.5bn"
 description: "El mercado valora solo los activos financieros de Renault por encima de toda su capitalización. Dacia, las furgonetas y la marca Renault vienen de regalo — mientras el dolor real del sector (China, aranceles de EEUU) ocurre en mercados donde Renault tiene exposición cero."
 image: /assets/theses/RNO/sotp_bridge.png
+substack: "https://microequityresearch.substack.com"
 ---
 
 *Publicado en julio de 2026. Capitalización en el momento de publicación: ~€7.5bn (~290M de acciones). Todo el razonamiento en términos de capitalización y valor de empresa.*

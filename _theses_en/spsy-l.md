@@ -9,6 +9,7 @@ sector: "Security technology"
 market_cap: "~£90m"
 description: "A 30-year-old anti-counterfeiting oligopolist serving 20 central banks, run by its founder with 8% of the stock, trading at ~10x normalized earnings with a 5.5% dividend — and with three government-scale optionalities (polymer banknotes, tax stamps, passports) priced at zero."
 image: /assets/theses/SPSY.L/valuation_floor.png
+substack: "https://microequityresearch.substack.com"
 ---
 *Published July 2026. Market cap ~£90m (~$120m; ~48.3m shares at 186p, 52-week range 112-230p). Reports in USD, quoted in GBp. All reasoning in market cap and enterprise value.*
 
