@@ -93,7 +93,7 @@
       'thesis.ticker': 'Ticker',
       'thesis.mcap': 'Cap. bursátil al publicar',
       'thesis.status': 'Estado',
-      'thesis.readfull': 'Leer el análisis completo en Substack',
+      'thesis.readfull': 'Lee la tesis completa en Substack',
       'e404.msg': 'Esta página no existe: puede que la tesis se haya movido o que la URL haya cambiado.',
       'e404.home': 'Volver al inicio',
       'common.thesis_arrow': 'Tesis →'
