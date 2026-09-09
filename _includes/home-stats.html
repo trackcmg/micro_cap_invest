@@ -3,7 +3,7 @@
 <section class="home-stats container" aria-labelledby="home-stats-title">
   <h2 class="section-title" id="home-stats-title"><span class="lang-es">Resumen de inversión</span><span class="lang-en">Investment overview</span></h2>
   <dl class="home-stats-grid">
-    <div><dt><span class="lang-es">Rentabilidad con dividendos</span><span class="lang-en">Return including dividends</span></dt><dd id="stat-mean">—</dd></div>
+    <div><dt><span class="lang-es">Rentabilidad con dividendos</span><span class="lang-en">Return including dividends</span></dt><dd id="stat-mean">—</dd><dd id="stat-components" class="stat-components"></dd></div>
     <div><dt><span class="lang-es">Posiciones en positivo</span><span class="lang-en">Positive positions</span></dt><dd id="stat-positive">—</dd></div>
     <div><dt><span class="lang-es">Posiciones registradas</span><span class="lang-en">Recorded positions</span></dt><dd>{{ records.size }}</dd></div>
     <div><dt><span class="lang-es">Registro desde</span><span class="lang-en">Tracking since</span></dt><dd class="stat-date">{% if first_record %}<time datetime="{{ first_record.date | date: '%Y-%m-%d' }}" data-date="{{ first_record.date | date: '%Y-%m-%d' }}">{{ first_record.date | date: '%d %b %Y' }}</time>{% else %}—{% endif %}</dd></div>

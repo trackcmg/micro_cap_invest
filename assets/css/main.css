@@ -793,3 +793,4 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
 .track-expansion summary span { font-weight: 400; color: var(--ink-2); font-size: 14px; }
 .track-expansion .table-scroll { margin-top: 16px; }
 .track-expansion .data-table { min-width: 780px; }
+.home-stats-grid dd.stat-components { margin-top: 10px; font-family: var(--sans); font-size: 13px; line-height: 1.6; color: var(--ink-2); }

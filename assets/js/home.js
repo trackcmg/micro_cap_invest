@@ -50,13 +50,14 @@
           var exDate = new Date(event.date * 1000).toISOString().slice(0, 10);
           if (exDate > opened && exDate <= until) dividends += event.amount / (pence ? 100 : 1);
         });
-        return { price: price, currency: currency, dividends: dividends, change: (price + dividends) / entry.price - 1, time: time };
+        return { price: price, currency: currency, dividends: dividends, priceChange: price / entry.price - 1, dividendReturn: dividends / entry.price, change: (price + dividends) / entry.price - 1, time: time };
       }).finally(function () { clearTimeout(timer); });
   }
   function init() {
     var mean = document.getElementById('stat-mean');
     if (!mean) return;
     var positive = document.getElementById('stat-positive');
+    var components = document.getElementById('stat-components');
     var status = document.getElementById('stats-status');
     var records = Array.from(document.querySelectorAll('[data-stat-record]'));
     var results = [];
@@ -68,11 +69,18 @@
       var valid = results.filter(function (r) { return r !== null; });
       var complete = finished && records.length > 0 && valid.length === records.length;
       mean.textContent = '—';
+      if (components) components.textContent = '';
       mean.classList.remove('pos', 'neg');
       positive.textContent = '—';
       if (complete) {
         var average = valid.reduce(function (sum, r) { return sum + r.change; }, 0) / valid.length;
         mean.textContent = percent.format(average);
+        if (components) {
+          var pricePart = valid.reduce(function (sum, r) { return sum + r.priceChange; }, 0) / valid.length;
+          var dividendPart = valid.reduce(function (sum, r) { return sum + r.dividendReturn; }, 0) / valid.length;
+          var points = new Intl.NumberFormat(locale, { minimumFractionDigits: 2, maximumFractionDigits: 2, signDisplay: 'exceptZero' });
+          components.textContent = (es ? 'Precio: ' : 'Price: ') + points.format(pricePart * 100) + (es ? ' pp · Dividendos: ' : ' pp · Dividends: ') + points.format(dividendPart * 100) + ' pp';
+        }
         if (average !== 0) mean.classList.add(average > 0 ? 'pos' : 'neg');
         positive.textContent = valid.filter(function (r) { return r.change > 0; }).length + ' / ' + records.length;
       }
