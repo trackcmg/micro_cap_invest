@@ -786,3 +786,10 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
 .home-stats-note { font-size: 14px; color: var(--ink-2); margin: 8px 0 0; max-width: 900px; }
 @media (max-width: 700px) { .home-stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; } }
 @media (max-width: 380px) { .home-stats-grid { grid-template-columns: 1fr; } .home-stats-grid dt { min-height: 0; } }
+
+.home-stats { margin-top: 28px; }
+.track-expansion { border-top: 1px solid var(--hair); margin-top: 20px; padding-top: 16px; }
+.track-expansion summary { cursor: pointer; font-weight: 600; padding: 8px 0; }
+.track-expansion summary span { font-weight: 400; color: var(--ink-2); font-size: 14px; }
+.track-expansion .table-scroll { margin-top: 16px; }
+.track-expansion .data-table { min-width: 780px; }

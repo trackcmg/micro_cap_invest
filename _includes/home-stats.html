@@ -1,20 +1,40 @@
 {% assign records = site.data.track_record | sort: 'date' %}
 {% assign first_record = records | first %}
 <section class="home-stats container" aria-labelledby="home-stats-title">
-  <div class="section-head">
-    <h2 class="section-title" id="home-stats-title">Track record</h2>
-    <a class="section-link" href="{{ '/track-record/' | relative_url }}"><span class="lang-es">Ver posiciones →</span><span class="lang-en">View positions →</span></a>
-  </div>
+  <h2 class="section-title" id="home-stats-title"><span class="lang-es">Resumen de inversión</span><span class="lang-en">Investment overview</span></h2>
   <dl class="home-stats-grid">
-    <div><dt><span class="lang-es">Variación media desde la compra</span><span class="lang-en">Average price return since entry</span></dt><dd id="stat-mean">—</dd></div>
-    <div><dt><span class="lang-es">Posiciones en positivo</span><span class="lang-en">Positions above entry</span></dt><dd id="stat-positive">—</dd></div>
+    <div><dt><span class="lang-es">Rentabilidad con dividendos</span><span class="lang-en">Return including dividends</span></dt><dd id="stat-mean">—</dd></div>
+    <div><dt><span class="lang-es">Posiciones en positivo</span><span class="lang-en">Positive positions</span></dt><dd id="stat-positive">—</dd></div>
     <div><dt><span class="lang-es">Posiciones registradas</span><span class="lang-en">Recorded positions</span></dt><dd>{{ records.size }}</dd></div>
     <div><dt><span class="lang-es">Registro desde</span><span class="lang-en">Tracking since</span></dt><dd class="stat-date">{% if first_record %}<time datetime="{{ first_record.date | date: '%Y-%m-%d' }}" data-date="{{ first_record.date | date: '%Y-%m-%d' }}">{{ first_record.date | date: '%d %b %Y' }}</time>{% else %}—{% endif %}</dd></div>
   </dl>
-  <p class="home-stats-note"><span class="lang-es">Media simple de la variación del precio de cada posición desde su entrada, en su divisa local. Sin dividendos, comisiones ni efecto divisa. No es el CAGR ni la rentabilidad de la cartera.</span><span class="lang-en">Simple average of each position’s price change since its own entry date, in local currency. Excludes dividends, fees and currency effects. This is neither CAGR nor portfolio performance.</span></p>
-  <p class="home-stats-note" id="stats-status" role="status"><span class="lang-es">Consultando cotizaciones…</span><span class="lang-en">Fetching quotes…</span></p>
-  <noscript><p class="home-stats-note"><span class="lang-es">Activa JavaScript para calcular las estadísticas de precios.</span><span class="lang-en">Enable JavaScript to calculate price statistics.</span></p></noscript>
-  <div id="stats-records" hidden>
-    {% for r in records %}<span data-stat-record data-symbol="{{ r.yahoo | default: r.ticker | escape }}" data-entry="{{ r.price | escape }}" data-sale="{{ r.sell_price | escape }}"></span>{% endfor %}
-  </div>
+  <p class="home-stats-note"><span class="lang-es">Mismo importe inicial en cada posición. Precio + dividendos brutos devengados, sin reinversión. Cálculo en divisa local, sin efecto divisa, impuestos ni comisiones. Rentabilidad acumulada del modelo, no anualizada.</span><span class="lang-en">Equal initial investment in each position. Price + accrued gross dividends, without reinvestment. Local-currency calculation, excluding currency effects, taxes and fees. Cumulative model return, not annualised.</span></p>
+  <p class="home-stats-note" id="stats-status" role="status"><span class="lang-es">Consultando precios y dividendos…</span><span class="lang-en">Fetching prices and dividends…</span></p>
+  <noscript><p class="home-stats-note"><span class="lang-es">Activa JavaScript para calcular las estadísticas.</span><span class="lang-en">Enable JavaScript to calculate statistics.</span></p></noscript>
+  <details class="track-expansion"{% if include.expanded %} open{% endif %}>
+    <summary>Track record <span class="lang-es">· Ver desglose por posición</span><span class="lang-en">· View position breakdown</span></summary>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr>
+          <th><span class="lang-es">Compañía</span><span class="lang-en">Company</span></th>
+          <th><span class="lang-es">Entrada</span><span class="lang-en">Opened</span></th>
+          <th class="num"><span class="lang-es">Precio inicial</span><span class="lang-en">Entry price</span></th>
+          <th class="num"><span class="lang-es">Precio actual / venta</span><span class="lang-en">Current / sale price</span></th>
+          <th class="num"><span class="lang-es">Dividendos / acción</span><span class="lang-en">Dividends / share</span></th>
+          <th class="num"><span class="lang-es">Rentabilidad total</span><span class="lang-en">Total return</span></th>
+        </tr></thead>
+        <tbody>{% for r in records %}
+          {% assign es_thesis = site.theses_es | where: 'ticker', r.ticker | first %}
+          {% assign en_thesis = site.theses_en | where: 'ticker', r.ticker | first %}
+          <tr data-stat-record data-symbol="{{ r.yahoo | default: r.ticker | escape }}" data-entry="{{ r.price | escape }}" data-sale="{{ r.sell_price | escape }}" data-opened="{{ r.date | date: '%Y-%m-%d' }}" data-sold="{{ r.sell_date | date: '%Y-%m-%d' }}">
+            <td>{% if es_thesis %}<a class="lang-es" href="{{ es_thesis.url | relative_url }}">{{ r.name }}</a>{% else %}<span class="lang-es">{{ r.name }}</span>{% endif %}{% if en_thesis %}<a class="lang-en" href="{{ en_thesis.url | relative_url }}">{{ r.name }}</a>{% else %}<span class="lang-en">{{ r.name }}</span>{% endif %}<br><span class="ticker-chip">{{ r.ticker }}</span></td>
+            <td><time data-date="{{ r.date | date: '%Y-%m-%d' }}" datetime="{{ r.date | date: '%Y-%m-%d' }}">{{ r.date | date: '%d %b %Y' }}</time></td>
+            <td class="num">{{ r.price }}</td><td class="num" data-stat-price>—</td><td class="num" data-stat-dividends>—</td><td class="num" data-stat-return>—</td>
+          </tr>
+        {% endfor %}</tbody>
+      </table>
+    </div>
+    <p class="home-stats-note"><span class="lang-es">Cada posición aporta el mismo peso inicial. Rentabilidad = (precio actual o de venta + dividendos por acción) / precio de entrada − 1. Los dividendos se reconocen desde la fecha exdividendo: la compra debe ser anterior y la venta no anterior a esa fecha. Pueden incluir importes pendientes de pago. Las posiciones cerradas conservan su resultado sin reinvertir.</span><span class="lang-en">Each position has the same initial weight. Return = (current or sale price + dividends per share) / entry price − 1. Dividends accrue on the ex-dividend date: entry must precede it and sale must not precede it. Amounts may include payments still due. Closed positions retain their result without reinvestment.</span></p>
+    <p class="home-stats-note"><span class="lang-es">Fuente: históricos de Yahoo Finance. Un historial sin dividendos registrados se interpreta como cero según el proveedor; su cobertura puede ser incompleta.</span><span class="lang-en">Source: Yahoo Finance history. No recorded dividend events is treated as zero according to the provider; coverage may be incomplete.</span></p>
+  </details>
 </section>

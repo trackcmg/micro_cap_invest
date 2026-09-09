@@ -64,3 +64,8 @@
   price: "C$67.50"
   sell_price: ""
   current_price: ""
+
+# For closed positions, also set sell_date: YYYY-MM-DD.
+# Dividend entitlement uses date < ex-dividend date <= sell_date (or today).
+# Homepage and track-record totals assume equal initial allocations, gross
+# accrued dividends without reinvestment, and no FX effect, fees or taxes.

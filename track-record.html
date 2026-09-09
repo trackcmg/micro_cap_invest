@@ -3,7 +3,7 @@ layout: page
 title: Track Record
 description: "Public record of positions: opening date and entry price, each linked to its written thesis."
 permalink: /track-record/
-page_js: /assets/js/track-record.js
+page_js: /assets/js/home.js
 ---
 <header class="page-head">
   <h1>
@@ -18,40 +18,4 @@ page_js: /assets/js/track-record.js
   </p>
 </header>
 
-{% assign recs = site.data.track_record | sort: "date" | reverse %}
-{% if recs and recs.size > 0 %}
-<div class="table-scroll">
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th data-i18n="th.company">Company</th>
-        <th data-i18n="th.ticker">Ticker</th>
-        <th class="num" data-i18n="th.opened">Opened</th>
-        <th class="num" data-i18n="th.entryprice">Entry price</th>
-        <th class="num" data-i18n="th.sellprice">Sell price</th>
-        <th class="num" data-i18n="th.currentprice">Current price</th>
-        <th data-i18n="th.thesis">Thesis</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for r in recs %}
-      <tr>
-        <td class="cell-company" data-company-cell data-ticker="{{ r.ticker }}">{{ r.name }}</td>
-        <td><span class="ticker-chip">{{ r.ticker }}</span></td>
-        <td class="num"><time datetime="{{ r.date | date: '%Y-%m-%d' }}" data-date="{{ r.date | date: '%Y-%m-%d' }}">{{ r.date | date: "%b %Y" }}</time></td>
-        <td class="num">{{ r.price }}</td>
-        <td class="num">{% if r.sell_price != blank %}{{ r.sell_price }}{% else %}<span class="no-thesis">—</span>{% endif %}</td>
-        <td class="num" data-current-cell data-entry="{{ r.price }}" data-current="{{ r.current_price }}" data-symbol="{{ r.yahoo | default: r.ticker }}">{% if r.current_price != blank %}{{ r.current_price }}{% else %}<span class="no-thesis">—</span>{% endif %}</td>
-        <td data-thesis-cell data-ticker="{{ r.ticker }}"><span class="no-thesis">—</span></td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-<p class="footnote">
-  <span data-i18n="tr.note">Entry prices in local currency at the time of opening.</span>
-  <span id="quotes-stamp" class="quotes-stamp" hidden></span>
-</p>
-{% else %}
-<div class="empty-state" data-i18n="arch.none">No positions on the record yet.</div>
-{% endif %}
+{% include home-stats.html expanded=true %}
