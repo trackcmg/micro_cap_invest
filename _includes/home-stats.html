@@ -1,0 +1,20 @@
+{% assign records = site.data.track_record | sort: 'date' %}
+{% assign first_record = records | first %}
+<section class="home-stats container" aria-labelledby="home-stats-title">
+  <div class="section-head">
+    <h2 class="section-title" id="home-stats-title">Track record</h2>
+    <a class="section-link" href="{{ '/track-record/' | relative_url }}"><span class="lang-es">Ver posiciones →</span><span class="lang-en">View positions →</span></a>
+  </div>
+  <dl class="home-stats-grid">
+    <div><dt><span class="lang-es">Variación media desde la compra</span><span class="lang-en">Average price return since entry</span></dt><dd id="stat-mean">—</dd></div>
+    <div><dt><span class="lang-es">Posiciones en positivo</span><span class="lang-en">Positions above entry</span></dt><dd id="stat-positive">—</dd></div>
+    <div><dt><span class="lang-es">Posiciones registradas</span><span class="lang-en">Recorded positions</span></dt><dd>{{ records.size }}</dd></div>
+    <div><dt><span class="lang-es">Registro desde</span><span class="lang-en">Tracking since</span></dt><dd class="stat-date">{% if first_record %}<time datetime="{{ first_record.date | date: '%Y-%m-%d' }}" data-date="{{ first_record.date | date: '%Y-%m-%d' }}">{{ first_record.date | date: '%d %b %Y' }}</time>{% else %}—{% endif %}</dd></div>
+  </dl>
+  <p class="home-stats-note"><span class="lang-es">Media simple de la variación del precio de cada posición desde su entrada, en su divisa local. Sin dividendos, comisiones ni efecto divisa. No es el CAGR ni la rentabilidad de la cartera.</span><span class="lang-en">Simple average of each position’s price change since its own entry date, in local currency. Excludes dividends, fees and currency effects. This is neither CAGR nor portfolio performance.</span></p>
+  <p class="home-stats-note" id="stats-status" role="status"><span class="lang-es">Consultando cotizaciones…</span><span class="lang-en">Fetching quotes…</span></p>
+  <noscript><p class="home-stats-note"><span class="lang-es">Activa JavaScript para calcular las estadísticas de precios.</span><span class="lang-en">Enable JavaScript to calculate price statistics.</span></p></noscript>
+  <div id="stats-records" hidden>
+    {% for r in records %}<span data-stat-record data-symbol="{{ r.yahoo | default: r.ticker | escape }}" data-entry="{{ r.price | escape }}" data-sale="{{ r.sell_price | escape }}"></span>{% endfor %}
+  </div>
+</section>

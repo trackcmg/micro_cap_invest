@@ -774,3 +774,15 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
   .thesis-brief { break-inside: avoid; }
   .prose img { break-inside: avoid; }
 }
+
+/* Homepage track-record overview. */
+.home-stats { padding-top: 28px; padding-bottom: 28px; border-block: 1px solid var(--hair-2); }
+.home-stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin: 24px 0; }
+.home-stats-grid > div { border-left: 2px solid var(--hair); padding-left: 20px; }
+.home-stats-grid > div:first-child { border-color: var(--accent); }
+.home-stats-grid dt { color: var(--ink-2); font-size: 14px; min-height: 44px; }
+.home-stats-grid dd { margin: 10px 0 0; font-family: var(--serif); font-size: clamp(28px, 4vw, 42px); font-variant-numeric: tabular-nums; line-height: 1.2; }
+.home-stats-grid .stat-date { font-size: 24px; }
+.home-stats-note { font-size: 14px; color: var(--ink-2); margin: 8px 0 0; max-width: 900px; }
+@media (max-width: 700px) { .home-stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; } }
+@media (max-width: 380px) { .home-stats-grid { grid-template-columns: 1fr; } .home-stats-grid dt { min-height: 0; } }
