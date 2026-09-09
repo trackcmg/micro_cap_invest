@@ -7,7 +7,7 @@ status: open
 market: "AIM"
 sector: "Building services"
 market_cap: "~£15.4m"
-description: "An £86m-revenue building-services holding company earning a 30% return on capital, sitting on net cash, paying a rising dividend and buying back a quarter of itself at 6x earnings — trading around 5x earnings because it is too small for institutions to own, while three post-tragedy laws write its demand into statute through 2027."
+description: "Specialist UK building services: cash generation, capital allocation and the limits of the regulatory investment case."
 image: /assets/theses/NTBR.L/group_structure.png
 substack: "https://microequityresearch.substack.com/p/northern-bear-an-86m-revenue-business"
 ---

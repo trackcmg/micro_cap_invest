@@ -7,7 +7,7 @@ status: open
 market: "Euronext"
 sector: "Automotive"
 market_cap: "€7.5bn"
-description: "The market prices Renault's financial assets alone above its entire market cap. Dacia, the van business and the Renault brand come attached for free — while the industry's real pain (China, US tariffs) happens in markets where Renault has zero exposure."
+description: "A sum-of-the-parts case: financial assets, the industrial business and the discounts needed to value Renault without counting capital twice."
 image: /assets/theses/RNO/sotp_bridge.png
 substack: "https://microequityresearch.substack.com/p/renault-group-paying-75bn-for-11bn"
 ---

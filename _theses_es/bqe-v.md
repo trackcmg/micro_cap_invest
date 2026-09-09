@@ -7,7 +7,7 @@ status: open
 market: "TSXV"
 sector: "Environmental services"
 market_cap: "~C$90M"
-description: "Un operador nicho de tratamiento de aguas de mina con 25 años de tecnología de proceso propietaria, nueve emplazamientos de largo plazo y un balance con caja neta. Los contratos de operación duran lo que dura la mina porque sustituir al equipo que diseñó la química es una decisión de riesgo, no de precio — y las cuentas de 2025 explican por qué el mix de ingresos reportado subestima el libro recurrente."
+description: "Tratamiento de aguas de mina con tecnología propia: cómo los proyectos pueden convertirse en contratos operativos de largo plazo y qué riesgos vigilar."
 image: /assets/theses/BQE.V/sites_footprint.png
 substack: "https://microequityresearch.substack.com/p/bqe-water-contracted-for-the-life"
 ---

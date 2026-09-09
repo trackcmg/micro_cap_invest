@@ -7,10 +7,17 @@ status: open
 market: "TSXV"
 sector: "MarTech"
 market_cap: "~C$49M"
-description: "Una plataforma MarTech rentable y generadora de caja cotizando a ~C$49M con C$31.7M de caja neta y sin deuda — en torno al 65% de la capitalización. Dos clientes top pausaron su gasto tras cambiar su software de medición, reduciendo los ingresos a la mitad y dejando al mercado valorando un deterioro casi permanente. El modelo de coste variable sigue generando caja, la concentración cae, y varias palancas de recuperación independientes no cuestan nada al precio actual."
+description: "Caja disponible y recuperación del marketing de resultados, frente a concentración de clientes y riesgo de asignación de capital. Incluye una nota sobre Q2 2026."
 image: /assets/theses/ZOMD.V/cash_vs_marketcap.png
 substack: "https://microequityresearch.substack.com/p/zoomd-technologies-a-cash-floor-and"
 ---
+
+## Actualización · 9 de septiembre de 2026
+
+Los [resultados oficiales de Q2 2026, publicados el 31 de agosto](https://zoomd.com/zoomd-q2-2026-financial-results/), muestran ingresos de **US$7,7M** (+11% frente a Q1, pero −61% interanual) y **US$22,6M de caja**, sin deuda bancaria.
+
+**Lectura:** mejora secuencial, todavía lejos del nivel anterior al ajuste de clientes. Un trimestre no demuestra una recuperación sostenible. Las cifras y la valoración en CAD del análisis de julio que sigue son históricas; no se recalculan con estos resultados ni representan una cotización actual.
+
 *Publicado en julio de 2026. Capitalización ~C$49M (~100.8M acciones cerca de C$0.485). Caja neta C$31.7M, sin deuda bancaria. Zoomd reporta en USD; todas las cifras aquí están convertidas a CAD a 1.4105 para que las magnitudes operativas y la cotización sean comparables.*
 
 ## La versión de un párrafo
@@ -103,7 +110,7 @@ Hay además un activo no reconocido. A diciembre de 2023 Zoomd arrastraba unos U
 
 ## Qué tendría que pasar para perder dinero de forma permanente
 
-El negocio operativo tendría que seguir encogiendo hacia cero, los C$31.7M de caja tendrían que quemarse o gastarse en malas adquisiciones, el cliente en recuperación tendría que revertir, y todas las palancas de subida — Mundial, E2, la cohorte de nuevos clientes — tendrían que fallar a la vez, en un negocio que se mantuvo en caja positiva con los ingresos un 62% abajo y que ya ha ajustado costes. El modelo de costes y el balance hacen difícil la pata de "quemar la caja", y basta con que funcione una de las palancas para que el negocio operativo valga más que los C$17.2M que le asigna el mercado.
+No es necesario que fallen todos los catalizadores a la vez. Una recuperación insuficiente, una adquisición que destruya valor o un deterioro persistente del margen pueden reducir el valor por acción. La caja pertenece a la sociedad: debe financiar circulante, obligaciones e inversión, y no es un importe garantizado para el accionista. La prueba de la tesis es conservar caja por acción y recuperar rentabilidad sostenible, no solo permanecer en flujo operativo positivo durante un trimestre.
 
 ## Catalizadores
 

@@ -16,7 +16,11 @@
         d.setAttribute('data-lang', l);
         d.setAttribute('lang', l);
         if (localStorage.getItem('cmg-theme') === 'dark') { d.setAttribute('data-theme', 'dark'); }
-      } catch (e) { d.setAttribute('data-lang', 'en'); }
+      } catch (e) {
+        var fallback = d.getAttribute('data-page-lang') || 'en';
+        d.setAttribute('data-lang', fallback);
+        d.setAttribute('lang', fallback);
+      }
     })();
   </script>
   {% seo %}
@@ -31,8 +35,8 @@
     {% else %}
       {% assign cp = site.theses_en | where: "ticker", page.ticker | first %}
     {% endif %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | relative_url }}">
-    {% if cp %}<link rel="alternate" hreflang="{{ cp.lang }}" href="{{ cp.url | relative_url }}">{% endif %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+    {% if cp %}<link rel="alternate" hreflang="{{ cp.lang }}" href="{{ cp.url | absolute_url }}">{% endif %}
   {% endif %}
 
   <meta name="color-scheme" content="light dark">

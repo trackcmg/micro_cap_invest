@@ -7,7 +7,7 @@ status: open
 market: "Euronext"
 sector: "Automotive"
 market_cap: "€7.5bn"
-description: "El mercado valora solo los activos financieros de Renault por encima de toda su capitalización. Dacia, las furgonetas y la marca Renault vienen de regalo — mientras el dolor real del sector (China, aranceles de EEUU) ocurre en mercados donde Renault tiene exposición cero."
+description: "Una tesis de suma de partes: activos financieros, negocio industrial y los descuentos necesarios para valorar Renault sin contar dos veces el mismo capital."
 image: /assets/theses/RNO/sotp_bridge.png
 substack: "https://microequityresearch.substack.com/p/renault-group-paying-75bn-for-11bn"
 ---

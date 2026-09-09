@@ -61,7 +61,23 @@ layout: default
     {% endif %}
   </header>
 
-  <div class="prose">
+  {% assign brief = site.data.thesis_briefs[page.ticker][page.lang] %}
+  {% if brief %}
+  <section class="thesis-brief" aria-label="{% if page.lang == 'es' %}Claves del análisis{% else %}Research overview{% endif %}">
+    <p class="eyebrow">{% if page.lang == 'es' %}La tesis en tres claves{% else %}The thesis in three points{% endif %}</p>
+    <dl class="brief-grid">
+      <div><dt>{% if page.lang == 'es' %}Oportunidad{% else %}Opportunity{% endif %}</dt><dd>{{ brief.opportunity }}</dd></div>
+      <div><dt>{% if page.lang == 'es' %}Hipótesis clave{% else %}Key assumption{% endif %}</dt><dd>{{ brief.assumption }}</dd></div>
+      <div><dt>{% if page.lang == 'es' %}Qué vigilar{% else %}What to monitor{% endif %}</dt><dd>{{ brief.monitor }}</dd></div>
+    </dl>
+    <p class="research-date">{% if page.lang == 'es' %}La valoración y los precios corresponden a la fecha del análisis original. Las actualizaciones posteriores se identifican por separado.{% else %}Valuation and prices refer to the original analysis date. Subsequent updates are identified separately.{% endif %}</p>
+  </section>
+  {% endif %}
+  <details class="article-toc" hidden>
+    <summary>{% if page.lang == 'es' %}Índice del análisis{% else %}In this analysis{% endif %} <span class="reading-time"></span></summary>
+    <nav aria-label="{% if page.lang == 'es' %}Secciones del análisis{% else %}Analysis sections{% endif %}"><ol></ol></nav>
+  </details>
+  <div class="prose" id="thesis-content">
     {{ content }}
   </div>
 
@@ -95,3 +111,4 @@ layout: default
     de inversión. Rentabilidades pasadas no garantizan rentabilidades futuras.</p>
   </aside>
 </article>
+<script defer src="{{ '/assets/js/thesis.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>

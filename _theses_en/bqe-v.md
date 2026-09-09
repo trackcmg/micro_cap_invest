@@ -7,7 +7,7 @@ status: open
 market: "TSXV"
 sector: "Environmental services"
 market_cap: "~C$90m"
-description: "A niche mine water-treatment operator with 25 years of proprietary process technology, nine long-term sites and a net-cash balance sheet. Operations contracts run for the life of the mine because replacing the team that designed the chemistry is a risk decision, not a price decision — and the 2025 accounts show why the reported revenue mix understates the recurring book."
+description: "Proprietary mine-water treatment technology: how projects can become long-term operating contracts, and the risks to monitor."
 image: /assets/theses/BQE.V/sites_footprint.png
 substack: "https://microequityresearch.substack.com/p/bqe-water-contracted-for-the-life"
 ---

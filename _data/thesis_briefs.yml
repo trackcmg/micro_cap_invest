@@ -1,0 +1,54 @@
+"AMR":
+  es:
+    opportunity: "Exposición a una recuperación del carbón metalúrgico con una base de acciones reducida por recompras."
+    assumption: "La liquidez permite atravesar el ciclo sin dilución; el beneficio de 2022 no representa un año normal."
+    monitor: "Caja disponible, coste por tonelada, capex de mantenimiento y precios realizados frente al punto de equilibrio."
+  en:
+    opportunity: "Exposure to a metallurgical coal recovery with a share count reduced by buybacks."
+    assumption: "Liquidity can bridge the downturn without dilution; 2022 earnings are not a normal year."
+    monitor: "Available cash, cost per ton, maintenance capex and realised prices relative to break-even."
+"BQE.V":
+  es:
+    opportunity: "Tecnología de tratamiento de aguas con potencial de convertir proyectos en contratos de operación."
+    assumption: "Los proyectos se convierten en ingresos recurrentes y el conocimiento técnico conserva su valor para el cliente."
+    monitor: "Conversión del pipeline, margen operativo, cobros y concentración por cliente y emplazamiento."
+  en:
+    opportunity: "Water-treatment technology with the potential to convert projects into operating contracts."
+    assumption: "Projects convert into recurring revenue and technical expertise retains its value to customers."
+    monitor: "Pipeline conversion, operating margin, collections and concentration by customer and site."
+"NTBR.L":
+  es:
+    opportunity: "Servicios especializados de construcción y mantenimiento con disciplina de asignación de capital."
+    assumption: "La demanda se traduce en trabajo rentable; la regulación por sí sola no garantiza pedidos ni márgenes."
+    monitor: "Conversión de beneficio en caja, circulante, márgenes de las filiales y cobertura del dividendo."
+  en:
+    opportunity: "Specialist construction and maintenance services with disciplined capital allocation."
+    assumption: "Demand translates into profitable work; regulation alone guarantees neither orders nor margins."
+    monitor: "Cash conversion, working capital, subsidiary margins and dividend coverage."
+"RNO":
+  es:
+    opportunity: "Posible descuento entre la capitalización y el valor de las distintas participaciones y negocios."
+    assumption: "La suma de partes puede realizarse sin doble contabilización, descontando impuestos y necesidades de capital."
+    monitor: "Caja del automóvil separada de financiación, margen industrial, dividendos recibidos y competencia en Europa."
+  en:
+    opportunity: "A possible discount between market capitalisation and the value of individual holdings and businesses."
+    assumption: "Parts can be realised without double counting, allowing for taxes and capital requirements."
+    monitor: "Automotive cash separate from financing, industrial margin, dividends received and European competition."
+"SPSY.L":
+  es:
+    opportunity: "Un negocio de autenticación con ingresos existentes y posibles nuevas aplicaciones."
+    assumption: "El beneficio normalizado excluye picos de contratos; las nuevas aplicaciones requieren adjudicaciones y ejecución."
+    monitor: "Cobro de sensores, circulante de Cartor, concentración de clientes y contratos firmados frente a expectativas."
+  en:
+    opportunity: "An authentication business with existing revenue and potential new applications."
+    assumption: "Normalised earnings exclude contract peaks; new applications require awards and execution."
+    monitor: "Sensor collections, Cartor working capital, customer concentration and signed contracts versus expectations."
+"ZOMD.V":
+  es:
+    opportunity: "Una recuperación operativa podría aumentar el valor del negocio sobre su caja disponible."
+    assumption: "La caja se conserva y los clientes generan margen sostenible; el efectivo no garantiza un suelo bursátil."
+    monitor: "Ingresos y margen por trimestre, concentración, caja después de inversión y precio de las adquisiciones."
+  en:
+    opportunity: "An operating recovery could increase the business value above its available cash."
+    assumption: "Cash is preserved and customers generate sustainable margins; cash does not guarantee a share-price floor."
+    monitor: "Quarterly revenue and margin, concentration, cash after investment and acquisition prices."

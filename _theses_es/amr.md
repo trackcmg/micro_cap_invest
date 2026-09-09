@@ -6,7 +6,7 @@ status: open
 market: "NYSE"
 sector: "Metallurgical coal"
 market_cap: "~$1.8bn"
-description: "El mayor productor puro de carbón metalúrgico de EEUU, prácticamente sin deuda, cotizando en el suelo del ciclo a ~$1.8bn tras ganar $1.45bn de beneficio neto en un solo año de pico (2022) — que sobre el número de acciones actual son ~$114 por acción frente a un precio de ~$144. El capital externo ha abandonado el sector mientras India construye altos hornos, y dos consejeros que poseen ~19% de la compañía están comprando el suelo."
+description: "Un productor de carbón metalúrgico ante el suelo del ciclo: liquidez, costes y recompras como claves para evaluar una posible recuperación."
 image: /assets/theses/AMR/peak_vs_marketcap.png
 substack: "https://microequityresearch.substack.com/p/alpha-metallurgical-resources-one"
 ---

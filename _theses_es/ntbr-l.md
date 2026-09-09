@@ -7,7 +7,7 @@ status: open
 market: "AIM"
 sector: "Building services"
 market_cap: "~£15.4M"
-description: "Una holding de servicios de construcción con £86M de ingresos que gana un 30% de retorno sobre el capital, con caja neta, pagando un dividendo creciente y habiendo recomprado un cuarto de sí misma a 6x beneficios — cotizando a ~5x beneficios porque es demasiado pequeña para que las instituciones la posean, mientras tres leyes post-tragedia escriben su demanda en el código legal hasta 2027."
+description: "Servicios especializados de construcción en Reino Unido: generación de caja, asignación de capital y los límites de la tesis regulatoria."
 image: /assets/theses/NTBR.L/group_structure.png
 substack: "https://microequityresearch.substack.com/p/northern-bear-an-86m-revenue-business"
 ---

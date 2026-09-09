@@ -6,7 +6,7 @@ status: open
 market: "NYSE"
 sector: "Metallurgical coal"
 market_cap: "~$1.8bn"
-description: "The largest US pure-play metallurgical coal producer, effectively debt-free, trading at a trough-of-cycle ~$1.8bn after earning $1.45bn of net income in a single peak year (2022) — which on today's share count is ~$114 per share against a ~$144 price. External capital has left the sector while India's blast-furnace build-out grows, and two directors owning ~19% of the company are buying the bottom."
+description: "A metallurgical coal producer near the cycle trough: liquidity, costs and buybacks frame the case for a potential recovery."
 image: /assets/theses/AMR/peak_vs_marketcap.png
 substack: "https://microequityresearch.substack.com/p/alpha-metallurgical-resources-one"
 ---

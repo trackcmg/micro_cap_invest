@@ -7,7 +7,7 @@ status: open
 market: "AIM"
 sector: "Security technology"
 market_cap: "~£90M"
-description: "Un oligopolista anti-falsificación con 30 años de historia que sirve a 20 bancos centrales, dirigido por su fundador con el 8% de las acciones, cotizando a ~10x beneficios normalizados con un dividendo del 5.5% — y con tres opcionalidades a escala gubernamental (billetes de polímero, timbres fiscales, pasaportes) valoradas a cero."
+description: "Autenticación y protección contra falsificaciones: beneficio normalizado, conversión en caja y nuevas aplicaciones que aún deben convertirse en contratos."
 image: /assets/theses/SPSY.L/valuation_floor.png
 substack: "https://microequityresearch.substack.com/p/spectra-systems-the-toll-booth-on"
 ---

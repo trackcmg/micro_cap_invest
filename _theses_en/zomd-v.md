@@ -7,10 +7,17 @@ status: open
 market: "TSXV"
 sector: "MarTech"
 market_cap: "~C$49m"
-description: "A profitable, cash-generative MarTech platform trading at ~C$49m with C$31.7m of net cash and no debt — about 65% of the market cap. Two top customers paused spend after swapping measurement software, halving revenue and leaving the market pricing near-permanent impairment. The variable-cost model stays cash-positive, concentration is falling, and several independent recovery levers cost nothing at today's price."
+description: "Available cash and a performance-marketing recovery, weighed against customer concentration and capital allocation risk. Includes a Q2 2026 update."
 image: /assets/theses/ZOMD.V/cash_vs_marketcap.png
 substack: "https://microequityresearch.substack.com/p/zoomd-technologies-a-cash-floor-and"
 ---
+
+## Update · 9 September 2026
+
+The [official Q2 2026 results, published on 31 August](https://zoomd.com/zoomd-q2-2026-financial-results/), report **US$7.7M revenue** (+11% versus Q1, but −61% year on year) and **US$22.6M cash**, with no bank debt.
+
+**Interpretation:** a sequential improvement, still well below activity before the customer adjustment. One quarter does not establish a sustainable recovery. The July analysis and CAD valuation below remain historical; they have not been recalculated using these results and do not represent a current quote.
+
 *Published July 2026. Market cap ~C$49m (~100.8m shares near C$0.485). Net cash C$31.7m, no bank debt. Zoomd reports in USD; every figure here is converted to CAD at 1.4105 so the operating numbers and the quote are comparable.*
 
 ## The one-paragraph version
@@ -103,7 +110,7 @@ There is also an unrecognised asset here. At December 2023 Zoomd carried roughly
 
 ## What has to be true for this to lose money permanently
 
-The operating business has to keep shrinking toward zero, the C$31.7m of cash has to be burned or spent on bad acquisitions, the recovering customer has to reverse, and every upside lever — World Cup, E2, the new-client cohort — has to fail at once, in a business that stayed cash-positive with revenue down 62% and has already cut costs to match. The cost model and the balance sheet make the "burn the cash" leg hard, and only one of the upside legs needs to work for the operating business to be worth more than the C$17.2m the market assigns it.
+Not every catalyst needs to fail at once. An insufficient recovery, a value-destructive acquisition or persistent margin deterioration can reduce per-share value. Cash belongs to the company: it funds working capital, obligations and investment, and is not a guaranteed distribution to shareholders. The test is preservation of cash per share and a return to sustainable profitability, rather than positive operating cash flow in a single quarter.
 
 ## Catalysts
 

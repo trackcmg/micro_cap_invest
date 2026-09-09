@@ -7,7 +7,7 @@ status: open
 market: "AIM"
 sector: "Security technology"
 market_cap: "~£90m"
-description: "A 30-year-old anti-counterfeiting oligopolist serving 20 central banks, run by its founder with 8% of the stock, trading at ~10x normalized earnings with a 5.5% dividend — and with three government-scale optionalities (polymer banknotes, tax stamps, passports) priced at zero."
+description: "Authentication and anti-counterfeiting: normalised earnings, cash conversion and new applications that still need to become contracts."
 image: /assets/theses/SPSY.L/valuation_floor.png
 substack: "https://microequityresearch.substack.com/p/spectra-systems-the-toll-booth-on"
 ---
