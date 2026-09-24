@@ -1,0 +1,25 @@
+{% assign record = include.record %}
+{% assign chart_lang = include.lang | default: 'en' %}
+<div class="price-history{% if include.full %} price-history-full{% endif %}"
+     data-price-history
+     data-chart-lang="{{ chart_lang }}"
+     data-chart-symbol="{{ record.yahoo | default: record.ticker | escape }}"
+     data-chart-entry="{{ record.price | escape }}"
+     data-chart-opened="{{ record.date | date: '%Y-%m-%d' }}"
+     {% if record.sell_date != blank and record.sell_price != blank %}data-chart-sold="{{ record.sell_date | date: '%Y-%m-%d' }}" data-chart-sale="{{ record.sell_price | escape }}"{% endif %}>
+  <div class="price-history-heading">
+    <div>
+      {% if include.full %}<p class="eyebrow">{% if chart_lang == 'es' %}Desde mi compra{% else %}Since my purchase{% endif %}</p>{% endif %}
+      <p class="price-history-title">{% if chart_lang == 'es' %}Evolución de la cotización{% else %}Share-price history{% endif %}</p>
+    </div>
+    <strong class="price-history-change" data-chart-change>—</strong>
+  </div>
+  <div class="price-history-plot" data-chart-plot>
+    <span class="price-history-loading" data-chart-status>{% if chart_lang == 'es' %}Cargando histórico…{% else %}Loading price history…{% endif %}</span>
+  </div>
+  <div class="price-history-axis">
+    <span data-chart-start>{% if chart_lang == 'es' %}Compra{% else %}Purchase{% endif %} · {{ record.date | date: '%Y-%m-%d' }} · {{ record.price }}</span>
+    <span data-chart-end>—</span>
+  </div>
+  <p class="price-history-note">{% if include.full %}{% if chart_lang == 'es' %}Precio en divisa local, sin dividendos. Última cotización disponible; puede ir con retraso.{% else %}Price in local currency, excluding dividends. Latest available quote; may be delayed.{% endif %}{% else %}{% if chart_lang == 'es' %}Solo precio · sin dividendos{% else %}Price only · no dividends{% endif %}{% endif %}</p>
+</div>

@@ -118,6 +118,15 @@ posición con `name`, `ticker`, `date` (fecha de apertura, YYYY-MM-DD) y `price`
 Se ordena solo (la más reciente arriba) y cada fila enlaza con su tesis cuando está
 publicada. Las posiciones sin tesis muestran `—`.
 
+Las tarjetas de tesis y cada página de análisis muestran un gráfico animado desde
+esa fecha y ese precio de entrada hasta la última cotización disponible. Los
+cierres diarios proceden de Yahoo Finance mediante el proxy definido en
+`_config.yml` (`price_proxy_url`). El gráfico muestra **solo precio, sin
+dividendos**, y siempre indica la fecha de la última cotización. Si el histórico
+falla o hay un split posterior a la compra, se oculta la curva para evitar
+comparar precios incompatibles. Usa `yahoo:` cuando el símbolo de cotización no
+coincida con `ticker` (por ejemplo, `RNO.PA` para Renault).
+
 ---
 
 ## 4 · Dominio propio

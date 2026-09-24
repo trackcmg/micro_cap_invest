@@ -374,6 +374,87 @@ html[data-lang="es"] .lang-option[data-set-lang="es"] .lang-check { opacity: 1; 
 }
 .thesis-card-foot .badge { margin-left: auto; }
 
+/* A single chart component serves the thesis preview and the full article. */
+.price-history {
+  margin: 8px 0 2px;
+  padding: 14px 0 12px;
+  border-top: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  min-width: 0;
+}
+.price-history-heading,
+.price-history-axis {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+}
+.price-history-title {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 12px;
+  font-weight: 600;
+}
+.price-history-change {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.price-history-change.pos { color: var(--pos); }
+.price-history-change.neg { color: var(--neg); }
+.price-history-plot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  margin: 10px 0 8px;
+  color: var(--ink-3);
+  font-size: 12px;
+}
+.price-history-plot svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.price-history-loading { color: var(--ink-3); }
+.price-history-gridline { stroke: var(--hair); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.price-history-baseline { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 4 4; opacity: 0.7; vector-effect: non-scaling-stroke; }
+.price-history-area { fill: var(--accent-soft); opacity: 0.8; }
+.price-history-line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.price-history-start { fill: var(--surface); stroke: var(--accent); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.price-history-cursor { fill: var(--accent); stroke: var(--surface); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.price-history-axis {
+  color: var(--ink-2);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+}
+.price-history-axis span:last-child { text-align: right; }
+.price-history-note { margin: 8px 0 0; color: var(--ink-3); font-size: 10px; line-height: 1.5; }
+.price-history-error { border: 1px dashed var(--hair-2); border-radius: var(--radius-sm); }
+.price-history-full {
+  margin: -6px 0 34px;
+  padding: 22px 24px 18px;
+  border: 1px solid var(--hair);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.price-history-full .eyebrow { margin: 0 0 4px; }
+.price-history-full .price-history-title {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 21px;
+  font-weight: 500;
+}
+.price-history-full .price-history-change { font-size: 20px; }
+.price-history-full .price-history-plot { height: 260px; margin: 18px 0 12px; }
+.price-history-full .price-history-axis { font-size: 12px; }
+.price-history-full .price-history-note { margin-top: 14px; font-size: 11.5px; }
+@media (max-width: 640px) {
+  .price-history-full { padding: 18px 16px 16px; }
+  .price-history-full .price-history-plot { height: 190px; }
+  .price-history-full .price-history-axis { font-size: 10px; }
+}
+
 /* ── Chips & badges ─────────────────────────────────────────── */
 .ticker-chip {
   font-family: var(--mono); font-size: 12px; font-weight: 500;

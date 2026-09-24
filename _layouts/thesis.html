@@ -61,6 +61,9 @@ layout: default
     {% endif %}
   </header>
 
+  {% assign position = site.data.track_record | where: 'ticker', page.ticker | first %}
+  {% if position %}{% include price-history.html record=position lang=page.lang full=true %}{% endif %}
+
   {% assign brief = site.data.thesis_briefs[page.ticker][page.lang] %}
   {% if brief %}
   <section class="thesis-brief" aria-label="{% if page.lang == 'es' %}Claves del análisis{% else %}Research overview{% endif %}">
